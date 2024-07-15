@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 16 }, 
+    { "item" : "coalore", "count" : 16 },   
+    { "item" : "goldbar", "count" : 8 }
+  ],
+  "output" : {
+    "item" : "namokballesta",
+    "count" : 1
+  },
+  "groups" : [ "plain", "all", "objects", "hunting", "weapons" ]
+}

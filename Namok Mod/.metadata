@@ -1,0 +1,12 @@
+{
+    "author" : "Nopel Savet",
+    "description" : "Play Starbound with ñamok technology.",
+    "friendlyName" : "WNamokmod",
+    "includes" : [],
+    "name" : "Ñamok Mod",
+    "priority" : -1,
+    "requieres" : [],
+    "version" : "1",
+    "link" : "",
+    "steamContentId": ""
+}

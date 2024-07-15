@@ -1,0 +1,106 @@
+{
+  "itemName" : "namokballesta",
+  "price" : 160,
+  "inventoryIcon" : "namokballestaicon.png",
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "tooltipKind" : "bow",
+  "category" : "bow",
+  "description" : "Una ballesta que te ayudará con la casería... y algunas otras cosas.",
+  "shortdescription" : "Ballesta Ñámok",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "ranged", "bow"],
+  
+  "radioMessagesOnPickup" : [ "pickupbow" ],
+
+  "level" : 1,
+
+  "animation" : "/items/active/weapons/bow/bow.animation",
+  "animationParts" : {
+    "bow" : "namokballestafull.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { "bow" : { "properties" : {
+      "offset" : [0.75, 0]
+    }}}},
+    "sounds" : {
+      "draw" : [ "/sfx/gun/bow_draw1.ogg", "/sfx/gun/bow_draw2.ogg", "/sfx/gun/bow_draw3.ogg" ],
+      "release" : [ "/sfx/gun/bow_loose.ogg" ],
+      "perfectRelease" : [ "/sfx/gun/bow_loose_perfect.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/bow/bow.lua"],
+
+  "primaryAbilityType" : "bowshot",
+  "primaryAbility" : {
+    "walkWhileFiring" : true,
+
+    "fireOffset" : [1.75, 0],
+
+    "energyPerShot" : 40,
+
+    "cooldownTime" : 0.25,
+    "inaccuracy" : 0.01,
+
+    "drawFrameSelector" : "bowImageSelector",
+
+    "drawPowerMultiplier" : "drawTimeMultiplier",
+    "drawSpeedMultiplier" : "drawTimeMultiplier",
+
+    "drawArmFrames" : ["rotation", "rotation", "rotation", "rotation", "rotation"],
+
+    "projectileType" : "harpoon",
+    "powerProjectileType" : "chargedharpoon",
+    "powerProjectileTime" : [0.9, 1.1],
+    "projectileParameters" : {
+      "speed" : 80,
+      "power" : 10
+    },
+
+  
+
+    "stances" : {
+      "fire" : {
+        "frontArmFrame" : "rotation"
+      }
+    }
+  },
+
+  "altAbilityType" : "bowshot",
+  "altAbility" : {
+    "walkWhileFiring" : true,
+
+    "fireOffset" : [1.75, 0],
+
+    "energyPerShot" : 80,
+
+    "cooldownTime" : 0.5,
+    "inaccuracy" : 0.01,
+
+    "drawFrameSelector" : "bowImageSelector",
+
+    "drawPowerMultiplier" : "drawTimeMultiplier",
+    "drawSpeedMultiplier" : "drawTimeMultiplier",
+
+    "drawArmFrames" : ["rotation", "rotation", "rotation", "rotation", "rotation"],
+
+    "projectileType" : "harpoon",
+    "powerProjectileType" : "chargedharpoon",
+    "powerProjectileTime" : [0.9, 1.1],
+    "projectileParameters" : {
+      "speed" : 100,
+      "power" : 16
+    },
+
+  
+
+    "stances" : {
+      "fire" : {
+        "frontArmFrame" : "rotation"
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildbow.lua"
+}
