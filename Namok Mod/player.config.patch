@@ -1,7 +1,15 @@
 [
+
 {
 "op":"add",
 "path":"/defaultBlueprints/tier1/-",
 "value":{"item":"namokballesta"}
+},
+
+{
+"op":"add",
+"path":"/defaultBlueprints/tier1/-",
+"value":{"item":"flagnamok"}
 }
+
 ]
