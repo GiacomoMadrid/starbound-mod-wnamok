@@ -23,6 +23,11 @@
   "category" : "crafting",
   "price" : 240,
 
+  "learnBlueprintsOnPickup" : [
+    "goldenplatform",
+    "silverplatform"
+  ],
+
   "apexDescription" : "A crafting station for ñamok technology.",
   "avianDescription" : "This crafting station enables me to create ñamok technology.",
   "floranDescription" : "Ñamok stationssss for making ñamok technologysss.",

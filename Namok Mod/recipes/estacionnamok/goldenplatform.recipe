@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "goldbar", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "goldenplatform",
+    "count" : 50
+  },
+  "duration" : 0.5,
+  "groups" : [ "estacionnamok", "all", "materials"]
+}
