@@ -1,0 +1,51 @@
+{
+  "objectName" : "wingo",
+  "colonyTags" : ["crafting","light"],
+  "printable" : false,
+  "price" : 320,
+  "rarity" : "Legendary",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingwingo.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  Wingo",
+        "subtitle" : "  Nivel 1",
+        "icon" : {
+          "file" : "/interface/crafting/wingo.png"
+        }
+      }
+    },
+    "filter" : [ "wingo" ]
+  },
+  "description" : "El mayor aliado de la tecnología ñámok.",
+  "shortdescription" : "^orange;Wingo^white;",
+  "race" : "generic",
+  "category" : "crafting",
+
+  "learnBlueprintsOnPickup" : [
+    "estacionnamok",
+    "namokballesta"
+  ],
+
+  "lightColor" : [179, 149, 107],
+
+  
+  "inventoryIcon" : "wingoicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wingo.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 1.0,
+
+      "spaces" : [ [0, 0], [0, 1], 
+                   [1, 0], [1, 1] 
+                 ],
+
+      "spaceScan" : 0.1,           
+      "anchors" : [ "bottom" ]
+    }
+  ]
+
+}

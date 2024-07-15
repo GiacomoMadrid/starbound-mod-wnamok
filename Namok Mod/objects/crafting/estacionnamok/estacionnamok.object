@@ -1,0 +1,52 @@
+{
+  "objectName" : "estacionnamok",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Rare",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingestacionnamok.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  Estación Ñámok",
+        "subtitle" : "  Construye tecnología Win",
+        "icon" : {
+          "file" : "/interface/crafting/estacionnamok.png"
+        }
+      }
+    },
+    "filter" : [ "estacionnamok" ]
+  },
+  "printable" : false,
+  "description" : "Construye tecnología ñámok de nivel 1.",
+  "shortdescription" : "^orange;Estación Ñámok^white;",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 240,
+
+  "apexDescription" : "A crafting station for ñamok technology.",
+  "avianDescription" : "This crafting station enables me to create ñamok technology.",
+  "floranDescription" : "Ñamok stationssss for making ñamok technologysss.",
+  "glitchDescription" : "Interested. It's a ñamok station. It's better than a normal crafting station.",
+  "humanDescription" : "I'm not scared of some DIY. Let's do this.",
+  "hylotlDescription" : "A ñamok station can be used to craft ñamok technology.",
+  "novakidDescription" : "A good ol' ñamok station. It's better than a normal crafting station.",
+
+  "inventoryIcon" : "estacionnamokicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "estacionnamok.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaces" : [ [0, 0], [0, 1], [0, 2],
+                   [1, 0], [1, 1], [1, 2],
+                   [2, 0], [2, 1], [2, 2]
+                 ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

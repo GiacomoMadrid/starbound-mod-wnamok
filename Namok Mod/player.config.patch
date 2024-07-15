@@ -3,13 +3,13 @@
 {
 "op":"add",
 "path":"/defaultBlueprints/tier1/-",
-"value":{"item":"namokballesta"}
+"value":{"item":"flagnamok"}
 },
 
 {
 "op":"add",
 "path":"/defaultBlueprints/tier1/-",
-"value":{"item":"flagnamok"}
+"value":{"item":"wingo"}
 }
 
 ]
