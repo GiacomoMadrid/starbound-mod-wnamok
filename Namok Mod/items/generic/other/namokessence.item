@@ -1,0 +1,11 @@
+{
+  "itemName" : "namokessence",
+  "price" : 16,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "namokessence.png",
+  "description" : "La esencia de la existencia, concentra lo necesario para recrear las cosas.",
+  "shortdescription" : "Esencia Ñámok",
+  "itemTags" : [ "reagent" ]
+  
+}

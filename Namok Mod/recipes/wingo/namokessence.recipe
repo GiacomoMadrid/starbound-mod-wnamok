@@ -1,0 +1,22 @@
+{
+  "input" : [
+    { "item" : "liquidwater", "count" : 160 }, 
+    { "item" : "liquidhealing", "count" : 160 },
+    { "item" : "liquidlava", "count" : 160 },
+    { "item" : "liquidfuel", "count" : 160 },
+    { "item" : "liquidoil", "count" : 160 }, 
+    { "item" : "liquidpoison", "count" : 160 },
+    { "item" : "liquidslime", "count" : 160 },
+    { "item" : "swampwater", "count" : 160 },
+    { "item" : "liquidmilk", "count" : 80 },  
+    { "item" : "goldore", "count" : 40 },
+    { "item" : "essence", "count" : 80 },
+    { "item" : "money", "count" : 256 }
+
+  ],
+  "output" : {
+    "item" : "namokessence",
+    "count" : 1
+  },
+  "groups" : [ "wingo", "all", "objects" ]
+}
