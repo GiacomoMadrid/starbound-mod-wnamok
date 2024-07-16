@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "goldbar", "count" : 4 },  
+    { "item" : "diamond", "count" : 1 },  
+    { "item" : "ironbar", "count" : 2 },  
+    { "item" : "coalore", "count" : 2 },  
+    { "item" : "namokessence", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "namokpickaxe",
+    "count" : 1
+  },
+  "groups" : [ "estacionnamok", "all", "objects"]
+}
