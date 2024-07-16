@@ -1,0 +1,44 @@
+{
+  "itemName" : "namoksword",
+  "price" : 640,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Esta espada básica me sirve para atacar... básicamente",
+  "shortdescription" : "Espada Ñámok básica",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "namoksword.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/broadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "namoksword.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.8,
+    "baseDps" : 18,
+    "damageConfig" : {
+      "damageSourceKind" : "hammer"
+    }
+  },
+
+  "altAbilityType" : "risingslash",
+  "altAbility" : {
+    "damageConfig" : {
+      "damageSourceKind" : "hammer"
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

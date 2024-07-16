@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "goldbar", "count" : 5 },  
+    { "item" : "ironbar", "count" : 10 },  
+    { "item" : "coalore", "count" : 10 },  
+    { "item" : "cobblestonematerial", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "namoksword",
+    "count" : 1
+  },
+  "groups" : [ "estacionnamok", "all", "objects"]
+}
