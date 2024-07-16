@@ -25,7 +25,9 @@
 
   "learnBlueprintsOnPickup" : [
     "goldenplatform",
-    "silverplatform"
+    "silverplatform",
+    "namokballesta",
+    "namokbasicshield"
   ],
 
   "apexDescription" : "A crafting station for ñamok technology.",

@@ -1,0 +1,61 @@
+{
+  "itemName" : "namokbasicshield",
+  "fixedLevel" : false,
+  "price" : 640,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "category" : "shield",
+  "description" : "Este escudo básico puede protegerme... básicamente.",
+  "shortdescription" : "Escudo Ñámok básico",
+  "tooltipKind" : "Shield",
+  "twoHanded" : false,
+  "itemTags" : ["shield"],
+
+  "inventoryIcon" : "images/namokbasicshield.png:nearidle",
+
+  "animation" : "shield.animation",
+  "animationParts" : {
+    "shield" : "images/namokbasicshield.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { "shield" : { "properties" : {
+        "shieldPoly" : [ [-0.5, -2.5], [-0.5, 2.25], [0.75, 1.5], [0.75, -1.75] ]
+    }}}},
+    "sounds" : {
+      "raiseShield" : [ "/sfx/melee/sword_guard.ogg" ],
+      "perfectBlock" : [ "/sfx/melee/shield_block_metal_perfect.ogg" ],
+      "block" : [ "/sfx/melee/shield_block_metal.ogg" ],
+      "break" : [ "/sfx/melee/shield_break_metal.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/shields/shield.lua"],
+
+  "minActiveTime" : 0.25,
+
+  "forceWalk" : true,
+  "baseShieldHealth" : 32,
+  "cooldownTime" : 0.5,
+
+  "perfectBlockDirectives" : "?border=2;AACCFFFF;00000000",
+  "perfectBlockTime" : 0.2,
+
+  "knockback" : 16,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -90,
+      "shieldRotation" : 0,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "raised" : {
+      "armRotation" : 0,
+      "shieldRotation" : 0,
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandshield.lua"
+}
