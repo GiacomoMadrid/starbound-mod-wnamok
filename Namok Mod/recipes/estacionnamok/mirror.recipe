@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "glass", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "mirror",
+    "count" : 50
+  },
+  "groups" : [ "estacionnamok", "all", "objects"]
+}

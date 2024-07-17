@@ -1,0 +1,22 @@
+{
+  "materialId" : 10001,
+  "materialName" : "pillarwin",
+  "particleColor" : [250, 250, 250, 255],
+  "itemDrop" : "pillarwin",
+  "shortdescription" : "Pilar de mármol ñámok",
+  "description" : "Un pilar de mármol blanco.",
+
+  "footstepSound" : "/sfx/blocks/footstep_stone3.ogg",
+  "health" : 16,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/columntemplate.config",
+  "renderParameters" : {
+    "texture" : "pillarwin.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 3000
+  }
+}

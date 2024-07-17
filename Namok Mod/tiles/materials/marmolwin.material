@@ -1,0 +1,21 @@
+{
+  "materialId" : 10000,
+  "materialName" : "marmolwin",
+  "particleColor" : [255, 255, 255, 255],
+  "itemDrop" : "marmolwin",
+  "description" : "Mármol ñámok blanco de alta calidad.",
+  "shortdescription" : "Mármol Ñámok",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 16,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "marmolwin.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 3000
+  }
+}

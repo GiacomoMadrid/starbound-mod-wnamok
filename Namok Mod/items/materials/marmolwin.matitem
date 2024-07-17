@@ -1,0 +1,17 @@
+{
+  "itemName" : "marmolwin",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "marmolwinicon.png",
+  "description" : "Mármol ñámok blanco de alta calidad.",
+  "shortdescription" : "Mármol Ñámok",
+  
+  "learnBlueprintsOnPickup" : [ 
+    "marmolwin",
+    "pillarwin",
+    "marmolwinbrick"  
+    ],
+  
+  "materialId" : 10000
+}

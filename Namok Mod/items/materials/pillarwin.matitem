@@ -1,0 +1,15 @@
+{
+  "itemName" : "pillarwin",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "pillarwinicon.png",
+  "description" : "Un pilar de mármol blanco.",
+  "shortdescription" : "Pilar de mármol ñámok",
+  
+  "learnBlueprintsOnPickup" : [ 
+    "pillarwin" 
+    ],
+  
+  "materialId" : 10001
+}

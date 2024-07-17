@@ -26,6 +26,8 @@
   "learnBlueprintsOnPickup" : [
     "goldenplatform",
     "silverplatform",
+    "mirror",
+    "marmolwin",
     "namokballesta",
     "namokbasicshield",
     "namoksword",

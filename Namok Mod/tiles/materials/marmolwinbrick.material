@@ -1,0 +1,21 @@
+{
+  "materialId" : 10002,
+  "materialName" : "marmolwinbrick",
+  "particleColor" : [255, 255, 255, 255],
+  "itemDrop" : "marmolwinbrick",
+  "description" : "Ladrillos de mármol ñámok blanco de alta calidad.",
+  "shortdescription" : "Ladrillos de Mármol Ñámok",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 16,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "marmolwinbrick.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 3000
+  }
+}

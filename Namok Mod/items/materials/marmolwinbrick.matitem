@@ -1,0 +1,15 @@
+{
+  "itemName" : "marmolwinbrick",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "marmolwinbrickicon.png",
+  "description" : "Ladrillos de mármol ñámok blanco de alta calidad.",
+  "shortdescription" : "Ladrillos de Mármol Ñámok",
+  
+  "learnBlueprintsOnPickup" : [ 
+    "marmolwinbrick"  
+    ],
+  
+  "materialId" : 10002
+}
