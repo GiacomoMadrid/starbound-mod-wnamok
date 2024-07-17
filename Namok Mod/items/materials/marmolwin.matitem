@@ -10,7 +10,8 @@
   "learnBlueprintsOnPickup" : [ 
     "marmolwin",
     "pillarwin",
-    "marmolwinbrick"  
+    "marmolwinbrick",
+    "marmolwinplatform"  
     ],
   
   "materialId" : 10000

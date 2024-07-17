@@ -1,0 +1,21 @@
+{
+  "materialId" : 10003,
+  "materialName" : "marmolwinplatform",
+  "collisionKind" : "platform",
+  "itemDrop" : "marmolwinplatform",
+  "shortdescription" : "Plataforma de Mármol Ñámok",
+  "description" : "Plataforma de mármol blanco de alta calidad.",
+  
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "category" : "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "marmolwinplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

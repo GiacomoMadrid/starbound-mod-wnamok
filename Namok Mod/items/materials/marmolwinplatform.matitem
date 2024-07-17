@@ -1,0 +1,15 @@
+{
+  "itemName" : "marmolwinplatform",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "marmolwinplatformicon.png",
+  "description" : "Plataforma de mármol blanco de alta calidad.",
+  "shortdescription" : "Plataforma de Mármol Ñámok",
+  
+  "learnBlueprintsOnPickup" : [ 
+    "marmolwinplatform"  
+    ],
+  
+  "materialId" : 10003
+}
