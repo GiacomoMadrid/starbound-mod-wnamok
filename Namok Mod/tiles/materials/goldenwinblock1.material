@@ -1,0 +1,21 @@
+{
+  "materialId" : 10005,
+  "materialName" : "goldenwinblock1",
+  "particleColor" : [227, 174, 47, 255],
+  "itemDrop" : "goldenwinblock1",
+  "description" : "Bloque de oro sólido. Muy brillante.",
+  "shortdescription" : "Bloque de Oro",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 6,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "goldenwinblock1.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 3000
+  }
+}

@@ -24,9 +24,12 @@
   "price" : 240,
 
   "learnBlueprintsOnPickup" : [
+    "goldenwinblock1",
+    "goldenwinblock2",
     "goldenplatform",
     "silverplatform",
     "mirror",
+    "slopedglasspanel",
     "marmolwin",
     "namokballesta",
     "namokbasicshield",

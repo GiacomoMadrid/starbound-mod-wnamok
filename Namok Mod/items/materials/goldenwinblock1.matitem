@@ -1,0 +1,12 @@
+{
+  "itemName" : "goldenwinblock1",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "goldenwinblock1icon.png",
+  "description" : "Bloque de oro sólido. Muy brillante.",
+  "shortdescription" : "Bloque de Oro",
+
+  "materialId" : 10005,
+  "learnBlueprintsOnPickup" : [ "goldenwinblock1", "goldenwinblock2" ]
+}

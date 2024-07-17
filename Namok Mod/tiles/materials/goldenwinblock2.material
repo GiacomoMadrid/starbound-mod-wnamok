@@ -1,0 +1,22 @@
+{
+  "materialId" : 10004,
+  "materialName" : "goldenwinblock2",
+  "particleColor" : [227, 174, 47, 255],
+  "itemDrop" : "goldenwinblock2",
+
+  "description" : "Bloque de oro. Puede colocarse diagonalemente. Útil en muchos aspectos.",
+  "shortdescription" : "Bloque de Oro (diagonal)",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 20,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "goldenwinblock2.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 4999
+  }
+}

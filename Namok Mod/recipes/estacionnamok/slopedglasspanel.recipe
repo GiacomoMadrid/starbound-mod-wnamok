@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "glass", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "slopedglasspanel",
+    "count" : 50
+  },
+  "groups" : [ "estacionnamok", "all", "objects"]
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "goldenwinblock2",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "goldenwinblock2icon.png",
+  "description" : "Bloque de oro. Puede colocarse diagonalemente. Útil en muchos aspectos.",
+  "shortdescription" : "Bloque de Oro (diagonal)",
+
+  "materialId" : 10004,
+  "learnBlueprintsOnPickup" : [ "goldenwinblock1", "goldenwinblock2" ]
+}
