@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "goldbar", "count" : 1 },  
+    { "item" : "marmolwin", "count" : 20 },  
+    { "item" : "liquidwater", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "namokpilardoor",
+    "count" : 1
+  },
+  "groups" : [ "estacionnamok", "all", "objects"]
+}
