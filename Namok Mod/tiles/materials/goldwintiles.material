@@ -1,0 +1,22 @@
+{
+  "materialId" : 10006,
+  "materialName" : "goldwintiles",
+  "particleColor" : [255, 255, 0, 255],
+  "itemDrop" : "goldwintiles",
+  "description" : "Decoración para el techo, propia de una estructura ñámok.",
+  "shortdescription" : "Golden Ñámok Tiles",
+  
+  "footstepSound" : "/sfx/blocks/footstep_rooftile.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "goldwintiles.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 3240
+  }
+}

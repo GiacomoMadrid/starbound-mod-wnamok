@@ -1,0 +1,12 @@
+{
+  "itemName" : "goldwintiles",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "goldwintilesicon.png",
+  "description" : "Decoración para el techo, propia de una estructura ñámok.",
+  "shortdescription" : "Golden Ñámok Tiles",
+  
+  "materialId" : 10006,
+  "learnBlueprintsOnPickup" : [ "goldwintiles", "goldwintiles2", "goldwintiles3" ]
+}

@@ -26,6 +26,7 @@
   "learnBlueprintsOnPickup" : [
     "goldenwinblock1",
     "goldenwinblock2",
+    "goldwintiles",
     "goldenplatform",
     "silverplatform",
     "mirror",

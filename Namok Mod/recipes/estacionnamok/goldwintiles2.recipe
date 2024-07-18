@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "goldbar", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "goldwintiles2",
+    "count" : 50
+    },
+  "groups" : [ "estacionnamok", "all", "objects"]
+}

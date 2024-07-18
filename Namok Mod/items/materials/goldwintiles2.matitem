@@ -1,0 +1,12 @@
+{
+  "itemName" : "goldwintiles2",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "goldwintiles2icon.png",
+  "description" : "Remate izquierdo de la decoración para el techo, propia de una estructura ñámok.",
+  "shortdescription" : "Golden Ñámok Tiles (Left)",
+  
+  "materialId" : 10007,
+  "learnBlueprintsOnPickup" : [ "goldwintiles", "goldwintiles2", "goldwintiles3" ]
+}
