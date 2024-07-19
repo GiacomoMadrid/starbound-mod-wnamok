@@ -1,0 +1,22 @@
+{
+  "materialId" : 10010,
+  "materialName" : "marmolwinfence",
+  "particleColor" : [137, 124, 76, 255],
+  "itemDrop" : "marmolwinfence",
+  "description" : "Una cerca hecha de mármol blanco de alta calidad.",
+  "shortdescription" : "Cerca de Mármol Ñámok",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 30,
+  "category" : "materials",
+  "blocksLiquidFlow" : false,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "marmolwinfence.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "multiColored" : true,
+    "occludesBelow" : false,
+    "zLevel" : 520
+  }
+}

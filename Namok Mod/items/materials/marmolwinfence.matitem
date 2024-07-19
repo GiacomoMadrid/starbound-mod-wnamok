@@ -1,0 +1,12 @@
+{
+  "itemName" : "marmolwinfence",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "marmolwinfence.png",
+  "description" : "Una cerca hecha de mármol blanco de alta calidad.",
+  "shortdescription" : "Cerca de Mármol Ñámok",
+
+  "materialId" : 10010,
+  "learnBlueprintsOnPickup" : [ "marmolwinfence" ]
+}

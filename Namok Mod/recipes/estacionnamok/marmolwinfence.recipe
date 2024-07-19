@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "marmolwin", "count" : 10 },  
+    { "item" : "liquidwater", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "marmolwinfence",
+    "count" : 50
+  },
+  "groups" : [ "estacionnamok", "all", "objects"]
+}

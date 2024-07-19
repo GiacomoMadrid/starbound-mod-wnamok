@@ -16,7 +16,7 @@
   ],
   "output" : {
     "item" : "namokessence",
-    "count" : 1
+    "count" : 256
   },
   "groups" : [ "wingo", "all", "objects" ]
 }
