@@ -1,0 +1,13 @@
+{
+  "itemName" : "pisomarmolwin",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "pisomarmolwinicon.png",
+
+  "description" : "Piso elaborado con el mejor mármol ñámok y la más resistente piedra. Resiste coches y el paso de los años.",  
+  "shortdescription" : "Piso de Mármol Ñámok",
+
+  "materialId" : 10009,
+  "learnBlueprintsOnPickup" : [ "pisomarmolwin" ]
+}
