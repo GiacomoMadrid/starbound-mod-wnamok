@@ -25,7 +25,8 @@
 
   "learnBlueprintsOnPickup" : [
     "estacionnamok",
-    "namokessence"
+    "namokessence",
+    "namokcubeblue"
   ],
 
   "lightColor" : [179, 149, 107],

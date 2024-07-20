@@ -1,0 +1,15 @@
+{
+    "input" : [
+      { "item" : "ironbar", "count" : 8 }, 
+      { "item" : "coalore", "count" : 8 },
+      { "item" : "namokessence", "count" : 2 },  
+      { "item" : "corefragmentore", "count" : 1 }
+  
+    ],
+    "output" : {
+      "item" : "namokcubeblue",
+      "count" : 2
+    },
+    "groups" : [ "wingo", "all", "objects" ]
+  }
+  

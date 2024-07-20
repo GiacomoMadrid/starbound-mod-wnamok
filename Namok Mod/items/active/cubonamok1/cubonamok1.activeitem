@@ -1,0 +1,24 @@
+{
+  "itemName" : "cubonamok1",
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "category" : "tool",
+  "description" : "Almacena objetos mientras guardas este cubo en tu inventario.",
+  "shortdescription" : "Cubo Ñámok azul",
+  "tooltipKind" : "base",
+  
+  "twoHanded" : true,
+
+  "inventoryIcon" : "cubonamok1.png",
+
+  "animation" : "cubonamok1.animation",
+  "animationParts" : {
+    "cubonamok1" : "cubonamok1.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/interface/cubonamok1/cubonamok1InterfacePane.lua", "/items/active/cubonamok1/activeItemInterface.lua"],  
+  "scriptConfig": "/interface/cubonamok1/cubonamok1InterfacePane.config"
+  
+}
+
