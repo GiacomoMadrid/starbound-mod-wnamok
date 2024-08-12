@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "namokballesta", "count" : 1 }, 
+    { "item" : "upgrademodule", "count" : 1 },   
+    { "item" : "goldbar", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "namokballesta2",
+    "count" : 1
+  },
+  "groups" : [ "estacionnamok", "all", "hunting", "weapons" ]
+}

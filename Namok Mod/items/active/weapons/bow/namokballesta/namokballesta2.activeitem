@@ -1,23 +1,19 @@
 {
-  "itemName" : "namokballesta",
-  "price" : 160,
+  "itemName" : "namokballesta2",
+  "price" : 320,
   "inventoryIcon" : "namokballestaicon.png",
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "tooltipKind" : "bow",
   "category" : "bow",
   "description" : "Una ballesta que te ayudará con la casería... y algunas otras cosas.",
-  "shortdescription" : "Ballesta Ñámok",
+  "shortdescription" : "Ballesta Ñámok II",
   
-  "level" : 1,
+  "level" : 3,
   "twoHanded" : true,
   "itemTags" : ["weapon", "ranged", "bow"],
   
   "radioMessagesOnPickup" : [ "pickupbow" ],
-  
-  "learnBlueprintsOnPickup" : [
-      "namokballesta2"
-    ],
 
   "animation" : "/items/active/weapons/bow/bow.animation",
   "animationParts" : {
@@ -58,8 +54,8 @@
     "powerProjectileType" : "chargedharpoon",
     "powerProjectileTime" : [0.9, 1.1],
     "projectileParameters" : {
-      "speed" : 80,
-      "power" : 10
+      "speed" : 120,
+      "power" : 16
     },
 
   
@@ -93,8 +89,8 @@
     "powerProjectileType" : "chargedharpoon",
     "powerProjectileTime" : [0.9, 1.1],
     "projectileParameters" : {
-      "speed" : 100,
-      "power" : 16
+      "speed" : 160,
+      "power" : 24
     },
 
   
