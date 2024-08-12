@@ -1,25 +1,21 @@
 {
-  "itemName" : "namokbasicshield",
+  "itemName" : "namoksilvershield",
   "fixedLevel" : false,
   "price" : 640,
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "category" : "shield",
-  "description" : "Este escudo básico puede protegerme... básicamente.",
-  "shortdescription" : "Escudo Ñámok básico",
+  "description" : "La plata no debería ser tan resistente por sí sola, aún así este escudo me protege muy bien.",
+  "shortdescription" : "Escudo Ñámok de plata",
   "tooltipKind" : "Shield",
   "twoHanded" : false,
   "itemTags" : ["shield"],
 
-  "learnBlueprintsOnPickup" : [
-      "namoksilvershield"
-    ],
-
-  "inventoryIcon" : "images/namokbasicshield.png:nearidle",
+  "inventoryIcon" : "images/namoksilvershield.png:nearidle",
 
   "animation" : "shield.animation",
   "animationParts" : {
-    "shield" : "images/namokbasicshield.png"
+    "shield" : "images/namoksilvershield.png"
   },
   "animationCustom" : {
     "animatedParts" : { "parts" : { "shield" : { "properties" : {
@@ -38,13 +34,13 @@
   "minActiveTime" : 0.25,
 
   "forceWalk" : true,
-  "baseShieldHealth" : 32,
+  "baseShieldHealth" : 64,
   "cooldownTime" : 0.5,
 
   "perfectBlockDirectives" : "?border=2;AACCFFFF;00000000",
   "perfectBlockTime" : 0.2,
 
-  "knockback" : 16,
+  "knockback" : 32,
 
   "stances" : {
     "idle" : {

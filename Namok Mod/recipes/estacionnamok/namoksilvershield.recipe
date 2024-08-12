@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "silverbar", "count" : 8 },
+    { "item" : "upgrademodule", "count" : 2 },
+    { "item" : "namokbasicshield", "count" : 1 }
+  ],
+  "output" : { 
+    "item" : "namoksilvershield", 
+    "count" : 1
+    },
+  "duration" : 1,
+  "groups"  : [ "estacionnamok", "materials", "all", "shields" ]
+}
