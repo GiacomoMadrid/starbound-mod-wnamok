@@ -46,7 +46,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-  ]
+  ],
 
-  //"soundEffect" : "/sfx/objects/flag_flap_loop.ogg"
+  "soundEffect" : "/sfx/objects/flag_flap_loop.ogg"
 }

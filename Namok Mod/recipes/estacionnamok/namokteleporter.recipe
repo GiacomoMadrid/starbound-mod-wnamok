@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "goldbar", "count" : 1 },  
+    { "item" : "flagnamok", "count" : 4 }, 
+    { "item" : "marmolwin", "count" : 10 }, 
+    { "item" : "teleportercore", "count" : 1 }
+
+  ],
+  "output" : {
+    "item" : "namokteleporter",
+    "count" : 1
+  },
+  "groups" : [ "estacionnamok", "all", "objects"]
+}

@@ -1,0 +1,58 @@
+{
+  "objectName" : "namokteleporter",
+  "colonyTags" : ["misc"],
+  "objectType" : "teleporter",
+  "rarity" : "Legendary",
+  "description" : "Teletransportador capaz de llevarme a cualquier punto registrado.",
+  "shortdescription" : "Teletransportador Ñámok",
+  "price" : 4000,
+  "printable" : true,
+
+  "category" : "teleporter",
+  "lightColor" : [200, 200, 200],
+  "lightPosition" : [0, 1],
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/remoteteleporter.config",
+
+  "inventoryIcon" : "namokteleportericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "namokteleporter.png:<color>", "fullbright" : true }, { "image" : "namokteleporterlit.png:<color>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0] ]
+    }
+  ],
+
+  "health" : 10,
+  "rooting" : true,
+
+  "teleporterFootPosition" : [0, 1],
+
+  "scripts" : [ "/scripts/npcToyObject.lua"],
+  "npcToy" : {
+    "influence" : [
+      "teleporter",
+      "teleporterComplete"
+    ],
+    "defaultReactions" : {
+      "teleporter" : [
+        [1.0, "beamaway"]
+      ],
+      "teleporterComplete" : [
+        [1.0, "vomit"],
+        [1.0, "smile"]
+      ]
+    },
+    "preciseStandPositionLeft" : [0, 0.0],
+    "preciseStandPositionRight" : [0, 0.0],
+    "maxNpcs" : 1
+  }
+}
