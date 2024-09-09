@@ -36,7 +36,8 @@
     "namokbasicshield",
     "namoksword",
     "namokpickaxe",
-    "namokwoodendoor"
+    "namokwoodendoor",
+    "namokbrainextractor"
   ],
 
   "apexDescription" : "A crafting station for ñamok technology.",

@@ -4,6 +4,7 @@
     { "item" : "ironbar", "count" : 4 },
     { "item" : "coalore", "count" : 4 },
     { "item" : "corefragmentore", "count" : 4 },
+    { "item" : "cryonicextract", "count" : 1 },
     { "item" : "namokessence", "count" : 4 }
   ],
   "output" : {
