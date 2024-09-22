@@ -1,0 +1,52 @@
+{
+	"input": [
+		{ "item" : "ironbar", "count" : 4 }, 
+		{ "item" : "coalore", "count" : 4 },
+		{ "item" : "namokessence", "count" : 1 },  
+		{ "item" : "corefragmentore", "count" : 1 }
+	],
+
+	"duration": 0.75,
+
+	"output": {
+		"item": "wateringcan",
+		"count": 1,
+		"parameters": {
+			"animationCustom": {
+				"sounds": {
+					"open": ["/sfx/tech/tech_walljump.ogg"]
+				}
+			},
+			"rarity": "common",
+			"price": 160,
+			"description": "Este cubo me permite llevar varios objetos conmigo",
+			"category": "Storage",
+			"inventoryIcon": "/interface/scripted/applestorage/namokcubeblueicon.png",
+			"shortdescription": "Cubo Ñámok Azul",
+			"twoHanded": true,
+			"maxStack": 1,
+			"radioMessagesOnPickup": [],
+			"learnBlueprintsOnPickup": [],
+
+			"tooltipKind": "backpack",
+			"tooltipFields": {},
+
+			"scripts": ["/scripts/applestorage.lua"],
+
+			"backpackSettings": {
+				"version": 2.3,
+				"colour": {
+					"red": 255,
+					"green": 255,
+					"blue": 255
+				},
+				"title": "Cubo Ñamok Azul",
+				"subtitle": "Storage",
+				"locked": false
+			},
+			"storedItems": [{}
+			]
+		}
+	},
+	"groups": ["all", "plain", "tools", "wingo"]
+}
