@@ -38,15 +38,9 @@
     "maxSize" : [70, 54],
     "minSize" : [70, 54]
   },
-  "lockImage" : {
-    "type" : "image",
-    "position" : [5, 37],
-    "zlevel" : 3,
-    "file" : ""
-  },
   "lockLabel" : {
     "type" : "label",
     "position" : [33, 42],
-    "value" : "^green;UNLOCKED^reset;"
+    "value" : "^blue;AZUL^reset;"
   }
 }

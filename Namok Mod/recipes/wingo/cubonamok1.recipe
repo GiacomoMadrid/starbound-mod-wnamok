@@ -17,12 +17,12 @@
 					"open": ["/sfx/tech/tech_walljump.ogg"]
 				}
 			},
-			"rarity": "common",
-			"price": 160,
-			"description": "Este cubo me permite llevar varios objetos conmigo",
+			"rarity": "Legendary",
+			"price": 256,
+			"description": "Este cubo azul me permite llevar varios objetos de una manera eficiente.",
 			"category": "Storage",
-			"inventoryIcon": "/interface/scripted/applestorage/namokcubeblueicon.png",
-			"shortdescription": "Cubo Ñámok Azul",
+			"inventoryIcon": "/interface/scripted/cubonamok1/namokcubeblueicon.png",
+			"shortdescription": "Cubo Ñámok Portable (Azul)",
 			"twoHanded": true,
 			"maxStack": 1,
 			"radioMessagesOnPickup": [],
@@ -31,7 +31,7 @@
 			"tooltipKind": "backpack",
 			"tooltipFields": {},
 
-			"scripts": ["/scripts/applestorage.lua"],
+			"scripts": ["/scripts/cubonamok.lua"],
 
 			"backpackSettings": {
 				"version": 2.3,
@@ -40,8 +40,8 @@
 					"green": 255,
 					"blue": 255
 				},
-				"title": "Cubo Ñamok Azul",
-				"subtitle": "Storage",
+				"title": "Cubo Ñamok Portable",
+				"subtitle": "Cubo Ñamok Azul",
 				"locked": false
 			},
 			"storedItems": [{}

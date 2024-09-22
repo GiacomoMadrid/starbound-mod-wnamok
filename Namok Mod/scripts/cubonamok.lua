@@ -3,7 +3,7 @@ function init()
 end
 
 function activate(fireMode, shiftHeld)
-  local interactData = root.assetJson("/interface/scripted/applestorage/applestorage.config")
+  local interactData = root.assetJson("/interface/scripted/cubonamok1/cubonamok.config")
   interactData.gui.data.data = {
     storedItems = config.getParameter("storedItems"),
     backpackSettings = config.getParameter("backpackSettings"),
