@@ -13,7 +13,7 @@
     { "item" : "phasematter", "count" : 8 }
   ],
   "output" : {
-    "item" : "flagnamok",
+    "item" : "wingo2",
     "count" : 1
   },
   "groups" : [ "estacionnamok", "all", "objects"]
