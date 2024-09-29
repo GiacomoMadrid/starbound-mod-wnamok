@@ -1,0 +1,20 @@
+{
+  "input" : [
+    { "item" : "wingo", "count" : 1 },  
+    { "item" : "chipnamok", "count" : 8 },  
+    { "item" : "titaniumbar", "count" : 20 },  
+    { "item" : "brain", "count" : 1 },  
+    { "item" : "stickofram", "count" : 4 },  
+    { "item" : "glass", "count" : 20 },  
+    { "item" : "namokessence", "count" : 16 },  
+    { "item" : "wire", "count" : 40 },  
+    { "item" : "siliconboard", "count" : 16 },  
+    { "item" : "upgrademodule", "count" : 2 },  
+    { "item" : "phasematter", "count" : 8 }
+  ],
+  "output" : {
+    "item" : "flagnamok",
+    "count" : 1
+  },
+  "groups" : [ "estacionnamok", "all", "objects"]
+}

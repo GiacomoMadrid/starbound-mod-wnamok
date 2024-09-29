@@ -1,0 +1,20 @@
+{
+    "input" : [
+      { "item" : "namokessence", "count" : 16 }, 
+      { "item" : "money", "count" : 16 },
+      { "item" : "essence", "count" : 16 },
+      { "item" : "scorchedcore", "count" : 4 },
+      { "item" : "corefragmentore", "count" : 4 },
+      { "item" : "staticcell", "count" : 4 },
+      { "item" : "solidfuel", "count" : 4 },
+      { "item" : "refinedviolium", "count" : 1 }
+  
+    ],
+    "output" : {
+      "item" : "namokenergia",
+      "count" : 40
+    },
+    "groups" : [ "wingo2", "all", "esencia" ]
+  }
+  
+

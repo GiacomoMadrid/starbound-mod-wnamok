@@ -1,0 +1,17 @@
+{
+    "input" : [
+      { "item" : "namokessence", "count" : 16 }, 
+      { "item" : "money", "count" : 16 },
+      { "item" : "essence", "count" : 16 },
+      { "item" : "cellmatter", "count" : 4 },
+      { "item" : "relojbase", "count" : 4 }
+  
+    ],
+    "output" : {
+      "item" : "namoktiempo",
+      "count" : 40
+    },
+    "groups" : [ "wingo2", "all", "esencia" ]
+  }
+  
+

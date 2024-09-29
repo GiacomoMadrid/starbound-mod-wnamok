@@ -40,14 +40,6 @@
     "namokbrainextractor"
   ],
 
-  "apexDescription" : "A crafting station for ñamok technology.",
-  "avianDescription" : "This crafting station enables me to create ñamok technology.",
-  "floranDescription" : "Ñamok stationssss for making ñamok technologysss.",
-  "glitchDescription" : "Interested. It's a ñamok station. It's better than a normal crafting station.",
-  "humanDescription" : "I'm not scared of some DIY. Let's do this.",
-  "hylotlDescription" : "A ñamok station can be used to craft ñamok technology.",
-  "novakidDescription" : "A good ol' ñamok station. It's better than a normal crafting station.",
-
   "inventoryIcon" : "estacionnamokicon.png",
   "orientations" : [
     {

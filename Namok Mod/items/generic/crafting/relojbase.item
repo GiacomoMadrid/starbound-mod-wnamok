@@ -1,0 +1,10 @@
+{
+  "itemName" : "relojbase",
+  "price" : 32,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "relojbase.png",
+  "description" : "La más pura representación del tiempo.",
+  "shortdescription" : "Reloj Base",
+  "itemTags" : [ "reagent" ]
+}

@@ -1,52 +1,16 @@
 {
 	"input": [
-		{ "item" : "ironbar", "count" : 4 }, 
-		{ "item" : "coalore", "count" : 4 },
-		{ "item" : "namokessence", "count" : 1 },  
-		{ "item" : "corefragmentore", "count" : 1 }
+		{ "item" : "titaniumbar", "count" : 1 }, 
+		{ "item" : "chipnamok", "count" : 1 },
+		{ "item" : "namokespacio", "count" : 1 },  
+		{ "item" : "wire", "count" : 4 }
 	],
 
 	"duration": 0.75,
 
 	"output": {
-		"item": "wateringcan",
-		"count": 1,
-		"parameters": {
-			"animationCustom": {
-				"sounds": {
-					"open": ["/sfx/tech/tech_walljump.ogg"]
-				}
-			},
-			"rarity": "Legendary",
-			"price": 256,
-			"description": "Este cubo azul me permite llevar varios objetos de una manera eficiente.",
-			"category": "Storage",
-			"inventoryIcon": "/interface/scripted/cubonamok1/namokcubeblueicon.png",
-			"shortdescription": "Cubo Ñámok Portable (Azul)",
-			"twoHanded": true,
-			"maxStack": 1,
-			"radioMessagesOnPickup": [],
-			"learnBlueprintsOnPickup": [],
-
-			"tooltipKind": "backpack",
-			"tooltipFields": {},
-
-			"scripts": ["/scripts/cubonamok.lua"],
-
-			"backpackSettings": {
-				"version": 2.3,
-				"colour": {
-					"red": 255,
-					"green": 255,
-					"blue": 255
-				},
-				"title": "Cubo Ñamok Portable",
-				"subtitle": "Cubo Ñamok Azul",
-				"locked": false
-			},
-			"storedItems": [{}
-			]
-		}
+		"item": "cubonamok1",
+		"count": 1
 	},
-	"groups": ["all", "plain", "tools", "wingo"]
+	"groups": ["all", "plain", "tools", "wingo", "objetowin", "namok", "wingo2"]
 }

@@ -1,0 +1,10 @@
+{
+  "itemName" : "namokinteligencia",
+  "price" : 0,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "namokinteligencia.png",
+  "description" : "Toda idea que ha existido. La capacidad de tener conciencia. El entendimiento de nosotros mismos, de nuestro entorno, de lo que es y de lo que no es. La esencia personal de cada ser. Los secretos de la mente. Todo esto en una sola esencia.",
+  "shortdescription" : "Esencia Ñámok de inteligencia",
+  "itemTags" : [ "reagent", "esencia" ]
+}

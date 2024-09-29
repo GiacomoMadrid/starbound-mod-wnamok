@@ -1,0 +1,16 @@
+{
+  "input" : [
+    { "item" : "namokessence", "count" : 4 }, 
+    { "item" : "wire", "count" : 8 },
+    { "item" : "siliconboard", "count" : 4 },
+    { "item" : "titaniumbar", "count" : 1 },
+    { "item" : "goldbar", "count" : 1 }, 
+    { "item" : "inferiorbrain", "count" : 4 }
+
+  ],
+  "output" : {
+    "item" : "chipnamok",
+    "count" : 4
+  },
+  "groups" : [ "wingo", "all", "objects", "wingo2", "tech", "namok" ]
+}

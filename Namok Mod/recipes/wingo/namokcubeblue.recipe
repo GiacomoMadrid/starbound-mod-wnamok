@@ -1,15 +1,14 @@
 {
-    "input" : [
-      { "item" : "ironbar", "count" : 8 }, 
-      { "item" : "coalore", "count" : 8 },
-      { "item" : "namokessence", "count" : 2 },  
-      { "item" : "corefragmentore", "count" : 1 }
-  
-    ],
+    "input": [
+		{ "item" : "titaniumbar", "count" : 2 }, 
+		{ "item" : "chipnamok", "count" : 2 },
+		{ "item" : "namokespacio", "count" : 2 },  
+		{ "item" : "wire", "count" : 8 }
+	],
     "output" : {
       "item" : "namokcubeblue",
       "count" : 2
     },
-    "groups" : [ "wingo", "all", "objects" ]
+    "groups" : [ "wingo", "all", "objetowin", "namok", "wingo2" ]
   }
   

@@ -1,0 +1,10 @@
+{
+  "itemName" : "namokpoder",
+  "price" : 0,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "namokpoder.png",
+  "description" : "Todos los atributos sobrenaturales, todas las formas de canalizar fuerzas más allá de nuestra comprensión. Todas ellas en una sola esencia.",
+  "shortdescription" : "Esencia Ñámok del poder",
+  "itemTags" : [ "reagent", "esencia" ]
+}

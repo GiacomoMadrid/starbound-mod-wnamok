@@ -1,24 +1,46 @@
 {
   "itemName" : "cubonamok1",
   "maxStack" : 1,
-  "rarity" : "Uncommon",
-  "category" : "tool",
-  "description" : "Almacena objetos mientras guardas este cubo en tu inventario.",
-  "shortdescription" : "Cubo Ñámok azul",
-  "tooltipKind" : "base",
+  "rarity" : "Legendary",
+  "price": 256,
+  "category": "Storage",
+  "description": "Este cubo azul me permite llevar varios objetos de una manera eficiente.",
+  "shortdescription": "Cubo Ñámok Portable (Azul)",
+  "inventoryIcon": "/interface/scripted/cubonamok1/namokcubeblueicon.png",
+
+  "twoHanded": true,
+  "radioMessagesOnPickup": [],
+  "learnBlueprintsOnPickup": [],
+  "tooltipKind": "backpack",
+  "tooltipFields": {},
   
-  "twoHanded" : true,
-
-  "inventoryIcon" : "cubonamok1.png",
-
   "animation" : "cubonamok1.animation",
   "animationParts" : {
     "cubonamok1" : "cubonamok1.png"
   },
-  "animationCustom" : { },
+  "animationCustom": {
+    "sounds": {
+      "open": ["/sfx/tech/tech_walljump.ogg"]
+    }
+  },
 
-  "scripts" : ["/interface/cubonamok1/cubonamok1InterfacePane.lua", "/items/active/cubonamok1/activeItemInterface.lua"],  
-  "scriptConfig": "/interface/cubonamok1/cubonamok1InterfacePane.config"
-  
+  "scripts": ["/scripts/cubonamok.lua"],  
+
+  "backpackSettings": {
+    "version": 2.3,
+    "colour": {
+      "red": 255,
+      "green": 255,
+      "blue": 255
+    },
+    "title": "Cubo Ñamok Portable",
+    "subtitle": "Cubo Ñamok Azul",
+    "locked": false
+  },
+
+  "storedItems": [{}
+  ]
+
+
 }
 

@@ -1,0 +1,11 @@
+{
+  "itemName" : "namokforma",
+  "price" : 0,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "namokforma.png",
+  "description" : "Todo material con el que se crean las cosas. El aspecto físico que define o delimita un objeto. Cada átomo del que se compone la materia. Todo en una sola esencia.",
+  "shortdescription" : "Esencia Ñámok de forma",
+  "itemTags" : [ "reagent", "esencia" ]
+}
+

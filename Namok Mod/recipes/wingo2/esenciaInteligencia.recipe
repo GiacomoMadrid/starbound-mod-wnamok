@@ -1,0 +1,18 @@
+{
+    "input" : [
+      { "item" : "namokessence", "count" : 16 }, 
+      { "item" : "money", "count" : 16 },
+      { "item" : "essence", "count" : 16 },
+      { "item" : "brain", "count" : 4 },
+      { "item" : "liquidhealing", "count" : 16 }, 
+      { "item" : "goldore", "count" : 1 }
+  
+    ],
+    "output" : {
+      "item" : "namokinteligencia",
+      "count" : 40
+    },
+    "groups" : [ "wingo2", "all", "esencia" ]
+  }
+  
+

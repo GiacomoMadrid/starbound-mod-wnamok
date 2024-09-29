@@ -1,0 +1,26 @@
+{
+  "input" : [
+    { "item" : "liquidwater", "count" : 40 }, 
+    { "item" : "liquidhealing", "count" : 40 },
+    { "item" : "liquidlava", "count" : 40 },
+    { "item" : "liquidfuel", "count" : 40 },
+    { "item" : "liquidoil", "count" : 40 }, 
+    { "item" : "liquidpoison", "count" : 40 },
+    { "item" : "liquidslime", "count" : 40 },
+    { "item" : "swampwater", "count" : 40 },
+    { "item" : "liquidmilk", "count" : 40 },  
+    { "item" : "goldbar", "count" : 4 },
+    { "item" : "cryonicextract", "count" : 4 }, 
+    { "item" : "scorchedcore", "count" : 4 }, 
+    { "item" : "venomsample", "count" : 4 }, 
+    { "item" : "staticcell", "count" : 4 },
+    { "item" : "essence", "count" : 32 },
+    { "item" : "money", "count" : 64 }
+
+  ],
+  "output" : {
+    "item" : "namokessence",
+    "count" : 64
+  },
+  "groups" : [ "wingo", "all", "objects", "esencia", "wingo2"  ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "namoktiempo",
+  "price" : 0,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "namoktiempo.png",
+  "description" : "Cada uno de los instantes. Cada periodo entre los acontecimientos y la duración de los mismos. El testigo primario del inicio, auge, caída y olvido de todo lo que alguna vez ha exitido. El tiempo, en una sola esencia.",
+  "shortdescription" : "Esencia Ñámok de tiempo",
+  "itemTags" : [ "reagent", "esencia" ]
+}

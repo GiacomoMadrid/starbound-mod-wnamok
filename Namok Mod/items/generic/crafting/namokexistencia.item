@@ -1,0 +1,10 @@
+{
+  "itemName" : "namokexistencia",
+  "price" : 0,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "namokexistencia.png",
+  "description" : "Todo lo que existe y lo que no existe. Todo lo que es, lo que pudo ser y que no es. toda nuestra realidad y las alternas, todas en una sola esencia.",
+  "shortdescription" : "Esencia Ñámok de la existencia.",
+  "itemTags" : [ "reagent", "esencia" ]
+}

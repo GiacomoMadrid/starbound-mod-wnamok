@@ -1,0 +1,10 @@
+{
+  "itemName" : "namokespacio",
+  "price" : 0,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "namokespacio.png",
+  "description" : "Toda dimensión física, todo lugar en el universo. Cada punto de expanción de la misma realidad y cómo se conectan entre sí. Todo esto en una sola esencia.",
+  "shortdescription" : "Esencia Ñámok del espacio",
+  "itemTags" : [ "reagent", "esencia" ]
+}

@@ -9,8 +9,12 @@
     { "item" : "liquidslime", "count" : 160 },
     { "item" : "swampwater", "count" : 160 },
     { "item" : "liquidmilk", "count" : 80 },  
-    { "item" : "goldore", "count" : 40 },
-    { "item" : "essence", "count" : 80 },
+    { "item" : "goldbar", "count" : 16 },
+    { "item" : "cryonicextract", "count" : 16 }, 
+    { "item" : "scorchedcore", "count" : 16 }, 
+    { "item" : "venomsample", "count" : 16 }, 
+    { "item" : "staticcell", "count" : 16 },
+    { "item" : "essence", "count" : 80 }, 
     { "item" : "money", "count" : 256 }
 
   ],
@@ -18,5 +22,5 @@
     "item" : "namokessence",
     "count" : 256
   },
-  "groups" : [ "wingo", "all", "objects" ]
+  "groups" : [ "wingo", "all", "objects", "esencia", "wingo2" ]
 }

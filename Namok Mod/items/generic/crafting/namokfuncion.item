@@ -1,0 +1,10 @@
+{
+  "itemName" : "namokfuncion",
+  "price" : 0,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "namokfuncion.png",
+  "description" : "El propósito de todo lo existente. Cada instrucción que se necesita para lograr cualquier cosa. Todo en una sola esencia.",
+  "shortdescription" : "Esencia Ñámok de función",
+  "itemTags" : [ "reagent", "esencia" ]
+}

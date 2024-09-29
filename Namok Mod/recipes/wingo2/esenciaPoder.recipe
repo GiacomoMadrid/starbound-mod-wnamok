@@ -1,0 +1,21 @@
+{
+    "input" : [
+      { "item" : "namokessence", "count" : 16 }, 
+      { "item" : "money", "count" : 16 },
+      { "item" : "essence", "count" : 16 },
+      { "item" : "cryonicextract", "count" : 4 },
+      { "item" : "scorchedcore", "count" : 4 },
+      { "item" : "venomsample", "count" : 4 },
+      { "item" : "staticcell", "count" : 4 },
+      { "item" : "corefragmentore", "count" : 1 },
+      { "item" : "refinedferozium", "count" : 1 }
+  
+    ],
+    "output" : {
+      "item" : "namokpoder",
+      "count" : 40
+    },
+    "groups" : [ "wingo2", "all", "esencia" ]
+  }
+  
+

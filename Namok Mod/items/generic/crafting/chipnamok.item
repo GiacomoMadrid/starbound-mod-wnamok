@@ -1,0 +1,10 @@
+{
+  "itemName" : "chipnamok",
+  "price" : 64,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "chipnamok.png",
+  "description" : "Placa de circuitos capaz de conectar y soportar las esencias ñámok para usarlas favorablemente.",
+  "shortdescription" : "Chip Ñámok",
+  "itemTags" : [ "reagent", "tech", "namok" ]
+}
