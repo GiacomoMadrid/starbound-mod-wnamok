@@ -1,0 +1,33 @@
+{
+  "objectName" : "namokplacarefri1",
+  "colonyTags" : ["storage","cooking"],
+  "rarity" : "Rare",
+  "category" : "fridgeStorage",
+  "price" : 1024,
+  "printable" : false,
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "description" : "Placa Ñámok capaz de almacenar 128 tipos de alimentos",
+  "shortdescription" : "Placa Refrigeradora I",
+  "race" : "generic",
+  "health" : 1.5,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "namokplacarefri1.png:<color>.<key>",
+      "imagePosition" : [-16, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/fridge_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/fridge_close.ogg" ],
+  "slotCount" : 128,
+  "uiConfig" : "/interface/chests/chest128.config",
+  "frameCooldown" : 5,
+  "openFrameIndex" : 4,
+  "autoCloseCooldown" : 3600
+}

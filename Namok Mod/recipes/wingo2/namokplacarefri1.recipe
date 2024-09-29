@@ -1,0 +1,19 @@
+{
+	"input": [
+		{ "item" : "titaniumbar", "count" : 4 }, 
+		{ "item" : "chipnamok", "count" : 1 }, 
+		{ "item" : "cryonicextract", "count" : 2 },
+		{ "item" : "namokespacio", "count" : 4 }, 
+		{ "item" : "namokfuncion", "count" : 4 },  
+		{ "item" : "namokpoder", "count" : 4 }, 
+		{ "item" : "wire", "count" : 16 }
+	],
+
+	"duration": 0.75,
+
+	"output": {
+		"item": "namokplacarefri1",
+		"count": 1
+	},
+	"groups": ["all", "plain", "tools", "objetowin", "namok", "wingo2"]
+}

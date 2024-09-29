@@ -14,7 +14,7 @@ function init()
   backpackSettings, storedItems = versioning(backpackSettings, storedItems)
   toggleBag(true, 1)
 
-  local imagePath = "/interface/scripted/cubonamok1/"
+  local imagePath = "/interface/scripted/cubonamok2/"
   for _,v in pairs({"Header", "Body", "Footer"}) do
     widget.setImage("file"..v, imagePath..string.lower(v)..".png".."?multiply="..
       hexConverter(255)..
@@ -23,7 +23,7 @@ function init()
     )
   end
   widget.setText("title", backpackSettings.title)
-  widget.setText("subtitle", "Cubo Ñamok Azul")  
+  widget.setText("subtitle", "Cubo Ñamok Anaranjado")  
 end
 
 function versioning(settings, items)
@@ -147,7 +147,7 @@ function toggleSettings(visible)
   if visible then
     widget.setText("context", "^#b9b5b2;   SETTINGS")
     widget.setText("editTitle", backpackSettings.title)
-    widget.setText("subtitle", "Cubo Ñamok Azul")  
+    widget.setText("subtitle", "Cubo Ñamok Anaranjado")  
   end
 
   widget.setVisible("contextLabel", visible)
@@ -167,7 +167,7 @@ function editTitle()
 end
 
 function editLayout()
-  local imagePath = "/interface/scripted/cubonamok1/"
+  local imagePath = "/interface/scripted/cubonamok2/"
   for _,v in pairs({"Header", "Body", "Footer"}) do
     widget.setImage("file"..v, imagePath..string.lower(v)..".png?multiply="..
       hexConverter(255)..
@@ -175,7 +175,7 @@ function editLayout()
       hexConverter(255)
     )
   end
-  widget.setImage("iconOverlay", "/assetMissing.png?scale=1?crop=0;0;16;16"..root.assetJson("/interface/scripted/cubonamok1/backpackIcons.config").overlay..";?multiply="..
+  widget.setImage("iconOverlay", "/assetMissing.png?scale=1?crop=0;0;16;16"..root.assetJson("/interface/scripted/cubonamok2/backpackIcons.config").overlay..";?multiply="..
     hexConverter(255)..
     hexConverter(255)..
     hexConverter(255)
@@ -195,8 +195,8 @@ function uninit()
     end    
   end
 
-  --local item = root.assetJson("/items/active/cubonamok1/cubonamok1.activeitem")
-  local item = root.assetJson("/recipes/wingo/cubonamok1.recipe:output")
+  --local item = root.assetJson("/items/active/cubonamok2/cubonamok2.activeitem")
+  local item = root.assetJson("/recipes/wingo2/cubonamok2.recipe:output")
   sb.logInfo("Valor de item: %s", sb.printJson(item, 1))
   sb.logInfo("Tipo de item: %s", sb.printJson(type(item), 1))
 
@@ -208,10 +208,10 @@ function uninit()
   item.parameters.shortdescription = backpackSettings.title
   item.parameters.category = backpackSettings.subtitle.."^reset;"
   item.parameters.inventoryIcon = {{
-    image = "/interface/scripted/cubonamok1/namokcubeblueicon.png",
+    image = "/interface/scripted/cubonamok2/cubonamok2icon.png",
     position = {0,0}
   }, {
-    image = "/interface/scripted/cubonamok1/namokcubeblueicon.png",
+    image = "/interface/scripted/cubonamok2/cubonamok2icon.png",
     position = {0,0}
   }}
   player.giveItem(item)
@@ -245,7 +245,7 @@ end
 function leftClickSlot(slot)
   if player.swapSlotItem() then
     local itemName = player.swapSlotItem().name
-    if itemName ~= "cubonamok1" and itemName ~= "cubonamok2" and itemName ~= "cubonamok3" and itemName ~= "cubonamok4" then
+    if itemName ~= "cubonamok2" and itemName ~= "cubonamok3" and itemName ~= "cubonamok4" then
       if widget.itemSlotItem(slot) then
         local item = player.swapSlotItem()
         local maxStack = item.parameters.maxStack or root.itemConfig(item.name).config.maxStack or root.assetJson("/items/defaultParameters.config:defaultMaxStack")

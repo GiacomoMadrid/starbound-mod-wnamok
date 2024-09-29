@@ -1,0 +1,16 @@
+{
+	"input": [
+		{ "item" : "durasteelbar", "count" : 1 }, 
+		{ "item" : "chipnamok", "count" : 2 },
+		{ "item" : "namokespacio", "count" : 4 },  
+		{ "item" : "wire", "count" : 16 }
+	],
+
+	"duration": 0.75,
+
+	"output": {
+		"item": "cubonamok2",
+		"count": 1
+	},
+	"groups": ["all", "plain", "tools", "objetowin", "namok", "wingo2"]
+}

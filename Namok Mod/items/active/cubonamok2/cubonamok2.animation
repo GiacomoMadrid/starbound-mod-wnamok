@@ -1,0 +1,14 @@
+{
+  "animatedParts" : {
+    "parts" : {
+      "cubonamok1" : {
+        "properties" : {
+          "image" : "<partImage>",
+          "centered" : true,
+          "offset" : [1.0, 0.0]
+        }
+      }
+    }
+  }
+  
+}

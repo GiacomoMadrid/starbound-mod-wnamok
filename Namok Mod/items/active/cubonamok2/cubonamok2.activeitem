@@ -1,0 +1,46 @@
+{
+  "itemName" : "cubonamok2",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "price": 256,
+  "category": "Storage",
+  "description": "Este cubo anaranjado me permite llevar varios cubos azules de forma muy eficiente.",
+  "shortdescription": "Cubo Ñámok Portable (Anaranjado)",
+  "inventoryIcon": "/interface/scripted/cubonamok2/cubonamok2icon.png",
+
+  "twoHanded": true,
+  "radioMessagesOnPickup": [],
+  "learnBlueprintsOnPickup": [],
+  "tooltipKind": "backpack",
+  "tooltipFields": {},
+  
+  "animation" : "cubonamok2.animation",
+  "animationParts" : {
+    "cubonamok2icon" : "cubonamok2icon.png"
+  },
+  "animationCustom": {
+    "sounds": {
+      "open": ["/sfx/tech/tech_walljump.ogg"]
+    }
+  },
+
+  "scripts": ["/scripts/cubonamok2.lua"],  
+
+  "backpackSettings": {
+    "version": 2.3,
+    "colour": {
+      "red": 255,
+      "green": 255,
+      "blue": 255
+    },
+    "title": "Cubo Ñamok Portable",
+    "subtitle": "Cubo Ñamok Anaranjado",
+    "locked": false
+  },
+
+  "storedItems": [{}
+  ]
+
+
+}
+
