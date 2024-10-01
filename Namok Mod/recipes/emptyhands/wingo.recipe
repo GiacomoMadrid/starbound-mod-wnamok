@@ -11,5 +11,5 @@
     "item" : "wingo",
     "count" : 1
   },
-  "groups" : [ "plain", "all", "objects"]
+  "groups" : [ "plain", "all", "objects", "herramienta"]
 }

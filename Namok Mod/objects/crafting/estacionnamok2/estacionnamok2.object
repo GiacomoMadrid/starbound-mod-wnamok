@@ -1,0 +1,49 @@
+{
+  "objectName" : "estacionnamok2",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Rare",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingestacionnamok2.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  Estación Ñámok",
+        "subtitle" : "  Nivel II",
+        "icon" : {
+          "file" : "/interface/crafting/estacionnamok.png"
+        }
+      }
+    },
+    "filter" : [ "plain", "craftingtable", "estacionnamok2", "estructura" ]
+  },
+  "printable" : false,
+  "description" : "Construye tecnología ñámok de nivel intermedio.",
+  "shortdescription" : "^orange;Estación Ñámok (Nivel 2)^white;",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 1042,
+
+  "learnBlueprintsOnPickup" : [
+    "estacionnamok2",
+    "cubonamok2"
+  ],
+
+
+  "inventoryIcon" : "estacionnamok2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "estacionnamok2.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 1.0,
+
+      "spaces" : [ [0, 0], [0, 1], [0, 2],
+                   [1, 0], [1, 1], [1, 2],
+                   [2, 0], [2, 1], [2, 2]
+                 ],
+
+      "spaceScan" : 0.1,           
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

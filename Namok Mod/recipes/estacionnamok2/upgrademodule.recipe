@@ -1,0 +1,14 @@
+{
+    "input" : [
+      { "item" : "diamond", "count" : 1 },
+      { "item" : "stickofram", "count" : 2 },
+      { "item" : "durasteelbar", "count" : 2 },
+      { "item" : "namokforma", "count" : 1 },
+      { "item" : "namokfuncion", "count" : 2 }
+    ],
+    
+    "output" : { "item" : "upgrademodule", "count" : 1},
+
+    "groups" : [ "wire", "estacionnamok2" ]
+  }
+  

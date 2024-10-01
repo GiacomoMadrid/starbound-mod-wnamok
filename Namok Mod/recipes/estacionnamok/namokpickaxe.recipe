@@ -10,5 +10,5 @@
     "item" : "namokpickaxe",
     "count" : 1
   },
-  "groups" : [ "estacionnamok", "all", "objects"]
+  "groups" : [ "estacionnamok", "estacionnamok2", "herramienta", "all"]
 }

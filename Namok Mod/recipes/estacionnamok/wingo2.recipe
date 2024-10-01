@@ -16,5 +16,5 @@
     "item" : "wingo2",
     "count" : 1
   },
-  "groups" : [ "estacionnamok", "all", "objects"]
+  "groups" : [ "estacionnamok", "all", "objects", "estructura", "estacionnamok2", "herramienta"]
 }

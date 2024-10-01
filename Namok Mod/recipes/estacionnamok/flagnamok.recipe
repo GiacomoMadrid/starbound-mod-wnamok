@@ -7,5 +7,5 @@
     "item" : "flagnamok",
     "count" : 4
   },
-  "groups" : [ "estacionnamok", "all", "objects"]
+  "groups" : [ "estacionnamok", "all", "objects", "estacionnamok2", "herramienta"]
 }

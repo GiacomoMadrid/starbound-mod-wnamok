@@ -7,12 +7,12 @@
   "subtitle" : "Extrae la esencia de ciertos objetos.",
   "race" : "generic",
   "category" : "crafting",
-  "price" : 1024,
+  "price" : 512,
   "objectType" : "container",
   "printable" : false,
   "health" : 1.5,
 
-  "lightColor" : [179, 179, 179],
+  "lightColor" : [20, 20, 255],
 
   "flickerPeriod" : 0.5,
   "flickerMinIntensity" : 0.9,
@@ -55,9 +55,11 @@
 
   "recipeGroup" : "extractornamok1",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
-  "slotCount" : 2,
+  "slotCount" : 10,
   "uiConfig" : "/interface/objectcrafting/extractornamok1.config",
   "frameCooldown" : 5,
-  "autoCloseCooldown" : 3600
+  "autoCloseCooldown" : 3600,
+  
+  "scripts" : ["/objects/crafting/extractornamok1/extractornamok1.lua"]
 
 }

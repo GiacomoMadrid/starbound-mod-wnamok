@@ -9,5 +9,5 @@
     "item" : "namoksword",
     "count" : 1
   },
-  "groups" : [ "estacionnamok", "all", "objects"]
+  "groups" : [ "estacionnamok", "all", "weapon", "estacionnamok2"]
 }

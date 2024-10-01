@@ -1,6 +1,6 @@
 {
   "itemName" : "namokpickaxe",
-  "price" : 800,
+  "price" : 1600,
   "category" : "Tool",
   "inventoryIcon" : "namokpickaxeicon.png",
   "maxStack" : 1,
@@ -19,9 +19,9 @@
   "twoHanded" : true,
   "strikeSounds" : [ "/sfx/tools/pickaxe_hit.ogg" ],
   "breakSound" : "/sfx/tools/pickaxe_break.ogg",
-  "durability" : 1600,
+  "durability" : 16000,
   "durabilityPerUse" : 1,
-  "tileDamage" : 4,
+  "tileDamage" : 16,
   "harvestLevel" : 99,
   "tileDamageBlunted" : 0.2
 }

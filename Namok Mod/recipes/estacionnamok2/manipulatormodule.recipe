@@ -1,0 +1,14 @@
+{
+    "input" : [
+      { "item" : "diamond", "count" : 1 },
+      { "item" : "goldbar", "count" : 4 },
+      { "item" : "laserdiode", "count" : 1 },
+      { "item" : "namokfuncion", "count" : 1 },
+      { "item" : "namokforma", "count" : 1 }
+    ],
+    
+    "output" : { "item" : "manipulatormodule", "count" : 1},
+
+    "groups" : [ "wire", "estacionnamok2" ]
+  }
+  

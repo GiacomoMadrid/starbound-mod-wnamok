@@ -7,5 +7,5 @@
     "item" : "marmolwinfence",
     "count" : 50
   },
-  "groups" : [ "estacionnamok", "all", "objects"]
+  "groups" : [ "estacionnamok", "all", "materials", "estacionnamok2"]
 }

@@ -8,5 +8,5 @@
     "item" : "namokballesta",
     "count" : 1
   },
-  "groups" : [ "estacionnamok", "all", "hunting", "weapons" ]
+  "groups" : [ "estacionnamok", "all", "hunting", "weapons", "estacionnamok2" ]
 }

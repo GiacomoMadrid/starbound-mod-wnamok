@@ -12,5 +12,5 @@
     "item" : "chipnamok",
     "count" : 4
   },
-  "groups" : [ "wingo", "all", "objects", "wingo2", "tech", "namok" ]
+  "groups" : [ "wingo", "all", "objects", "wingo2", "tech", "namok", "estacionnamok2", "wire" ]
 }

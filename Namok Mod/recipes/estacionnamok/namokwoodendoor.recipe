@@ -7,5 +7,5 @@
     "item" : "namokwoodendoor",
     "count" : 1
   },
-  "groups" : [ "estacionnamok", "all", "objects"]
+  "groups" : [ "estacionnamok", "all", "door", "estacionnamok2"]
 }

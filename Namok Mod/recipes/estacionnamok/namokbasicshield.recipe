@@ -9,5 +9,5 @@
     "count" : 1
     },
   "duration" : 0.5,
-  "groups"  : [ "estacionnamok", "materials", "all", "shields" ]
+  "groups"  : [ "estacionnamok", "all", "shields", "estacionnamok2" ]
 }

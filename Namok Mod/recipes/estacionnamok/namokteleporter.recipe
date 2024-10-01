@@ -10,5 +10,5 @@
     "item" : "namokteleporter",
     "count" : 1
   },
-  "groups" : [ "estacionnamok", "all", "objects"]
+  "groups" : [ "estacionnamok", "all", "teleporter", "herramienta", "estacionnamok2", "estructura", "object"]
 }
