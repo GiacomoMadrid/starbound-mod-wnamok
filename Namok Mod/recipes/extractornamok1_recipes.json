@@ -758,8 +758,66 @@
     
       ],
       "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "hourglass", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "relojbase", "count" : 1}	,
+        { "item" : "sand", "count" : 5}	
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "bunkercrate", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "ironore", "count" : 2}	
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "metallic", "count" : 20 }
+      ],
+      "output" : [
+        { "item" : "ironore", "count" : 5},
+        { "item" : "tungstenore", "count" : 3}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "tungstenchair", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "tungstenore", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "prisongirderv", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "ironore", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
     }
-
+    
+    
    
 
   ]

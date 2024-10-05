@@ -29,5 +29,6 @@
   "uiConfig" : "/interface/chests/chest128.config",
   "frameCooldown" : 5,
   "openFrameIndex" : 4,
-  "autoCloseCooldown" : 3600
+  "autoCloseCooldown" : 3600,
+  "itemAgeMultiplier" : 0.0
 }
