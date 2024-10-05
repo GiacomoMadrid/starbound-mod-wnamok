@@ -1,0 +1,17 @@
+{
+    "input" : [
+      { "item" : "namokexistencia", "count" : 1 },
+      { "item" : "namoktiempo", "count" : 1 },
+      { "item" : "namokespacio", "count" : 1 },
+      { "item" : "namokpoder", "count" : 1 },
+      { "item" : "namokforma", "count" : 1 },
+      { "item" : "namokfuncion", "count" : 1 },
+      { "item" : "namokenergia", "count" : 1 },
+      { "item" : "namokinteligencia", "count" : 1 }
+    ],
+    
+    "output" : { "item" : "namokessence", "count" : 1},
+    "duration" : 0.5,
+    "groups" : [ "insumo", "transmutadordemateria" ]
+  }
+  

@@ -6,5 +6,6 @@
   "inventoryIcon" : "namokenergia.png",
   "description" : "Todo lo que vive, todo lo que se mueve, todo lo que transmite o resta energía. Todo en una esencia.",
   "shortdescription" : "Esencia Ñámok de la energía",
+  "fuelAmount" : 16,
   "itemTags" : [ "reagent", "esencia" ]
 }

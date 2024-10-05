@@ -1,0 +1,11 @@
+{
+    "input" : [
+      { "item" : "liquidlava", "count" : 100 },
+      { "item" : "namokforma", "count" : 1 }
+    ],
+    
+    "output" : { "item" : "corefragmentore", "count" : 5},
+    "duration" : 1,
+    "groups" : [ "ores", "transmutadordemateria" ]
+  }
+  

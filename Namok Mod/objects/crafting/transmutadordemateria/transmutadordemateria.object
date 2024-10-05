@@ -1,0 +1,69 @@
+{
+  "objectName" : "transmutadordemateria",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Rare",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingtransmutadordemateria.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  Transmutador de Materia",
+        "subtitle" : "  Nivel I",
+        "icon" : {
+          "file" : "/interface/crafting/estacionnamok.png"
+        }
+      }
+    },
+    "filter" : [ "plain", "craftingtable", "transmutadordemateria", "estructura" ]
+  },
+  "printable" : false,
+  "description" : "Crea, transforma, combina y transmuta materiales para obtener otros materiales.",
+  "shortdescription" : "^orange;Transmutador de Materia^white;",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 1042,
+
+  "learnBlueprintsOnPickup" : [
+    "transmutadordemateria",
+    "piedrafilosofal",
+    "goldbar",
+    "uraniumore",
+    "plutoniumore",
+    "diamond",
+    "corefragmentore",
+    "tungstenbar",
+    "perfectlygenericitem",
+    "scorchedcore",
+    "cryonicextract",
+    "venomsample",
+    "staticcell",
+    "liquidlava",
+    "liquidpoison",
+    "liquidwater",
+    "liquidmilk",
+    "liquidfuel",
+    "liquidhealing",
+    "liquidslime",
+    "liquidoil",
+    "swampwater"
+  ],
+
+
+  "inventoryIcon" : "transmutadordemateriaicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "transmutadordemateria.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+
+      "spaces" : [ [0, 0], [0, 1], 
+                   [1, 0], [1, 1], 
+                   [2, 0], [2, 1]
+                 ],
+
+      "spaceScan" : 0.1,           
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

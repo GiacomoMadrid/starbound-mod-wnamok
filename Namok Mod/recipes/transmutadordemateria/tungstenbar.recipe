@@ -1,0 +1,12 @@
+{
+    "input" : [
+      { "item" : "coalore", "count" : 5 },
+      { "item" : "ironbar", "count" : 10 },
+      { "item" : "namokforma", "count" : 1 }
+    ],
+    
+    "output" : { "item" : "tungstenbar", "count" : 10},
+    "duration" : 0.5,
+    "groups" : [ "ores", "transmutadordemateria" ]
+  }
+  

@@ -1,0 +1,11 @@
+{
+    "input" : [
+      { "item" : "toxicwaste", "count" : 100 },
+      { "item" : "namokforma", "count" : 1 }
+    ],
+    
+    "output" : { "item" : "uraniumore", "count" : 1},
+    "duration" : 1,
+    "groups" : [ "ores", "transmutadordemateria" ]
+  }
+  

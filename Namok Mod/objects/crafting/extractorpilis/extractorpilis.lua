@@ -60,18 +60,6 @@ function startProcessing(item)
   end
 end
 
-function onTakeAllPressed()
-  -- Recorre todos los slots de salida y entrega los ítems al jugador
-  for _, slot in ipairs(self.outputSlots) do
-    local outputItem = world.containerItemAt(entity.id(), slot)
-    if outputItem ~= nil then
-      -- Quitar el ítem del contenedor y dárselo al jugador
-      world.containerConsumeAt(entity.id(), slot, outputItem.count)
-      world.spawnItem(outputItem, world.entityPosition(player.id()))
-    end
-  end
-end
-
 function completeProcessing()
   if self.activeItem then
     -- Asegurarse de que self.activeItem.output no sea nil

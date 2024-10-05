@@ -1,0 +1,65 @@
+{
+  "objectName" : "extractorpilis",
+  "colonyTags" : ["commerce"],
+  "rarity" : "Rare",
+  "description" : "Este extractor me permite re-crear cualquier cosa que necesite a partir de un pili.",
+  "shortdescription" : "^yellow;Extractor de Pilis^white;",
+  "subtitle" : "Genera objetos a partir de pilis.",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 512,
+  "objectType" : "container",
+  "printable" : false,
+  "health" : 1.5,
+
+  "lightColor" : [20, 20, 255],
+
+  "flickerPeriod" : 0.5,
+  "flickerMinIntensity" : 0.9,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+  
+
+  "inventoryIcon" : "extractorpilisicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "extractorpilis.png:<color>.<frame>", "fullbright" : true }, { "image" : "extractorpilislit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "extractorpilis.png:<color>.<frame>", "fullbright" : true }, { "image" : "extractorpilislit.png:<color>.<frame>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/campfire.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "statusEffects" : [ ],
+
+  "recipeGroup" : "extractorpilis",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 10,
+  "uiConfig" : "/interface/objectcrafting/extractorpilis.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts" : ["/objects/crafting/extractorpilis/extractorpilis.lua"]
+
+}

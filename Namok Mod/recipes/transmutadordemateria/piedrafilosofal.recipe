@@ -1,0 +1,13 @@
+{
+    "input" : [
+      { "item" : "namokexistencia", "count" : 8 },
+      { "item" : "namokforma", "count" : 8 },
+      { "item" : "corefragmentore", "count" : 16 },
+      { "item" : "cobblestonematerial", "count" : 64 }
+    ],
+    
+    "output" : { "item" : "piedrafilosofal", "count" : 64},
+    "duration" : 0.5,
+    "groups" : [ "insumo", "transmutadordemateria" ]
+  }
+  

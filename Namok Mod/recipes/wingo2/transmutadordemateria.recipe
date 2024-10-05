@@ -1,0 +1,17 @@
+{
+    "input" : [
+      { "item" : "titaniumbar", "count" : 20 },
+      { "item" : "glass", "count" : 20 },
+      { "item" : "namokforma", "count" : 16 },
+      { "item" : "namokfuncion", "count" : 16 },
+      { "item" : "chipnamok", "count" : 4 },
+      { "item" : "laserdiode", "count" : 8 },
+      { "item" : "stickofram", "count" : 4 },
+      { "item" : "battery", "count" : 2 }
+    ],
+    
+    "output" : { "item" : "transmutadordemateria", "count" : 1},
+    "duration" : 2,
+    "groups" : ["all", "estructura", "namok", "wingo2", "objects", "wingo"]
+  }
+  

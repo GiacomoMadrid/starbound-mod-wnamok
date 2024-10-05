@@ -479,6 +479,287 @@
       
         ],
         "groups" : [ "extractornamok1" ]
-    }
+    },
+
+    {
+        "input" : [
+          { "item" : "supermatter", "count" : 5 }
+        ],
+        "output" : [
+          { "item" : "liquidfuel", "count" : 4}
+      
+        ],
+        "groups" : [ "extractornamok1" ]
+    },
+
+    {
+      "input" : [
+        { "item" : "rawribmeat", "count" : 2 }
+      ],
+      "output" : [
+        { "item" : "alienmeat", "count" : 1},
+        { "item" : "bone", "count" : 2}
     
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+
+    {
+        "input" : [
+          { "item" : "namokessence", "count" : 16 }
+        ],
+        "output" : [
+          { "item" : "namokexistencia", "count" : 1},
+          { "item" : "namoktiempo", "count" : 1},
+          { "item" : "namokespacio", "count" : 1},
+          { "item" : "namokforma", "count" : 1},
+          { "item" : "namokfuncion", "count" : 1},
+          { "item" : "namokenergia", "count" : 1},
+          { "item" : "namokinteligencia", "count" : 1},
+          { "item" : "namokpoder", "count" : 1}
+      
+        ],
+        "groups" : [ "extractornamok1" ]
+    },
+
+    {
+      "input" : [
+        { "item" : "barrelgoldfilled", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "goldore", "count" : 10},
+        { "item" : "crystal", "count" : 5},
+        { "item" : "darkwoodmaterial", "count" : 5}	
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+
+    {
+      "input" : [
+        { "item" : "goldblock", "count" : 20 }
+      ],
+      "output" : [
+        { "item" : "goldore", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+
+    {
+      "input" : [
+        { "item" : "goldenducky", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "goldore", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+
+    {
+      "input" : [
+        { "item" : "goldenegg", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "goldore", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+
+    {
+      "input" : [
+        { "item" : "goldenjar1", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "goldore", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+
+    {
+      "input" : [
+        { "item" : "goldenpedestal", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "goldore", "count" : 3}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+
+    {
+      "input" : [
+        { "item" : "goldenurn", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "goldore", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+
+    {
+      "input" : [
+        { "item" : "goldvase1", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "goldore", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+
+    {
+      "input" : [
+        { "item" : "goldvase2", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "goldore", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+
+    {
+      "input" : [
+        { "item" : "goldvase3", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "goldore", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+
+    {
+      "input" : [
+        { "item" : "goldvase4", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "goldore", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+
+    {
+      "input" : [
+        { "item" : "goldvase5", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "goldore", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+
+    {
+      "input" : [
+        { "item" : "lamp", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "goldore", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+
+    {
+      "input" : [
+        { "item" : "markerwallplaque3", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "goldore", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+
+    {
+      "input" : [
+        { "item" : "trophygold", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "goldore", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+
+    {
+      "input" : [
+        { "item" : "woodencrategoldfilled", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "goldore", "count" : 10},
+        { "item" : "crystal", "count" : 5},
+        { "item" : "darkwoodmaterial", "count" : 5}	
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+
+    {
+      "input" : [
+        { "item" : "birddoor", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "goldore", "count" : 2},
+        { "item" : "crystal", "count" : 2}	
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+
+    {
+      "input" : [
+        { "item" : "crystalblock", "count" : 20 }
+      ],
+      "output" : [
+        { "item" : "crystal", "count" : 1}	
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+
+    {
+      "input" : [
+        { "item" : "geodeblock", "count" : 20 }
+      ],
+      "output" : [
+        { "item" : "geode", "count" : 1}	
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+
+    {
+      "input" : [
+        { "item" : "teleportercore", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "namokespacio", "count" : 1}	,
+        { "item" : "namoktiempo", "count" : 1}	
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+
+    {
+      "input" : [
+        { "item" : "moltencore", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "namokenergia", "count" : 1}	,
+        { "item" : "corefragmentore", "count" : 1}	
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    }
+
+   
+
   ]

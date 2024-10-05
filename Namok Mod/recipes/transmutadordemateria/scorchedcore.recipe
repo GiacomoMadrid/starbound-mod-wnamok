@@ -1,0 +1,12 @@
+{
+    "input" : [
+      { "item" : "corefragmentore", "count" : 5 },
+      { "item" : "namokessence", "count" : 1 },
+      { "item" : "obsidian", "count" : 10 }
+    ],
+    
+    "output" : { "item" : "scorchedcore", "count" : 5},
+    "duration" : 0.5,
+    "groups" : [ "insumo", "transmutadordemateria" ]
+  }
+  

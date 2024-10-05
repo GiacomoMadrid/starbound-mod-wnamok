@@ -1,0 +1,11 @@
+{
+    "input" : [
+      { "item" : "ice", "count" : 50 },
+      { "item" : "namokessence", "count" : 1 }
+    ],
+    
+    "output" : { "item" : "cryonicextract", "count" : 5},
+    "duration" : 0.5,
+    "groups" : [ "insumo", "transmutadordemateria" ]
+  }
+  

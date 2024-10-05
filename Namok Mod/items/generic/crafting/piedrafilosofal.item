@@ -1,0 +1,10 @@
+{
+  "itemName" : "piedrafilosofal",
+  "price" : 64,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "piedrafilosofal.png",
+  "description" : "Convierte cualquier metal en oro.",
+  "shortdescription" : "Piedra Filosofal",
+  "itemTags" : [ "reagent" ]
+}
