@@ -6,7 +6,7 @@
       { "item" : "upgrademodule", "count" : 2 }
     ],
     
-    "output" : { "item" : "namoksilvershield2", "count" : 8},
+    "output" : { "item" : "namoksilvershield2", "count" : 1},
 
     "groups" : [ "shield", "estacionnamok2" ]
   }
