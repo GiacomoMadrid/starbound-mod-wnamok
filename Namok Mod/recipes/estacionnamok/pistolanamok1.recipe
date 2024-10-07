@@ -11,5 +11,5 @@
     "item" : "pistolanamok1",
     "count" : 1
   },
-  "groups" : [ "estacionnamok", "all", "wapon", "pistol", "estacionnamok2"]
+  "groups" : [ "estacionnamok", "all", "weapon", "pistol", "estacionnamok2"]
 }

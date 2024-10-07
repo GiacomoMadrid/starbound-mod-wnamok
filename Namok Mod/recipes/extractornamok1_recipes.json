@@ -9,6 +9,49 @@
         "groups": ["extractornamok1"]
     },
 
+    {
+        "input": [
+        { "item": "copperblock", "count": 50 }
+        ],
+        "output": [
+        { "item": "copperore", "count": 2 }
+        ],
+        "groups": ["extractornamok1"]
+    },
+    
+
+    {
+        "input": [
+        { "item": "copperfence", "count": 50 }
+        ],
+        "output": [
+        { "item": "copperore", "count": 2 }
+        ],
+        "groups": ["extractornamok1"]
+    },
+
+
+    {
+        "input": [
+        { "item": "copperplatform", "count": 50 }
+        ],
+        "output": [
+        { "item": "copperore", "count": 2 }
+        ],
+        "groups": ["extractornamok1"]
+    },    
+
+
+    {
+        "input": [
+        { "item": "coppersupport", "count": 1 }
+        ],
+        "output": [
+        { "item": "copperore", "count": 2 }
+        ],
+        "groups": ["extractornamok1"]
+    },
+
 
     {
         "input" : [
@@ -392,6 +435,17 @@
 
     {
         "input" : [
+          { "item" : "liquidlava", "count" : 50 }
+        ],
+        "output" : [
+          { "item" : "corefragmentore", "count" : 1}
+      
+        ],
+        "groups" : [ "extractornamok1" ]
+    },
+
+    {
+        "input" : [
           { "item" : "tar", "count" : 20 }
         ],
         "output" : [
@@ -430,17 +484,6 @@
         ],
         "output" : [
           { "item" : "liquidfuel", "count" : 2}
-      
-        ],
-        "groups" : [ "extractornamok1" ]
-    },
-
-    {
-        "input" : [
-          { "item" : "moonrock", "count" : 20 }
-        ],
-        "output" : [
-          { "item" : "liquidfuel", "count" : 1}
       
         ],
         "groups" : [ "extractornamok1" ]
@@ -785,11 +828,12 @@
     
     {
       "input" : [
-        { "item" : "metallic", "count" : 20 }
+        { "item" : "metallic", "count" : 50 }
       ],
       "output" : [
         { "item" : "ironore", "count" : 5},
-        { "item" : "tungstenore", "count" : 3}
+        { "item" : "tungstenore", "count" : 3},
+        { "item" : "titaniumore", "count" : 1}
     
       ],
       "groups" : [ "extractornamok1" ]
@@ -815,9 +859,464 @@
     
       ],
       "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "moondust", "count" : 100 }
+      ],
+      "output" : [
+        { "item" : "phasematter", "count" : 1},
+        { "item" : "liquidfuel", "count" : 5}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "ancientpillar", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "essence", "count" : 16}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "ancientchest", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "essence", "count" : 5}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "ancientdoor", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "essence", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "ancientgate", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "essence", "count" : 40}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "ancientconsole", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "essence", "count" : 20}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "returnconsole", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "essence", "count" : 20}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "ancientbust", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "essence", "count" : 15}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "moonrock", "count" : 50 }
+      ],
+      "output" : [
+        { "item" : "supermatter", "count" : 2},
+        { "item" : "solidfuel", "count" : 3}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "moonstone", "count" : 50 }
+      ],
+      "output" : [
+        { "item" : "supermatter", "count" : 1},
+        { "item" : "solidfuel", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "meteoriterock", "count" : 100 }
+      ],
+      "output" : [
+        { "item" : "namokexistencia", "count" : 1},
+        { "item" : "namokenergia", "count" : 1},
+        { "item" : "essence", "count" : 5}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "junk", "count" : 100 }
+      ],
+      "output" : [
+        { "item" : "wire", "count" : 10},
+        { "item" : "namokfuncion", "count" : 1},
+        { "item" : "siliconboard", "count" : 5}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "apexbrainjar", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "brain", "count" : 1},
+        { "item" : "glass", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "treasurehoard", "count" : 100 }
+      ],
+      "output" : [
+        { "item" : "goldore", "count" : 4},
+        { "item" : "crystal", "count" : 2},
+        { "item" : "siilverore", "count" : 2},
+        { "item" : "prisiliteore", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "crystalplant", "count" : 5 }
+      ],
+      "output" : [
+        { "item" : "crystal", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "huntinglight1", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "glowfibre", "count" : 5}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "huntinglight2", "count" : 3 }
+      ],
+      "output" : [
+        { "item" : "glowfibre", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "energyaugment1", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "namokenergia", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "energyaugment2", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "namokenergia", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "energyaugment3", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "namokenergia", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+
+    {
+      "input" : [
+        { "item" : "smallbattery", "count" : 20 }
+      ],
+      "output" : [
+        { "item" : "namokenergia", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+
+
+    {
+      "input" : [
+        { "item" : "battery", "count" : 5 }
+      ],
+      "output" : [
+        { "item" : "namokenergia", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "rainbowwood", "count" : 100 }
+      ],
+      "output" : [
+        { "item" : "prisiliteore", "count" : 1},
+        { "item" : "purpledye", "count" : 10},
+        { "item" : "pinkdye", "count" : 10},
+        { "item" : "bluedye", "count" : 10},
+        { "item" : "greendye", "count" : 10},
+        { "item" : "yellowdye", "count" : 10},
+        { "item" : "orangedye", "count" : 10},
+        { "item" : "reddye", "count" : 10}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "logblock", "count" : 10 }
+      ],
+      "output" : [
+        { "item" : "biosample", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "alienweirdwood", "count" : 10 }
+      ],
+      "output" : [
+        { "item" : "alienwoodsap", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "alienstripedwood", "count" : 10 }
+      ],
+      "output" : [
+        { "item" : "alienwoodsap", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "brain", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "cellmatter", "count" : 8},
+        { "item" : "cellmateria", "count" : 1},
+        { "item" : "namokinteligencia", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "inferiorbrain", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "cellmatter", "count" : 3},
+        { "item" : "cellmateria", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "brainsblock", "count" : 50 }
+      ],
+      "output" : [
+        { "item" : "inferiorbrain", "count" : 1},
+        { "item" : "cellmatter", "count" : 10},
+        { "item" : "cellmateria", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "corruptdirtmaterial", "count" : 50 }
+      ],
+      "output" : [
+        { "item" : "fluidobase", "count" : 1},
+        { "item" : "cellmatter", "count" : 5}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "tentacleblock", "count" : 50 }
+      ],
+      "output" : [
+        { "item" : "fluidobase", "count" : 1},
+        { "item" : "corruptdirtmaterial", "count" : 5},
+        { "item" : "rawtentacle", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "tentaclepipe", "count" : 20 }
+      ],
+      "output" : [
+        { "item" : "tentacleblock", "count" : 1},
+        { "item" : "rawtentacle", "count" : 2},
+        { "item" : "cellmatter", "count" : 3}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "alienmeat", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "fleshstrand", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "redflask", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "redstim", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "blueflask", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "bluestim", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "greenflask", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "greenstim", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "apexcoolshelf2", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "greenflask", "count" : 5},
+        { "item" : "redflask", "count" : 5},
+        { "item" : "blueflask", "count" : 5}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "plantfibre", "count" : 100 }
+      ],
+      "output" : [
+        { "item" : "biosample", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
     }
     
     
-   
+    
+    
+    
+    
+    
+    
+    
 
   ]

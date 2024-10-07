@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "liquidwater", "count" : 100 },
+    { "item" : "cryonicextract", "count" : 1 }
+
+  ],
+  "output" : {
+    "item" : "ice",
+    "count" : 100
+  },
+  "groups" : ["materials", "transmutadordemateria"  ]
+}

@@ -1,10 +1,9 @@
 {
   "input" : [
-    { "item" : "goldbar", "count" : 4 },  
-    { "item" : "diamond", "count" : 1 },  
-    { "item" : "ironbar", "count" : 2 },  
-    { "item" : "coalore", "count" : 2 },  
-    { "item" : "namokessence", "count" : 2 }
+    { "item" : "goldbar", "count" : 8 },  
+    { "item" : "diamond", "count" : 2 },  
+    { "item" : "titaniumbar", "count" : 4 },
+    { "item" : "namokessence", "count" : 4 }
   ],
   "output" : {
     "item" : "namokpickaxe",

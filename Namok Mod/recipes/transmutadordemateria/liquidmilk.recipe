@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "liquidmilk", "count" : 1 },
+    { "item" : "fluidobase", "count" : 1 }
+
+  ],
+  "output" : {
+    "item" : "liquidmilk",
+    "count" : 2
+  },
+  "groups" : ["liquids", "transmutadordemateria"  ]
+}

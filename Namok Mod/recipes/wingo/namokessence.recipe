@@ -8,7 +8,7 @@
     { "item" : "liquidpoison", "count" : 160 },
     { "item" : "liquidslime", "count" : 160 },
     { "item" : "swampwater", "count" : 160 },
-    { "item" : "liquidmilk", "count" : 80 },  
+    { "item" : "liquidmilk", "count" : 160 },  
     { "item" : "goldbar", "count" : 16 },
     { "item" : "cryonicextract", "count" : 16 }, 
     { "item" : "scorchedcore", "count" : 16 }, 

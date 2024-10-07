@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "liquidhealing", "count" : 1 },
+    { "item" : "fluidobase", "count" : 1 }
+
+  ],
+  "output" : {
+    "item" : "liquidhealing",
+    "count" : 2
+  },
+  "groups" : ["liquids", "transmutadordemateria"  ]
+}

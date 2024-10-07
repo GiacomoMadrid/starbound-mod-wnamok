@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "liquidpoison", "count" : 1 },
+    { "item" : "fluidobase", "count" : 1 }
+
+  ],
+  "output" : {
+    "item" : "liquidpoison",
+    "count" : 2
+  },
+  "groups" : ["liquids", "transmutadordemateria"  ]
+}

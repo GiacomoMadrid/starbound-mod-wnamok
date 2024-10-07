@@ -1,0 +1,15 @@
+{
+    "input" : [
+      { "item" : "pistolanamok1", "count" : 1 },
+      { "item" : "silverbar", "count" : 8 },
+      { "item" : "titaniumbar", "count" : 4 },
+      { "item" : "upgrademodule", "count" : 2 },
+      { "item" : "cryonicextract", "count" : 4 },
+      { "item" : "namokpoder", "count" : 4 }
+    ],
+    "output" : {
+      "item" : "pistolanamok2",
+      "count" : 1
+    },
+    "groups" : ["all", "weapon", "pistol", "estacionnamok2"]
+  }

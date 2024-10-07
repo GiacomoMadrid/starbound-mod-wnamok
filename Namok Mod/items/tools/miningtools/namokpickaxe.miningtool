@@ -21,7 +21,7 @@
   "breakSound" : "/sfx/tools/pickaxe_break.ogg",
   "durability" : 16000,
   "durabilityPerUse" : 1,
-  "tileDamage" : 16,
+  "tileDamage" : 32,
   "harvestLevel" : 99,
   "tileDamageBlunted" : 0.2
 }

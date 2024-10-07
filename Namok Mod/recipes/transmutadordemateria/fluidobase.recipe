@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "liquidhealing", "count" : 50 },
+    { "item" : "liquidmilk", "count" : 50 }, 
+    { "item" : "namokexistencia", "count" : 8 }
+
+  ],
+  "output" : {
+    "item" : "fluidobase",
+    "count" : 100
+  },
+  "groups" : ["insumo", "transmutadordemateria"  ]
+}

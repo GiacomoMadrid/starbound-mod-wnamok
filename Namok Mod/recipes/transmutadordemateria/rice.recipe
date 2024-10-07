@@ -1,0 +1,13 @@
+{
+    "input" : [
+      { "item" : "rottenfood", "count" : 3 },
+      { "item" : "plantfibre", "count" : 10 },
+      { "item" : "namokforma", "count" : 1 },
+      { "item" : "namoktiempo", "count" : 1 }
+    ],
+    
+    "output" : { "item" : "rice", "count" : 2},
+    "duration" : 0.5,
+    "groups" : [ "food", "transmutadordemateria" ]
+  }
+  

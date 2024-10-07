@@ -1,0 +1,13 @@
+{
+    "input" : [
+      { "item" : "rottenfood", "count" : 5 },
+      { "item" : "fleshstrand", "count" : 1 },
+      { "item" : "namokforma", "count" : 1 },
+      { "item" : "namoktiempo", "count" : 1 }
+    ],
+    
+    "output" : { "item" : "rawpoultry", "count" : 1},
+    "duration" : 0.5,
+    "groups" : [ "food","transmutadordemateria" ]
+  }
+  

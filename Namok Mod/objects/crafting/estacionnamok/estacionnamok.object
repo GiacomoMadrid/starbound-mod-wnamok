@@ -37,7 +37,8 @@
     "namoksword",
     "namokpickaxe",
     "namokwoodendoor",
-    "namokbrainextractor"
+    "namokbrainextractor",
+    "namokteleporter"
   ],
 
   "inventoryIcon" : "estacionnamokicon.png",

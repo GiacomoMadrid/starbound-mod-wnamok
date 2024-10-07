@@ -1,0 +1,10 @@
+{
+  "itemName" : "fluidobase",
+  "price" : 32,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "fluidobase.png",
+  "description" : "El génesis de los fluidos. Puedes mezclarlo con cualquier otro.",
+  "shortdescription" : "Fluido Base",
+  "itemTags" : [ "reagent" ]
+}
