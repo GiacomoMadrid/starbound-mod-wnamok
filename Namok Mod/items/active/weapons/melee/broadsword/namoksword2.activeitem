@@ -1,0 +1,44 @@
+{
+  "itemName" : "namoksword2",
+  "price" : 1240,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Espada de plata mejorada con la esencia de poder. Simplemente E-S-E-N-C-I-A.",
+  "shortdescription" : "Espada Ñámok Media",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "namoksword2.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/broadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "namoksword2.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.8,
+    "baseDps" : 80,
+    "damageConfig" : {
+      "damageSourceKind" : "hammer"
+    }
+  },
+
+  "altAbilityType" : "risingslash",
+  "altAbility" : {
+    "damageConfig" : {
+      "damageSourceKind" : "hammer"
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

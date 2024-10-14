@@ -989,12 +989,15 @@
     
     {
       "input" : [
-        { "item" : "junk", "count" : 100 }
+        { "item" : "junk", "count" : 50 }
       ],
       "output" : [
-        { "item" : "wire", "count" : 10},
-        { "item" : "namokfuncion", "count" : 1},
-        { "item" : "siliconboard", "count" : 5}
+        { "item" : "wire", "count" : 4},
+        { "item" : "ironore", "count" : 1},
+        { "item" : "liquidpoison", "count" : 7},
+        { "item" : "siliconboard", "count" : 1},
+        { "item" : "poop", "count" : 1},
+        { "item" : "paper", "count" : 3}
     
       ],
       "groups" : [ "extractornamok1" ]

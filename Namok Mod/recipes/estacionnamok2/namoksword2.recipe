@@ -1,0 +1,13 @@
+{
+    "input" : [
+      { "item" : "namoksword", "count" : 1 },
+      { "item" : "titaniumbar", "count" : 1 },
+      { "item" : "upgrademodule", "count" : 2 },
+      { "item" : "namokpoder", "count" : 4 }
+    ],
+    "output" : {
+      "item" : "namoksword2",
+      "count" : 1
+    },
+    "groups" : ["all", "weapon", "sword", "estacionnamok2"]
+  }
