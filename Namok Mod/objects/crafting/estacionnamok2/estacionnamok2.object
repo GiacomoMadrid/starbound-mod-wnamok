@@ -28,7 +28,17 @@
     "cubonamok2",
     "pistolanamok2",
     "namoksilvershield2",
-    "namoksword2"
+    "namoksword2",
+    "battery",
+    "wire",
+    "laserdiode",
+    "manipulatormodule",
+    "siliconboard",
+    "stickofram",
+    "teleportercore",
+    "upgrademodule",
+    "techcard",
+    "artificialbrain"
   ],
 
 

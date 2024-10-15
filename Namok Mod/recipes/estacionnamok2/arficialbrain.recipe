@@ -1,0 +1,14 @@
+{
+    "input" : [
+      { "item" : "titaniumbar", "count" : 1 },
+      { "item" : "brain", "count" : 1 },
+      { "item" : "chipnamok", "count" : 1 },
+      { "item" : "namokinteligencia", "count" : 1 },
+      { "item" : "namokfuncion", "count" : 1 }
+    ],
+    
+    "output" : { "item" : "artificialbrain", "count" : 1},
+
+    "groups" : [ "wire", "estacionnamok2" ]
+  }
+  

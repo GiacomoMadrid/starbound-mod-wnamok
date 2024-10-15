@@ -1,0 +1,11 @@
+{
+  "itemName" : "triangliumwinpyramid",
+  "price" : 640,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "triangliumwinpyramid.png",
+  "description" : "Trianglium refinado en una pirámide de 3 caras.",
+  "shortdescription" : "Pirámide de Trianglium",
+  "itemTags" : [ "reagent" ]
+}
+  

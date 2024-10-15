@@ -19,7 +19,7 @@
   "twoHanded" : true,
   "strikeSounds" : [ "/sfx/tools/pickaxe_hit.ogg" ],
   "breakSound" : "/sfx/tools/pickaxe_break.ogg",
-  "durability" : 16000,
+  "durability" : 8000,
   "durabilityPerUse" : 1,
   "tileDamage" : 32,
   "harvestLevel" : 99,

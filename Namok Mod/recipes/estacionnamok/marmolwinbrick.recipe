@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "marmolwin", "count" : 10 },
     { "item" : "liquidwater", "count" : 5 },
-    { "item" : "rice", "count" : 1 }
+    { "item" : "rice", "count" : 4 }
   ],
   "output" : {
     "item" : "marmolwinbrick",

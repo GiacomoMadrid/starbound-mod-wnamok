@@ -1097,7 +1097,7 @@
 
     {
       "input" : [
-        { "item" : "smallbattery", "count" : 20 }
+        { "item" : "smallbattery", "count" : 32 }
       ],
       "output" : [
         { "item" : "namokenergia", "count" : 1}
@@ -1311,7 +1311,207 @@
     
       ],
       "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "poop", "count" : 5 }
+      ],
+      "output" : [
+        { "item" : "liquidpoison", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+
+    {
+      "input" : [
+        { "item" : "spidersilkblock", "count" : 5 }
+      ],
+      "output" : [
+        { "item" : "silkfibre", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    
+    {
+      "input" : [
+        { "item" : "copperbar", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "copperore", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "ironbar", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "ironore", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "tungstenbar", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "tungstenore", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "silverbar", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "silverore", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "goldbar", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "goldore", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "titaniumbar", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "titaniumore", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "durasteelbar", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "durasteelore", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "platiniumbar", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "platiniumore", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "refinedaegisalt", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "aegisaltore", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "refinedferozium", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "feroziumore", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "refinedviolium", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "violiumore", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "solariumstar", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "solariumore", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "prisilitestar", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "prisiliteore", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "plutoniumrod", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "plutoniumore", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "uraniumrod", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "uraniumore", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "triangliumwinpyramid", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "triangliumore", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
     }
+    
     
     
     

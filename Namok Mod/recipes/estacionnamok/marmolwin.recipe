@@ -1,7 +1,6 @@
 {
   "input" : [
     { "item" : "cobblestonematerial", "count" : 4 },
-    { "item" : "moondust", "count" : 4 },
     { "item" : "bone", "count" : 4 },
     { "item" : "liquidwater", "count" : 4 }
   ],

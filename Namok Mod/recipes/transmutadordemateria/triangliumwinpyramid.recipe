@@ -1,0 +1,10 @@
+{
+    "input" : [
+      { "item" : "triangliumore", "count" : 2 }
+    ],
+    
+    "output" : { "item" : "triangliumwinpyramid", "count" : 1},
+    "duration" : 0.5,
+    "groups" : [ "bars", "transmutadordemateria" ]
+  }
+  

@@ -1,7 +1,7 @@
 {
     "input" : [
       { "item" : "namoksword", "count" : 1 },
-      { "item" : "titaniumbar", "count" : 1 },
+      { "item" : "titaniumbar", "count" : 4 },
       { "item" : "upgrademodule", "count" : 2 },
       { "item" : "namokpoder", "count" : 4 }
     ],
