@@ -1510,6 +1510,35 @@
     
       ],
       "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "apexpod", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "fluidobase", "count" : 20},        
+        { "item" : "brain", "count" : 1},        
+        { "item" : "fleshstrand", "count" : 50},        
+        { "item" : "apexfossil1", "count" : 1},        
+        { "item" : "apexfossil2", "count" : 1},        
+        { "item" : "apexfossil3", "count" : 1},        
+        { "item" : "cellmatter", "count" : 15},        
+        { "item" : "leather", "count" : 10}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "apexpod2", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "fluidobase", "count" : 20}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
     }
     
     
