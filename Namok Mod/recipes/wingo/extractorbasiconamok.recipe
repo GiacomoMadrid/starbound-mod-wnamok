@@ -1,0 +1,17 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 10 }, 
+    { "item" : "coalore", "count" : 10 },
+    { "item" : "goldbar", "count" : 1 },
+    { "item" : "glass", "count" : 10 }, 
+    { "item" : "namokessence", "count" : 2 } 
+  ],
+
+  "output" : {
+    "item" : "extractorbasiconamok",
+    "count" : 1
+  },
+  "duration" : 1.5,
+  "groups" : [ "wingo", "all", "estructura", "wingo1" ,"wingo2"]
+}
+

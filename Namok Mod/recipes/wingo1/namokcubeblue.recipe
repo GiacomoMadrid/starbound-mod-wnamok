@@ -1,6 +1,6 @@
 {
     "input": [
-		{ "item" : "titaniumbar", "count" : 2 }, 
+		{ "item" : "tungstenbar", "count" : 2 }, 
 		{ "item" : "chipnamok", "count" : 2 },
 		{ "item" : "namokespacio", "count" : 2 },  
 		{ "item" : "wire", "count" : 8 }
@@ -9,6 +9,6 @@
       "item" : "namokcubeblue",
       "count" : 2
     },
-    "groups" : [ "wingo", "all", "objetowin", "namok", "wingo2" ]
+    "groups" : [ "wingo1", "all", "objetowin", "namok", "wingo2" ]
   }
   

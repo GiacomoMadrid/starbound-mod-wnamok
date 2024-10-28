@@ -1,7 +1,7 @@
 {
     "input" : [
       { "item" : "stickofram", "count" : 1 },
-      { "item" : "siloconboard", "count" : 2 },
+      { "item" : "siliconboard", "count" : 2 },
       { "item" : "goldbar", "count" : 1 },
       { "item" : "namokpoder", "count" : 4 },
       { "item" : "namokfuncion", "count" : 2 }

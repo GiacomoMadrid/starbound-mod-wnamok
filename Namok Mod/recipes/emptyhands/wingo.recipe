@@ -1,7 +1,7 @@
 {
   "input" : [
+    { "item" : "vasodevidrio", "count" : 1 },
     { "item" : "ironbar", "count" : 1 }, 
-    { "item" : "coalore", "count" : 1 },
     { "item" : "logblock", "count" : 1 },
     { "item" : "livingroot", "count" : 8 },
     { "item" : "paper", "count" : 2 }, 

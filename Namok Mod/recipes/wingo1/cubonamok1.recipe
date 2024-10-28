@@ -1,8 +1,9 @@
 {
 	"input": [
-		{ "item" : "titaniumbar", "count" : 1 }, 
+		{ "item" : "tungstenbar", "count" : 1 }, 
 		{ "item" : "chipnamok", "count" : 1 },
 		{ "item" : "namokespacio", "count" : 1 },  
+		{ "item" : "namokessence", "count" : 4 },  
 		{ "item" : "wire", "count" : 4 }
 	],
 
@@ -12,5 +13,5 @@
 		"item": "cubonamok1",
 		"count": 1
 	},
-	"groups": ["all", "plain", "tools", "wingo", "objetowin", "namok", "wingo2"]
+	"groups": ["all", "plain", "tools", "wingo1", "objetowin", "namok", "wingo2"]
 }

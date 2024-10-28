@@ -1,0 +1,10 @@
+{
+  "itemName" : "procesadorwingo",
+  "price" : 64,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "procesadorwingo.png",
+  "description" : "Procesador Win cuyo propósito de nuestra imaginación.",
+  "shortdescription" : "Procesador Wingo",
+  "itemTags" : [ "reagent", "tech", "namok" ]
+}

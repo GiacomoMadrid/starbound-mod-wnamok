@@ -8,7 +8,7 @@
     "paneLayoutOverride" : {
       "windowtitle" : {
         "title" : "  Wingo",
-        "subtitle" : "  Nivel 2",
+        "subtitle" : "  Nivel 3",
         "icon" : {
           "file" : "/interface/crafting/wingo.png"
         }
@@ -17,8 +17,8 @@
     "filter" : [ "plain", "craftingtable", "wingo2", "estructura" ]
   },
   "printable" : false,
-  "description" : "El mayor aliado de la tecnología ñámok.",
-  "shortdescription" : "^orange;Wingo (Nivel 2)^white;",
+  "description" : "El mayor aliado de la tecnología ñámok. Ahora con el poder los óktolójikum win.",
+  "shortdescription" : "^orange;Wingo (Nivel 3)^white;",
   "race" : "generic",
   "category" : "crafting",
   "price" : 1042,
@@ -58,3 +58,5 @@
     }
   ]
 }
+
+

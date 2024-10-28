@@ -1,0 +1,10 @@
+{
+  "itemName" : "oktolojim",
+  "price" : 64,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "oktolojim.png",
+  "description" : "Octógono de trianglium que contiene las 8 esencias ñámok.",
+  "shortdescription" : "Oktolójim",
+  "itemTags" : [ "reagent", "tech", "namok" ]
+}

@@ -22,5 +22,5 @@
     "item" : "namokessence",
     "count" : 64
   },
-  "groups" : [ "wingo", "all", "objects", "esencia", "wingo2"  ]
+  "groups" : [ "wingo", "all", "objects", "esencia", "wingo2", "wingo1"  ]
 }

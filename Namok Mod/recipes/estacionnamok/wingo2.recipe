@@ -1,20 +1,20 @@
 {
   "input" : [
-    { "item" : "wingo", "count" : 1 },  
-    { "item" : "chipnamok", "count" : 8 },  
-    { "item" : "titaniumbar", "count" : 20 },  
-    { "item" : "brain", "count" : 1 },  
+    { "item" : "wingo1", "count" : 1 },  
+    { "item" : "chipnamok", "count" : 16 },  
+    { "item" : "titaniumbar", "count" : 20 }, 
     { "item" : "stickofram", "count" : 4 },  
-    { "item" : "glass", "count" : 20 },  
     { "item" : "namokessence", "count" : 16 },  
-    { "item" : "wire", "count" : 40 },  
-    { "item" : "siliconboard", "count" : 16 },  
+    { "item" : "wire", "count" : 32 },  
     { "item" : "upgrademodule", "count" : 2 },  
     { "item" : "phasematter", "count" : 8 }
   ],
+
+	"duration": 0.75,
+
   "output" : {
     "item" : "wingo2",
     "count" : 1
   },
-  "groups" : [ "estacionnamok", "all", "objects", "estructura", "estacionnamok2", "herramienta"]
+  "groups" : [ "all", "objects", "estructura", "estacionnamok2", "herramienta", "wingo1"]
 }

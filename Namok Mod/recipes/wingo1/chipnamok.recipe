@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "namokessence", "count" : 4 }, 
+    { "item" : "oktolojim", "count" : 4 }, 
     { "item" : "wire", "count" : 8 },
     { "item" : "siliconboard", "count" : 4 },
-    { "item" : "titaniumbar", "count" : 1 },
+    { "item" : "titaniumbar", "count" : 2 },
     { "item" : "goldbar", "count" : 1 }, 
     { "item" : "inferiorbrain", "count" : 4 }
 
@@ -12,5 +12,5 @@
     "item" : "chipnamok",
     "count" : 4
   },
-  "groups" : [ "wingo", "all", "objects", "wingo2", "tech", "namok", "estacionnamok2", "wire" ]
+  "groups" : [ "wingo1", "all", "objects", "wingo2", "tech", "namok", "estacionnamok2", "wire" ]
 }

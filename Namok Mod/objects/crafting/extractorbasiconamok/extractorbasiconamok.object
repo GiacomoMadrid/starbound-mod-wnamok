@@ -1,9 +1,9 @@
 {
-  "objectName" : "extractornamok1",
+  "objectName" : "extractorbasiconamok",
   "colonyTags" : ["commerce"],
   "rarity" : "Rare",
   "description" : "Extrae la esencia de ciertos objetos.",
-  "shortdescription" : "^yellow;Extractor Ñámok II^white;",
+  "shortdescription" : "^yellow;Extractor Ñámok I^white;",
   "subtitle" : "Extrae la esencia de ciertos objetos.",
   "race" : "generic",
   "category" : "crafting",
@@ -21,10 +21,10 @@
   "flickerIntensityVariance" : 0.025,
   
 
-  "inventoryIcon" : "extractornamok1icon.png",
+  "inventoryIcon" : "extractorbasiconamokicon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "extractornamok1.png:<color>.<frame>", "fullbright" : true }, { "image" : "extractornamok1lit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "extractorbasiconamok.png:<color>.<frame>", "fullbright" : true }, { "image" : "extractorbasiconamoklit.png:<color>.<frame>" } ],
       "direction" : "left",
       "flipImages" : true,
 
@@ -36,7 +36,7 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "imageLayers" : [ { "image" : "extractornamok1.png:<color>.<frame>", "fullbright" : true }, { "image" : "extractornamok1lit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "extractorbasiconamok.png:<color>.<frame>", "fullbright" : true }, { "image" : "extractorbasiconamoklit.png:<color>.<frame>" } ],
       "direction" : "right",
 
       "imagePosition" : [0, 0],
@@ -53,13 +53,13 @@
 
   "statusEffects" : [ ],
 
-  "recipeGroup" : "extractornamok1",
+  "recipeGroup" : "extractorbasiconamok",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 10,
-  "uiConfig" : "/interface/objectcrafting/extractornamok1.config",
+  "uiConfig" : "/interface/objectcrafting/extractorbasiconamok.config",
   "frameCooldown" : 5,
   "autoCloseCooldown" : 3600,
   
-  "scripts" : ["/objects/crafting/extractornamok1/extractornamok1.lua"]
+  "scripts" : ["/objects/crafting/extractorbasiconamok/extractorbasiconamok.lua"]
 
 }

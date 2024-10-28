@@ -1,0 +1,53 @@
+{
+  "objectName" : "wingo1",
+  "colonyTags" : ["crafting","light"],
+  "printable" : false,
+  "price" : 320,
+  "rarity" : "Legendary",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingwingo1.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  Wingo1",
+        "subtitle" : "  Nivel 2",
+        "icon" : {
+          "file" : "/interface/crafting/wingo1.png"
+        }
+      }
+    },
+    "filter" : ["craftingtable", "wingo1", "estructura" ]
+  },
+  "description" : "El mayor aliado de la tecnología ñámok. Ahora más grande.",
+  "shortdescription" : "^orange;Wingo Nivel 2^white;",
+  "race" : "generic",
+  "category" : "crafting",
+
+  "learnBlueprintsOnPickup" : [
+    "estacionnamok",
+    "extractornamok1",
+    "cubonamok1",
+    "wingo2"
+  ],
+
+  "lightColor" : [179, 149, 107],
+
+  
+  "inventoryIcon" : "wingo1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wingo1.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 1.0,
+
+      "spaces" : [ [0, 0], [0, 1], 
+                   [1, 0], [1, 1] 
+                 ],
+
+      "spaceScan" : 0.1,           
+      "anchors" : [ "bottom" ]
+    }
+  ]
+
+}

@@ -12,5 +12,7 @@
     "item" : "estacionnamok",
     "count" : 1
   },
-  "groups" : [ "wingo", "all", "estructura" ]
+  "duration" : 1.0,
+  "groups" : [ "wingo", "all", "estructura", "wingo1" ,"wingo2"]
 }
+

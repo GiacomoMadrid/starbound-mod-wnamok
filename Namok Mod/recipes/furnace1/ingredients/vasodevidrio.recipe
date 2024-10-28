@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "glass", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "vasodevidrio",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurnace", "ingredients", "insumo", "all", "hornowin1", "hornowin2", "transmutadordemateria" ]
+}

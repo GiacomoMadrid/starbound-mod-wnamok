@@ -1,5 +1,6 @@
 {
     "input" : [
+      { "item" : "hornowin1", "count" : 20 },
       { "item" : "titaniumbar", "count" : 20 },
       { "item" : "glass", "count" : 20 },
       { "item" : "namokforma", "count" : 16 },

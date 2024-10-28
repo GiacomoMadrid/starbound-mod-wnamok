@@ -1,0 +1,22 @@
+{
+    "input" : [
+        { "item" : "wingo", "count" : 1},
+        { "item" : "tungstenbar", "count" : 20},
+        { "item" : "oktolojim", "count" : 8},
+        { "item" : "glass", "count" : 20},
+        { "item" : "upgrademodule", "count" : 2},
+        { "item" : "namokessence", "count" : 16},
+        { "item" : "artificialbrain", "count" : 1},
+        { "item" : "wire", "count" : 32},
+        { "item" : "stickofram", "count" : 4},
+        { "item" : "siliconboard", "count" : 16}
+    ],
+
+	"duration": 0.75,
+
+	"output": {
+		"item": "wingo1",
+		"count": 1
+	},
+	"groups": ["all", "herramienta", "namok", "estacionnamok2", "estacionnamok3"]
+}

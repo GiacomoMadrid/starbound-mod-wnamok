@@ -196,7 +196,7 @@ function uninit()
   end
 
   --local item = root.assetJson("/items/active/cubonamok1/cubonamok1.activeitem")
-  local item = root.assetJson("/recipes/wingo/cubonamok1.recipe:output")
+  local item = root.assetJson("/recipes/wingo1/cubonamok1.recipe:output")
   sb.logInfo("Valor de item: %s", sb.printJson(item, 1))
   sb.logInfo("Tipo de item: %s", sb.printJson(type(item), 1))
 

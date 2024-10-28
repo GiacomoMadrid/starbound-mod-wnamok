@@ -26,9 +26,17 @@
   "learnBlueprintsOnPickup" : [
     "estacionnamok",
     "namokessence",
-    "namokcubeblue",
-    "chipnamok",
-    "wingo2"
+    "extractorbasiconamok",
+    "hornowin1",
+    "namokenergia",
+    "namokespacio",
+    "namokexistencia",
+    "namoktiempo",
+    "namokforma",
+    "namokfuncion",
+    "namokpoder",
+    "namokinteligencia",
+    "wingo1"
   ],
 
   "lightColor" : [179, 149, 107],
@@ -42,8 +50,7 @@
       "frames" : 4,
       "animationCycle" : 1.0,
 
-      "spaces" : [ [0, 0], [0, 1], 
-                   [1, 0], [1, 1] 
+      "spaces" : [ [0, 0] 
                  ],
 
       "spaceScan" : 0.1,           
