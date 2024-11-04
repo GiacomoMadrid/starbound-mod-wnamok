@@ -8,5 +8,5 @@
     "item" : "ice",
     "count" : 100
   },
-  "groups" : ["materials", "transmutadordemateria"  ]
+  "groups" : ["materials", "transmutadordemateria", "hornowin2"   ]
 }

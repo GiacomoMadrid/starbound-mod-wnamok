@@ -1,8 +1,9 @@
 {
   "input" : [
+    { "item" : "namokbasicshield", "count" : 1 },
     { "item" : "silverbar", "count" : 8 },
-    { "item" : "upgrademodule", "count" : 2 },
-    { "item" : "namokbasicshield", "count" : 1 }
+    { "item" : "tungstenbar", "count" : 8 },
+    { "item" : "upgrademodule", "count" : 2 }
   ],
   "output" : { 
     "item" : "namoksilvershield", 

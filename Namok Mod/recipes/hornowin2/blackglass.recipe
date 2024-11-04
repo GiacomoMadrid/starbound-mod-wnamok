@@ -1,0 +1,10 @@
+{
+    "input" : [
+      { "item" : "obsidian", "count" : 1 }
+    ],
+    
+    "output" : { "item" : "blackglass", "count" : 2},
+    "duration" : 0.2,
+    "groups" : [ "materials", "transmutadordemateria", "hornowin2" ]
+  }
+  

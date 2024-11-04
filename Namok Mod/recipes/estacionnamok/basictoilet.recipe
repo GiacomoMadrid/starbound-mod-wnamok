@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "firedclay", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "basictoilet",
+    "count" : 1
+  },
+  "groups" : ["all", "estacionnamok", "estacionnamok2", "hogar"]
+}

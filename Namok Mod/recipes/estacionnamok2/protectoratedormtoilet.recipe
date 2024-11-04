@@ -1,0 +1,12 @@
+{
+    "input" : [
+      { "item" : "firedclay", "count" : 5 },
+      { "item" : "triangliumwinpyramid", "count" : 1 },
+      { "item" : "steelpipe", "count" : 4}
+    ],
+    "output" : {
+      "item" : "protectoratedormtoilet",
+      "count" : 1
+    },
+    "groups" : ["all", "hogar", "estacionnamok2"]
+  }

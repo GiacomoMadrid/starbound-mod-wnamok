@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "paper", "count" : 32 }
+  ],
+  "output" : {
+    "item" : "protectoratedormtoiletroll",
+    "count" : 1
+  },
+  "groups" : ["all", "estacionnamok", "estacionnamok2", "hogar"]
+}

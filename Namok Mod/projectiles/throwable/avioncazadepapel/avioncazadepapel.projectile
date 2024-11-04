@@ -1,0 +1,23 @@
+{
+  "projectileName" : "avioncazadepapel",
+  "image" : "avioncazadepapel.png",
+  "animationCycle" : 0.25,
+  "physics" : "grenade",
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "speed" : 128,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 48.0,
+  "knockback" : 16,
+  "persistentAudio" : "/sfx/projectiles/throw_item.ogg",
+  "damageKind" : "bow",
+  "emitters" : [ "daggerblue" ],
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ]
+}
+
+

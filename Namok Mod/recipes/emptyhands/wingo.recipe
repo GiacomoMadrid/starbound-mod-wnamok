@@ -2,10 +2,11 @@
   "input" : [
     { "item" : "vasodevidrio", "count" : 1 },
     { "item" : "ironbar", "count" : 1 }, 
+    { "item" : "coalore", "count" : 1 }, 
     { "item" : "logblock", "count" : 1 },
     { "item" : "livingroot", "count" : 8 },
     { "item" : "paper", "count" : 2 }, 
-    { "item" : "essence", "count" : 40 }
+    { "item" : "money", "count" : 256 }
   ],
   "output" : {
     "item" : "wingo",

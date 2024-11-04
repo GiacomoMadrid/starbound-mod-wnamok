@@ -9,10 +9,10 @@
     { "item" : "livingroot", "count" : 4 } 
   ],
   "output" : {
-    "item" : "estacionnamok",
+    "item" : "estacionnamok1",
     "count" : 1
   },
   "duration" : 1.0,
-  "groups" : [ "wingo", "all", "estructura", "wingo1" ,"wingo2"]
+  "groups" : [ "wingo", "all", "estructura", "wingo1" ,"wingo2", "wingo3", "wingo4", "wingo5"]
 }
 

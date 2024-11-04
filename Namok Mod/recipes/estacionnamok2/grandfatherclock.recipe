@@ -1,0 +1,13 @@
+{
+    "input" : [
+      { "item" : "relojbase", "count" : 1 },
+      { "item" : "darkwoodmaterial", "count" : 20 },
+      { "item" : "browndye", "count" : 5},
+      { "item" : "smallbattery", "count" : 2}
+    ],
+    "output" : {
+      "item" : "grandfatherclock",
+      "count" : 1
+    },
+    "groups" : ["all", "hogar", "estacionnamok2"]
+  }

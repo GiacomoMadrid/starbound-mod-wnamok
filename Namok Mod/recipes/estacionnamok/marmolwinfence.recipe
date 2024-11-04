@@ -5,7 +5,7 @@
   ],
   "output" : {
     "item" : "marmolwinfence",
-    "count" : 50
+    "count" : 30
   },
   "groups" : [ "estacionnamok", "all", "materials", "estacionnamok2"]
 }

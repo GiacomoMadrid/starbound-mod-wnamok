@@ -1,0 +1,34 @@
+{
+  "objectName" : "namokwallclock",
+  "colonyTags" : ["generic"],
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 60,
+  "description" : "Un reloj con bordes de oro, nada nuevo... aparentemente.",
+  "shortdescription" : "Reloj ñámok",
+  "race" : "generic",
+
+  "inventoryIcon" : "namokwallclockicon.png",
+  "orientations" : [
+    {
+      "image" : "namokwallclock.png:<color>.<frame>",
+      "imagePosition" : [-8, -8],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "namokwallclock.png:<color>.<frame>",
+      "imagePosition" : [-8, -8],
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

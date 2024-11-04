@@ -9,5 +9,5 @@
     "item" : "fluidobase",
     "count" : 100
   },
-  "groups" : ["insumo", "transmutadordemateria"  ]
+  "groups" : ["insumo", "transmutadordemateria", "hornowin2"   ]
 }

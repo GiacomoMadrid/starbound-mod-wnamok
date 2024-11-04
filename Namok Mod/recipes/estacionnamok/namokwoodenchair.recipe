@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 8 },
+    { "item" : "cottonwool", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "namokwoodenchair",
+    "count" : 1
+  },
+  "groups" : ["all", "estacionnamok", "estacionnamok2", "hogar"]
+}

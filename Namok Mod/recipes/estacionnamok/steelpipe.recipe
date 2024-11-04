@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 2 },    
+    { "item" : "coalore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "steelpipe",
+    "count" : 50
+  },
+  "groups" : [ "estacionnamok", "all", "materials", "estacionnamok2"]
+}

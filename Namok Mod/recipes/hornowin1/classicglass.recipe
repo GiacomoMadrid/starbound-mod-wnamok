@@ -1,0 +1,10 @@
+{
+    "input" : [
+      { "item" : "glass", "count" : 2 }
+    ],
+    
+    "output" : { "item" : "classicglass", "count" : 1},
+    "groups" : [ "insumo", "transmutadordemateria", "hornowin1" ]
+  }
+  
+  

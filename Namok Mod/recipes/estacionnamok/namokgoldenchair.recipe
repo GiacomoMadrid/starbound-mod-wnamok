@@ -1,0 +1,14 @@
+{
+    "input" : [
+      { "item" : "goldbar", "count" : 8 },
+      { "item" : "cottonwool", "count" : 5 },
+      { "item" : "reddye", "count" : 1 },
+      { "item" : "whitedye", "count" : 1 }
+    ],
+    "output" : {
+      "item" : "namokgoldenchair",
+      "count" : 1
+    },
+    "groups" : ["all", "estacionnamok", "estacionnamok2", "hogar"]
+  }
+  

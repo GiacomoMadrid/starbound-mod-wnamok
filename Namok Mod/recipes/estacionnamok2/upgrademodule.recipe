@@ -1,9 +1,10 @@
 {
     "input" : [
       { "item" : "diamond", "count" : 1 },
+      { "item" : "tungstenbar", "count" : 10 },
       { "item" : "stickofram", "count" : 2 },
-      { "item" : "durasteelbar", "count" : 2 },
       { "item" : "namokforma", "count" : 1 },
+      { "item" : "namokpoder", "count" : 1 },
       { "item" : "namokfuncion", "count" : 2 }
     ],
     

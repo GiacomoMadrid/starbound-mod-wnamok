@@ -4,7 +4,7 @@
   "rarity" : "Rare",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/windowconfig/craftingestacionnamok.config",
+    "config" : "/interface/windowconfig/craftingestacionnamok2.config",
     "paneLayoutOverride" : {
       "windowtitle" : {
         "title" : "  Estación Ñámok",
@@ -32,13 +32,31 @@
     "mirror",
     "slopedglasspanel",
     "marmolwin",
+    "steelpipe",
     "namokballesta",
     "namokbasicshield",
     "namoksword",
     "namokpickaxe",
     "namokwoodendoor",
-    "namokbrainextractor",
-    "namokteleporter"
+    "namokbed1",
+    "medievaldiningtable",
+    "goldenpedestal",
+    "goldvase5",
+    "goldvase3",
+    "basictoilet",
+    "bathroomsink",
+    "bathroomurinal",
+    "protectoratedormtoiletroll",
+    "basicbath",
+    "bathroomtrash",
+    "bathroomwinstall",
+    "namoktorch",
+    "mesitademadera",
+    "platodelosa",
+    "namokwoodenchair",
+    "namokwoodentable",
+    "namokgoldenchair",
+    "estacionnamok2"
   ],
 
   "inventoryIcon" : "estacionnamokicon.png",

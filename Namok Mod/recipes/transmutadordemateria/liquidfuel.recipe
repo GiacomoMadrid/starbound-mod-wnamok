@@ -8,5 +8,5 @@
     "item" : "liquidfuel",
     "count" : 2
   },
-  "groups" : ["liquids", "transmutadordemateria"  ]
+  "groups" : ["liquids", "transmutadordemateria", "hornowin2"  ]
 }

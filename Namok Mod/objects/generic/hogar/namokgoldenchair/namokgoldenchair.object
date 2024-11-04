@@ -1,0 +1,43 @@
+{
+  "objectName" : "namokgoldenchair",
+  "colonyTags" : ["generic", "furniture"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 75,
+  "description" : "Una silla de Oro. Muy cómoda.",
+  "shortdescription" : "Silla de oro",
+  "race" : "generic",
+
+
+  "inventoryIcon" : "namokgoldenchairicon.png",
+  "orientations" : [
+    {
+      "image" : "namokgoldenchair.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "direction" : "left",
+      "flipImages" : true,
+      "sitPosition" : [3, 22],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "namokgoldenchair.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "direction" : "right",
+      "sitPosition" : [1, 22],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false
+
+}

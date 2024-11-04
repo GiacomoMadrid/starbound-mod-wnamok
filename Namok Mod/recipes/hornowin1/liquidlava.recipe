@@ -1,0 +1,11 @@
+{
+    "input" : [
+      { "item" : "corefragmentore", "count" : 1 }
+    ],
+    
+    "output" : { "item" : "liquidlava", "count" : 5},
+    "groups" : [ "liquids", "transmutadordemateria", "hornowin1" ]
+  }
+  
+  
+  

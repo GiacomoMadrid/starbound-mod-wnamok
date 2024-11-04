@@ -1,0 +1,11 @@
+{
+    "input" : [
+      { "item" : "bathroomsink", "count" : 1 },
+      { "item" : "mirror", "count" : 2 }
+    ],
+    "output" : {
+      "item" : "protectoratedormmirror",
+      "count" : 1
+    },
+    "groups" : ["all", "hogar", "estacionnamok2"]
+  }

@@ -6,17 +6,17 @@
   "rarity" : "Legendary",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/windowconfig/craftingwingo1.config",
+    "config" : "/interface/windowconfig/craftingwingo2.config",
     "paneLayoutOverride" : {
       "windowtitle" : {
         "title" : "  Wingo1",
         "subtitle" : "  Nivel 2",
         "icon" : {
-          "file" : "/interface/crafting/wingo1.png"
+          "file" : "/interface/crafting/wingo.png"
         }
       }
     },
-    "filter" : ["craftingtable", "wingo1", "estructura" ]
+    "filter" : [ "wingo", "wingo1"]
   },
   "description" : "El mayor aliado de la tecnología ñámok. Ahora más grande.",
   "shortdescription" : "^orange;Wingo Nivel 2^white;",
@@ -24,9 +24,9 @@
   "category" : "crafting",
 
   "learnBlueprintsOnPickup" : [
-    "estacionnamok",
-    "extractornamok1",
     "cubonamok1",
+    "namokcubeblue",
+    "chipnamok",
     "wingo2"
   ],
 

@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "silverbar", "count" : 16 },
+    { "item" : "tungstenbar", "count" : 8 },
+    { "item" : "venomsample", "count" : 1 },
+    { "item" : "namokpoder", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "pistolanamokv1",
+    "count" : 1
+  },
+  "groups" : [ "all", "weapon", "pistol", "estacionnamok2"]
+}

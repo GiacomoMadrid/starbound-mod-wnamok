@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "namokwoodentable",
+    "count" : 1
+  },
+  "groups" : ["all", "estacionnamok", "estacionnamok2", "hogar"]
+}

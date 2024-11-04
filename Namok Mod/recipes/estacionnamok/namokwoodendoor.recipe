@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "darkwoodmaterial", "count" : 20 },
+    { "item" : "darkwoodmaterial", "count" : 10 },
     { "item" : "goldbar", "count" : 1 }
   ],
   "output" : {

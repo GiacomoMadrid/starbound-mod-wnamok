@@ -1,0 +1,15 @@
+{
+    "input" : [
+      { "item" : "basictoilet", "count" : 1 },
+      { "item" : "protectoratedormtoiletroll", "count" : 1 },
+      { "item" : "ironbar", "count" : 2 },
+      { "item" : "coalore", "count" : 2 },
+      { "item" : "darkwoodmaterial", "count" : 10 }
+    ],
+    "output" : {
+      "item" : "bathroomwinstall",
+      "count" : 1
+    },
+    "groups" : ["all", "estacionnamok", "estacionnamok2", "hogar"]
+  }
+  

@@ -162,7 +162,7 @@
 
       "itemSpawnParameters" : {
         "price" : 750,
-        "inventoryIcon" : "/objects/crafting/transmutadordemateria/transmutadordemateriaicon.png",
+        "inventoryIcon" : "transmutadordemateriaicon.png",
         "placementImage" : "transmutadordemateria.png:default.default",
         "placementImagePosition" : [0, 0],   
 

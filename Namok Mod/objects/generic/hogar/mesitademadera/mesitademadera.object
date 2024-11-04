@@ -1,0 +1,35 @@
+{
+  "objectName" : "mesitademadera",
+  "colonyTags" : ["cabin","commerce"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 60,
+  "printable" : false,
+  "description" : "Una pequeña mesa de madera con forma de la letra ñámok 'em'.",
+  "shortdescription" : "Mesa Em de madera",
+  "race" : "generic",
+
+
+  "inventoryIcon" : "mesitademaderaicon.png",
+  "orientations" : [
+    {
+      "image" : "mesitademadera.png:<color>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "mesitademadera.png:<color>",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

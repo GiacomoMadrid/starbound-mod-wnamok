@@ -1,0 +1,43 @@
+{
+  "objectName" : "namokwoodenchair",
+  "colonyTags" : ["generic","furniture"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 75,
+  "description" : "Una silla de madera. Muy cómoda.",
+  "shortdescription" : "Silla de madera",
+  "race" : "generic",
+
+
+  "inventoryIcon" : "namokwoodenchairicon.png",
+  "orientations" : [
+    {
+      "image" : "namokwoodenchair.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "direction" : "left",
+      "flipImages" : true,
+      "sitPosition" : [3, 22],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "namokwoodenchair.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "direction" : "right",
+      "sitPosition" : [1, 22],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false
+
+}

@@ -1,0 +1,11 @@
+{
+    "input" : [
+      { "item" : "ice", "count" : 10 }
+    ],
+    
+    "output" : { "item" : "liquidwater", "count" : 1},
+    "groups" : [ "liquids", "transmutadordemateria", "hornowin1" ]
+  }
+  
+  
+  

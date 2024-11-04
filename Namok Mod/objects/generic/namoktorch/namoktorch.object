@@ -1,0 +1,137 @@
+{
+  "objectName" : "namoktorch",
+  "colonyTags" : ["sandstone","light"],
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "category" : "light",
+  "price" : 100,
+
+  "maximumLiquidLevel" : 0.7,
+
+  "description" : "Una antorcha de oro.",
+  "shortdescription" : "Antorcha de oro",
+  "race" : "generic",
+
+  "apexDescription" : "Una antorcha de oro.",
+  "avianDescription" : "Una antorcha de oro. Mejor que las de arena.",
+  "floranDescription" : "Una antorcha de oro. Peligroso.",
+  "glitchDescription" : "Una simple antorcha de oro.",
+  "humanDescription" : "Una antorcha de oro. Los lujos que se da el que puede...",
+  "hylotlDescription" : "Una antorcha de oro. No funcionaría bajo el mar.",
+  "novakidDescription" : "Una antorcha de oro. Muy brillante.",
+
+  "statusEffects" : [ ],
+
+  "lightColor" : [239, 239, 141],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "namoktorchicon.png",
+  "orientations" : [
+    {
+      "image" : "namoktorch.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "animationParts" : {
+        "bg" : "namoktorch.png",
+        "fg" : "namoktorchlit.png"
+      },
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [-1, 0], [1, 0] ],
+
+      "direction" : "right"
+    },
+
+    {
+      "image" : "namoktorch.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "animationParts" : {
+        "bg" : "namoktorch.png",
+        "fg" : "namoktorchlit.png"
+      },
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [0, -1] ],
+
+      "direction" : "right"
+    },
+
+    {
+      "image" : "namoktorchleft.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "animationParts" : {
+        "bg" : "namoktorchleft.png",
+        "fg" : "namoktorchleftlit.png"
+      },
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [-1, 0], [-1, 1] ],
+
+      "direction" : "right"
+    },
+
+    {
+      "image" : "namoktorchright.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "animationParts" : {
+        "bg" : "namoktorchright.png",
+        "fg" : "namoktorchrightlit.png"
+      },
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [1, 0], [1, 1] ],
+
+      "direction" : "right"
+    },
+
+    {
+      "image" : "namoktorch.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "animationParts" : {
+        "bg" : "namoktorch.png",
+        "fg" : "namoktorchlit.png"
+      },
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "bgAnchors" : [ [0, 0] ],
+
+      "direction" : "right"
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/torch.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "animation" : "namoktorch.animation",
+  "animationParts" : {
+    "bg" : "namoktorch.png",
+    "fg" : "namoktorchlit.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/torch_on1.ogg", "/sfx/objects/torch_on2.ogg" ],
+      "off" : [ "/sfx/objects/torch_off1.ogg", "/sfx/objects/torch_off2.ogg", "/sfx/objects/torch_off3.ogg" ]
+    }
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+ 
+
+  "inputNodes" : [ [0, 0] ]
+}

@@ -142,6 +142,19 @@
     },
     
     {
+      "input" : [
+        { "item" : "namokwallclock", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "relojbase", "count" : 1},        
+        { "item" : "goldore", "count" : 1},        
+        { "item" : "namokessence", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+
+    {
         "input" : [
           { "item" : "pastelwallclock", "count" : 1 }
         ],

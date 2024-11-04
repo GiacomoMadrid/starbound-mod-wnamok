@@ -1,0 +1,44 @@
+{
+  "objectName" : "bathroomwinstall",
+  "colonyTags" : ["furniture"],
+  "rarity" : "Common",
+  "description" : "Un baño con puerta de madera, indispensable. Tiene el símbolo de los SSHH.",
+  "shortdescription" : "Baño",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 110,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "bathroomwinstall.png:<color>",
+      "flipImages" : true,
+      "sitPosition" : [-6, 22],
+      "direction" : "left",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "image" : "bathroomwinstall.png:<color>",
+      "sitPosition" : [2, 22],
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitCoverImage" : "/objects/generic/hogar/bathroomwinstall/bathroomwinstallcover.png",
+  "sitFlipDirection" : false
+}

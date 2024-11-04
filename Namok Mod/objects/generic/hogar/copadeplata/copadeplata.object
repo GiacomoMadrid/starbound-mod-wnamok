@@ -1,0 +1,22 @@
+{
+  "objectName" : "copadeplata",
+  "colonyTags" : ["cooking"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 30,
+  "description" : "Una fina copa de plata.",
+  "shortdescription" : "Copa de plata",
+  "race" : "generic",
+
+  "inventoryIcon" : "copadeplataicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "copadeplata.png:<color>",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "objectName" : "estacionnamok1",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Uncommon",
+  "race" : "generic",
+  "category" : "crafting",
+  
+  "breakDropOptions" : [],
+
+  "price" : 256,
+  "printable" : false,
+
+  "scripts" : [ "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua" ],
+
+  "animation" : "estacionnamok.animation",
+  "animationPosition" : [0, 16],
+  
+  "inventoryIcon" : "estacionnamokicon.png",
+  "placementImage" : "estacionnamok.png:default.default",
+  "placementImagePosition" : [-16, 0],    
+
+  "description" : "Construye tecnología ñámok de nivel 1.",
+  "shortdescription" : "^orange;Estación Ñámok^white;",
+
+  "startingUpgradeStage" : 1,
+  "maxUpgradeStage" : 3,
+
+  "upgradeStages" : [
+    {
+      "animationState" : "estacionnamok",
+
+      "itemSpawnParameters" : {
+        "inventoryIcon" : "estacionnamokicon.png",
+        "placementImage" : "estacionnamok.png:default.default",
+        "placementImagePosition" : [-16, 0],    
+
+        "description" : "Construye tecnología ñámok de nivel 1.",
+        "shortdescription" : "^orange;Estación Ñámok^white;"
+      },
+
+      "interactData" : {
+        "config" : "/interface/windowconfig/craftingestacionnamok2.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : " Estación Ñámok",
+            "subtitle" : " ^#b9b5b2;Nivel 1",
+            "icon" : {
+              "file" : "/interface/crafting/estacionnamok.png"
+            }
+          }
+        },
+        "filter" : [ "estacionnamok" ],
+        "initialRecipeUnlocks" : [
+          "goldenwinblock1",
+          "goldenwinblock2",
+          "goldwintiles",
+          "goldenplatform",
+          "silverplatform",
+          "mirror",
+          "slopedglasspanel",
+          "marmolwin",
+          "steelpipe",
+          "namokballesta",
+          "namokbasicshield",
+          "namoksword",
+          "namokpickaxe",
+          "namokwoodendoor",
+          "namokbed1",
+          "medievaldiningtable",
+          "goldenpedestal",
+          "goldvase5",
+          "goldvase3",
+          "basictoilet",
+          "bathroomsink",
+          "bathroomurinal",
+          "protectoratedormtoiletroll",
+          "basicbath",
+          "bathroomtrash",
+          "bathroomwinstall",
+          "namoktorch",
+          "mesitademadera",
+          "platodelosa",
+          "namokwoodenchair",
+          "namokwoodentable",
+          "namokgoldenchair"
+        ],
+        
+        "upgradeMaterials" : [
+          { "item" : "tungstenbar", "count" : 10 },
+          { "item" : "glass", "count" : 20 },
+          { "item" : "triangliumwinpyramid", "count" : 8 }       
+        ]
+      },
+
+      "learnBlueprintsOnPickup" : [
+        "goldenwinblock1",
+        "goldenwinblock2",
+        "goldwintiles",
+        "goldenplatform",
+        "silverplatform",
+        "mirror",
+        "slopedglasspanel",
+        "marmolwin",
+        "steelpipe",
+        "namokballesta",
+        "namokbasicshield",
+        "namoksword",
+        "namokpickaxe",
+        "namokwoodendoor",
+        "namokbed1",
+        "medievaldiningtable",
+        "goldenpedestal",
+        "goldvase5",
+        "goldvase3",
+        "basictoilet",
+        "bathroomsink",
+        "bathroomurinal",
+        "protectoratedormtoiletroll",
+        "basicbath",
+        "bathroomtrash",
+        "bathroomwinstall",
+        "namoktorch",
+        "mesitademadera",
+        "platodelosa",
+        "namokwoodenchair",
+        "namokwoodentable",
+        "namokgoldenchair"
+      ],
+
+      "upgradeSoundEffect" : "fanfare",
+      "upgradeParticleEffect" : "dust"
+    },
+
+    {
+      "animationState" : "estacionnamok2",
+
+      "itemSpawnParameters" : {
+        "price" : 512,
+        "inventoryIcon" : "estacionnamok2icon.png",
+        "placementImage" : "estacionnamok2.png:default.default",
+        "placementImagePosition" : [-16, 0],    
+
+        "description" : "Crea tecnología ñámok medianamente decente.",
+        "shortdescription" : "^orange;Estación Ñámok II^white;"
+      },
+
+      "interactData" : {
+        "config" : "/interface/windowconfig/craftingestacionnamok2.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : " Estación Ñámok II",
+            "subtitle" : " ^#b9b5b2;Nivel 2",
+            "icon" : {
+              "file" : "/interface/crafting/estacionnamok.png"
+            }
+          }
+        },
+        "filter" : [ "estacionnamok", "estacionnamok2" ],  
+        "initialRecipeUnlocks" : [ 
+          "wingo1",
+          "namoksilvershield",
+          "namokballesta2",
+          "namoksword2",
+          "classiccurtain1",
+          "classiccurtain2",
+          "classiccurtain3",
+          "namokmetaltable1",
+          "namokmetaltable2",
+          "namokmetalchair",
+          "protectoratedormmirror",
+          "protectoratedormtoilet",
+          "namokwallclock",
+          "protectorateclock",
+          "owlclock",
+          "grandfatherclock",
+          "copadeplata",
+          "copadeoro",
+          "caliznamok",
+          "namokbrainextractor",
+          "wire",
+          "smallbattery",
+          "laserdiode",
+          "manipulatormodule",
+          "upgrademodule",
+          "techcard",
+          "teleportercore",
+          "pistolanamokv1",
+          "pistolanamoke1",
+          "pistolanamokf1",
+          "pistolanamok1",
+          "siliconboard",
+          "stickofram",
+          "avioncazadepapel",
+          "artificialbrain",
+          "cuadrodeluz",
+          "namoktent1",
+          "oktolojim",           
+          "wingo2",
+          "chipnamok"
+        ],
+        "upgradeMaterials" : [
+          { "item" : "titaniumbar", "count" : 10 },
+          { "item" : "chipnamok", "count" : 4 },
+          { "item" : "stickofram", "count" : 4 },
+          { "item" : "wire", "count" : 16 }   
+        ]     
+
+      },
+
+      "learnBlueprintsOnPickup" : [],
+
+      "upgradeSoundEffect" : "fanfare",
+      "upgradeParticleEffect" : "dust"
+    },
+
+    {
+      "animationState" : "estacionnamok3",
+
+      "itemSpawnParameters" : {
+        "price" : 1024,
+        "inventoryIcon" : "estacionnamok3icon.png",
+        "placementImage" : "estacionnamok3.png:default.default",
+        "placementImagePosition" : [-16, 0],    
+
+        "description" : "Crea tecnología ñámok de nivel aceptable.",
+        "shortdescription" : "^orange;Estación Ñámok III^white;"
+      },
+
+      "interactData" : {
+        "config" : "/interface/windowconfig/craftingestacionnamok2.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : " Estación Ñámok III",
+            "subtitle" : " ^#b9b5b2;Nivel 3",
+            "icon" : {
+              "file" : "/interface/crafting/estacionnamok.png"
+            }
+          }
+        },
+        "filter" : [ "estacionnamok", "estacionnamok2", "estacionnamok3" ],  
+        "initialRecipeUnlocks" : [
+          "battery",
+          "namoksilvershield2",
+          "pistolanamok2"
+        ]           
+      },
+
+      "learnBlueprintsOnPickup" : []
+    }
+  ],
+
+  "orientations" : [
+    {
+      "image" : "estacionnamok.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "estacionnamok.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

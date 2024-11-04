@@ -1,0 +1,39 @@
+{
+  "objectName" : "cuadrodeluz",
+  "colonyTags" : ["light"],
+  "rarity" : "Common",
+  "description" : "Un pequeño y práctico cuadro de luz.",
+  "shortdescription" : "Cuadro de luz",
+  "race" : "generic",
+
+  "category" : "light",
+  "price" : 120,
+  "lightColor" : [220, 220, 220],
+
+  "inventoryIcon" : "cuadrodeluzicon.png",
+  "orientations" : [
+    {
+      "image" : "cuadrodeluz.png:<color>.<frame>",
+      "imagePosition" : [-0, 0],
+      "animationPosition" : [0, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "cuadrodeluz.png",
+    "fg" : "cuadrodeluz.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+}

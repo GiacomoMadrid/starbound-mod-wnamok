@@ -12,6 +12,6 @@
     
     "output" : { "item" : "namokessence", "count" : 8},
     "duration" : 0.5,
-    "groups" : [ "insumo", "transmutadordemateria" ]
+    "groups" : [ "insumo", "transmutadordemateria", "hornowin2" ]
   }
   

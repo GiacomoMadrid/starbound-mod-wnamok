@@ -1,0 +1,12 @@
+{
+    "input" : [
+      { "item" : "glowfibre", "count" : 4 },
+      { "item" : "triangliumwinpyramid", "count" : 1 },
+      { "item" : "glass", "count" : 2 }
+    ],
+    
+    "output" : { "item" : "cuadrodeluz", "count" : 1},
+
+    "groups" : [ "hogar", "estacionnamok2" ]
+  }
+  

@@ -1,0 +1,48 @@
+{
+  "objectName" : "namoktent1",
+  "colonyTags" : ["explorer"],
+  "rarity" : "Common",
+  "description" : "Tienda de campamento. Protégete del entorno, hambre y de los fío y calor extremos.",
+  "shortdescription" : "Tienda Ñámok I",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 128,
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-8, 7],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/generic/namoktent1/namoktent1lit.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "regeneration1",
+    "bed4",
+    "iceblock",
+    "fireblock",
+    "intents",
+    {
+      "stat" : "biomeheatImmunity",
+      "amount" : 1.0
+    },
+    {
+      "stat" : "biomecoldImmunity",
+      "amount" : 1.0
+    }
+  ],
+
+  "inventoryIcon" : "namoktent1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "namoktent1.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

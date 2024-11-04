@@ -6,6 +6,6 @@
     
     "output" : { "item" : "venomsample", "count" : 5},
     "duration" : 0.5,
-    "groups" : [ "insumo", "transmutadordemateria" ]
+    "groups" : [ "insumo", "transmutadordemateria", "hornowin2"  ]
   }
   

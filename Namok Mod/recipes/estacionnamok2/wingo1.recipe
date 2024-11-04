@@ -12,11 +12,11 @@
         { "item" : "siliconboard", "count" : 16}
     ],
 
-	"duration": 0.75,
+	"duration": 2.0,
 
 	"output": {
 		"item": "wingo1",
 		"count": 1
 	},
-	"groups": ["all", "herramienta", "namok", "estacionnamok2", "estacionnamok3"]
+	"groups": ["all", "herramienta", "namok", "estacionnamok2"]
 }

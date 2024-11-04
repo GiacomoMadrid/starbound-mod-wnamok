@@ -1,0 +1,38 @@
+{
+  "objectName" : "namokbed1",
+  "colonyTags" : ["misc"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Una cómoda cama fabricada con una aleación de hierro, cobre y carbón. Con sábanas de algodón 100% natural.",
+  "shortdescription" : "Cama de Acero",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 45,
+
+  "inventoryIcon" : "namokbed1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "namokbed1.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-10, 14],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/generic/hogar/namokbed1/namokbed1cover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed4","regeneration1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ]
+}

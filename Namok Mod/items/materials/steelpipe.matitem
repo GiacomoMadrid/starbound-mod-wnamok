@@ -1,0 +1,11 @@
+{
+  "itemName" : "steelpipe",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "steelpipe.png",
+  "shortdescription" : "Tubería de acero inoxidable",
+  "description" : "Un tubo de acero. Perfecta para llevar fluidos.",
+
+  "materialId" : 10011
+}

@@ -1,0 +1,24 @@
+{
+  "objectName" : "platodelosa",
+  "colonyTags" : ["cooking"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 30,
+  "description" : "Un fino plato de losa",
+  "shortdescription" : "Plato de losa",
+  "race" : "generic",
+
+  "inventoryIcon" : "platodelosaicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "platodelosa.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

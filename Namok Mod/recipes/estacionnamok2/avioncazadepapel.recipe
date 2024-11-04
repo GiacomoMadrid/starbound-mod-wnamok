@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "paper", "count" : 16 },    
+    { "item" : "triangliumwinpyramid", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "avioncazadepapel",
+    "count" : 16
+  },
+  "groups" : ["all", "estacionnamok2", "throwable"]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "namokmetaltable1",
+    "count" : 1
+  },
+  "groups" : ["all", "estacionnamok2", "hogar"]
+}

@@ -135,6 +135,17 @@
     },
     
     {
+      "input" : [
+        { "item" : "namokwallclock", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "relojbase", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+   },
+
+    {
         "input" : [
           { "item" : "pastelwallclock", "count" : 1 }
         ],

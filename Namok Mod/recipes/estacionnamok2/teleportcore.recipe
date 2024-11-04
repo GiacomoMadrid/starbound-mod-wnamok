@@ -1,6 +1,6 @@
 {
     "input" : [
-      { "item" : "titaniumbar", "count" : 10 },
+      { "item" : "tungstenbar", "count" : 10 },
       { "item" : "corefragmentore", "count" : 4 },
       { "item" : "namokespacio", "count" : 2 },
       { "item" : "namoktiempo", "count" : 1 }

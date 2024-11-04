@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 20 },
+    { "item" : "goldbar", "count" : 1 },
+    { "item" : "fabric", "count" : 50 },
+    { "item" : "whitedye", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "medievaldiningtable",
+    "count" : 1
+  },
+  "groups" : ["all", "estacionnamok", "estacionnamok2", "hogar"]
+}

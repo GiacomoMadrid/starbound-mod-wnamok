@@ -1,0 +1,21 @@
+{
+  "materialId" : 10011,
+  "materialName" : "steelpipe",
+  "particleColor" : [234, 234, 234, 255],
+  "itemDrop" : "steelpipe",
+  "shortdescription" : "Tubería de acero inoxidable",
+  "description" : "Un tubo de acero. Perfecta para llevar fluidos.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 6,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "steelpipe.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 3380
+  }
+}

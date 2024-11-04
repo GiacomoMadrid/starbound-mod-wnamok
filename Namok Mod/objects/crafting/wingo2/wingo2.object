@@ -14,11 +14,11 @@
         }
       }
     },
-    "filter" : [ "plain", "craftingtable", "wingo2", "estructura" ]
+    "filter" : [ "wingo", "wingo1", "wingo2" ]
   },
   "printable" : false,
   "description" : "El mayor aliado de la tecnología ñámok. Ahora con el poder los óktolójikum win.",
-  "shortdescription" : "^orange;Wingo (Nivel 3)^white;",
+  "shortdescription" : "^orange;Wingo Nivel 3^white;",
   "race" : "generic",
   "category" : "crafting",
   "price" : 1042,

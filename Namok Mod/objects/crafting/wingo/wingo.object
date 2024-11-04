@@ -16,7 +16,7 @@
         }
       }
     },
-    "filter" : ["craftingtable", "wingo", "estructura" ]
+    "filter" : ["wingo" ]
   },
   "description" : "El mayor aliado de la tecnología ñámok.",
   "shortdescription" : "^orange;Wingo^white;",
@@ -25,6 +25,7 @@
 
   "learnBlueprintsOnPickup" : [
     "estacionnamok",
+    "estacionnamok1",
     "namokessence",
     "extractorbasiconamok",
     "hornowin1",

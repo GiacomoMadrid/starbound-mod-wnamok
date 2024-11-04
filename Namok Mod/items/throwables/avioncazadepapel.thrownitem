@@ -1,0 +1,30 @@
+{
+  "itemName" : "avioncazadepapel",
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "avioncazadepapel.png",
+  "image" : "avioncazadepapel.png",
+  "shortdescription" : "Avion caza de papel",
+  "description" : "Un avion de papel y trianglium que puede volar y atacar casi como uno de verdad.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.8,
+
+  "projectileType" : "avioncazadepapel",
+  "projectileConfig" : {
+    "speed" : 64,
+    "power" : 48,
+    "knockback" : 16,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}

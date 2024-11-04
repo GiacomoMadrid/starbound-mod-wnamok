@@ -1,11 +1,11 @@
 {
   "input" : [
     { "item" : "marmolwin", "count" : 10 },
-    { "item" : "liquidwater", "count" : 5 }
+    { "item" : "bone", "count" : 5 }
   ],
   "output" : {
     "item" : "pillarwin",
-    "count" : 50
+    "count" : 30
   },
   "groups" : [ "estacionnamok", "all",  "materials", "estacionnamok2"]
 }

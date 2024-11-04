@@ -1,0 +1,25 @@
+{
+  "objectName" : "namokwoodentable",
+  "colonyTags" : ["furniture"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 85,
+  "description" : "Una mesa de madera. Útil para colocar coas encima.",
+  "shortdescription" : "Mesa de madera",
+  "race" : "generic",
+
+  "inventoryIcon" : "namokwoodentableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "namokwoodentable.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

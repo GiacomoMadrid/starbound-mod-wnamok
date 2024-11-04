@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "glass", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "vasodevidrio",
+    "count" : 3
+  },
+  "groups" : ["all", "estacionnamok", "estacionnamok2", "hogar"]
+}

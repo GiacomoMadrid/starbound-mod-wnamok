@@ -4,7 +4,7 @@
   "level" : 1,
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "Espada de plata mejorada con la esencia de poder. Simplemente E-S-E-N-C-I-A.",
+  "description" : "Espada de plata mejorada con la mejor aleación de tungsteno y... tungsteno.",
   "shortdescription" : "Espada Ñámok Media",
   "tooltipKind" : "sword",
   "category" : "broadsword",
@@ -27,7 +27,7 @@
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
     "fireTime" : 0.8,
-    "baseDps" : 80,
+    "baseDps" : 48,
     "damageConfig" : {
       "damageSourceKind" : "hammer"
     }

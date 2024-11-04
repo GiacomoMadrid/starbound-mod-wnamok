@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "leather", "count" : 20 },   
+    { "item" : "tungstenbar", "count" : 8 },    
+    { "item" : "oktolojim", "count" : 2 },    
+    { "item" : "scorchedcore", "count" : 2 },    
+    { "item" : "cryonicextract", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "namoktent1",
+    "count" : 1
+  },
+  "groups" : ["all", "estacionnamok2", "herramienta"]
+}

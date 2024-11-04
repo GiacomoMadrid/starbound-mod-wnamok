@@ -1,0 +1,38 @@
+[
+  {
+    "op": "add",
+    "path": "/starterTreasure",
+    "value": [[0, {
+      "fill" : [
+        {"item" : [ "flashlight" ]},
+        {"item" : [ "torch", 10 ]},
+        {"item" : [ "cannedfood", 1 ]},
+        {"item" : [ "cannedfood", 1 ]},
+        {"item" : [ "cannedfood", 1 ]},
+        {"item" : [ "cannedfood", 1 ]},
+        {"item" : ["cubonamok1", 1]},
+        {"item" : ["namokessence", 16]},
+        {"item" : ["riceseed", 4]},
+        {"item" : ["potatoseed", 4]},
+        {"item" : ["avioncazadepapel", 16]},
+        {"item" : ["namokpickaxe", 1]},
+        {"item" : ["namoktorch", 16]},
+        {"item" : ["liquidhealing", 64]},
+        {"item" : ["namoktent1", 1]},
+        {"item" : ["marmolwin", 100]},
+        {"item" : ["pillarwin", 50]},
+        {"item" : ["marmolwinbrick", 50]},
+        {"item" : ["pisomarmolwin", 30]},
+        {"item" : ["marmolwinplatform", 16]},
+        {"item" : ["namokpilardoor", 2]},
+        {"item" : ["goldenwinblock2", 50]},
+        {"item" : ["goldwintiles", 20]},
+        {"item" : ["goldwintiles2", 2]},
+        {"item" : [ "goldwintiles3", 2]}
+
+      ]            
+    }]]
+  }
+]
+
+

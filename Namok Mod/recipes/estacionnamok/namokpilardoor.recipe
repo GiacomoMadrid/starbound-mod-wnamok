@@ -1,8 +1,7 @@
 {
   "input" : [
     { "item" : "goldbar", "count" : 1 },  
-    { "item" : "marmolwin", "count" : 20 },  
-    { "item" : "liquidwater", "count" : 4 }
+    { "item" : "marmolwin", "count" : 10 }
   ],
   "output" : {
     "item" : "namokpilardoor",

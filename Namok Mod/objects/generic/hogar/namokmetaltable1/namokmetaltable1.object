@@ -1,0 +1,25 @@
+{
+  "objectName" : "namokmetaltable1",
+  "colonyTags" : ["furniture"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 85,
+  "description" : "Una larga mesa de metal. Útil para colocar cosas.",
+  "shortdescription" : "Mesa de metal",
+  "race" : "generic",
+
+  "inventoryIcon" : "namokmetaltable1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "namokmetaltable1.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

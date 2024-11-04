@@ -1,0 +1,14 @@
+{
+    "input" : [
+      { "item" : "ironbar", "count" : 2 },
+      { "item" : "copperbar", "count" : 2 },
+      { "item" : "coalore", "count" : 2 },
+      { "item" : "cottonwool", "count" : 10 }
+    ],
+    "output" : {
+      "item" : "namokbed1",
+      "count" : 1
+    },
+    "groups" : ["all", "estacionnamok", "estacionnamok2", "hogar", "beds"]
+  }
+  

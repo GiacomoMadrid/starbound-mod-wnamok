@@ -1,0 +1,39 @@
+{
+  "objectName" : "namokmetalchair",
+  "colonyTags" : ["furniture"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 75,
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "description" : "Una cómoda silla de metal",
+  "shortdescription" : "Silla de metal",
+  "race" : "generic",
+
+  "inventoryIcon" : "namokmetalchairicon.png",
+  "orientations" : [
+    {
+      "image" : "namokmetalchair.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "flipImages" : true,
+      "direction" : "left",
+      "sitPosition" : [3, 20],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "namokmetalchair.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "direction" : "right",
+      "sitPosition" : [2, 20],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "goldbar", "count" : 1 },
+    { "item" : "coalore", "count" : 8 }
+  ],
+  "output" : {
+    "item" : "namoktorch",
+    "count" : 8
+  },
+  "groups" : ["all", "estacionnamok", "estacionnamok2", "hogar"]
+}

@@ -1,0 +1,35 @@
+{
+  "objectName" : "namokmetaltable2",
+  "colonyTags" : ["cabin","commerce"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 60,
+  "printable" : false,
+  "description" : "Una pequeña mesa de metal con forma de la letra ñámok 'em'.",
+  "shortdescription" : "Mesa Em de metal",
+  "race" : "generic",
+
+
+  "inventoryIcon" : "namokmetaltable2icon.png",
+  "orientations" : [
+    {
+      "image" : "namokmetaltable2.png:<color>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "namokmetaltable2.png:<color>",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}
