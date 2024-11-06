@@ -4,7 +4,7 @@
   "rarity" : "Rare",
   "category" : "craftingMaterial",
   "inventoryIcon" : "triangliumwinpyramid.png",
-  "description" : "Trianglium refinado en una pirámide de 3 caras.",
+  "description" : "Trianglium refinado en una pirámide perfecta de 4 caras.",
   "shortdescription" : "Pirámide de Trianglium",
   "itemTags" : [ "reagent" ]
 }

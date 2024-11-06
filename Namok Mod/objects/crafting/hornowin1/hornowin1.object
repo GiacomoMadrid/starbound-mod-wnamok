@@ -32,6 +32,7 @@
     "platinumbar",
     "triangliumwinpyramid",
     "tungstenbar",
+    "prisilitestar",
     "liquidwater",
     "liquidfuel",
     "liquidlava",
@@ -75,7 +76,29 @@
         },
 
         "filter" : [ "craftingfurnace", "hornowin1" ],
-        "initialRecipeUnlocks" : [],
+        "initialRecipeUnlocks" : [
+          "copperbar",
+          "ironbar",
+          "goldbar",
+          "silverbar",
+          "platinumbar",
+          "triangliumwinpyramid",
+          "tungstenbar",
+          "prisilitestar",
+          "liquidwater",
+          "liquidfuel",
+          "liquidlava",
+          "heartforge",
+          "vasodevidrio",
+          "classicglass",
+          "tungstenbar",
+          "glass",
+          "bottle",
+          "syringe",
+          "volatilepowder",
+          "firedclay"
+        ],
+        
         "upgradeMaterials" : [
           { "item" : "tungstenbar", "count" : 10 },
           { "item" : "glass", "count" : 20 },
