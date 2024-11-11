@@ -2,7 +2,7 @@
   "input" : [  
     { "item" : "marmolwin", "count" : 10 },
     { "item" : "cobblestonematerial", "count" : 5 },  
-    { "item" : "bone", "count" : 5 }
+    { "item" : "calciorefinado", "count" : 2 }
   ],
   "output" : {
     "item" : "pisomarmolwin",

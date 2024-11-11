@@ -1,0 +1,10 @@
+{
+    "input" : [
+      { "item" : "calcio", "count" : 2 }
+    ],
+    
+    "output" : { "item" : "calciorefinado", "count" : 1},
+    "groups" : [ "bars", "transmutadordemateria", "hornowin1" ]
+  }
+  
+  

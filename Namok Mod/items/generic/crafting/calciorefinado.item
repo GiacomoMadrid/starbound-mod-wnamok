@@ -1,0 +1,10 @@
+{
+  "itemName" : "calciorefinado",
+  "price" : 0,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "calciorefinado.png",
+  "description" : "Calcio refinado al 99.99%. listo para usar.",
+  "shortdescription" : "Calcio refinado",
+  "itemTags" : [ "reagent" ]
+}

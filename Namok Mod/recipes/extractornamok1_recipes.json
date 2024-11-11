@@ -1019,6 +1019,52 @@
     },
 
     {
+      "input" : [
+        { "item" : "bone", "count" : 5 }
+      ],
+      "output" : [
+        { "item" : "calcio", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+
+    {
+      "input" : [
+        { "item" : "limestone", "count" : 20 }
+      ],
+      "output" : [
+        { "item" : "calcio", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+
+    {
+      "input" : [
+        { "item" : "rock12", "count" : 30 }
+      ],
+      "output" : [
+        { "item" : "calcio", "count" : 2},        
+        { "item" : "sand2", "count" : 5}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+
+    {
+      "input" : [
+        { "item" : "cobblestonematerial", "count" : 50 }
+      ],
+      "output" : [
+        { "item" : "calcio", "count" : 1},        
+        { "item" : "sand2", "count" : 10}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+
+    {
         "input" : [
           { "item" : "namokessence", "count" : 16 }
         ],

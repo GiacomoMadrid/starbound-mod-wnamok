@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "marmolwin", "count" : 10 },
-    { "item" : "firedclay", "count" : 5 },
+    { "item" : "calciorefinado", "count" : 2 },
     { "item" : "rice", "count" : 5 }
   ],
   "output" : {

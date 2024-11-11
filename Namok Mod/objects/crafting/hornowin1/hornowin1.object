@@ -44,7 +44,8 @@
     "bottle",
     "syringe",
     "volatilepowder",
-    "firedclay"
+    "firedclay",
+    "calciorefinado"
   ],
 
   "startingUpgradeStage" : 1,
@@ -96,7 +97,8 @@
           "bottle",
           "syringe",
           "volatilepowder",
-          "firedclay"
+          "firedclay",
+          "calciorefinado"
         ],
         
         "upgradeMaterials" : [

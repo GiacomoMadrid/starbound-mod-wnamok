@@ -1,0 +1,10 @@
+{
+  "itemName" : "calcio",
+  "price" : 0,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "calcio.png",
+  "description" : "Calcio (Ca). Mineral útil tanto para construcción como para medicina.",
+  "shortdescription" : "Calcio",
+  "itemTags" : [ "reagent" ]
+}
