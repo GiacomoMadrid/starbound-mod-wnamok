@@ -2,8 +2,8 @@
     "input" : [
       { "item" : "tungstenbar", "count" : 10 },
       { "item" : "corefragmentore", "count" : 4 },
-      { "item" : "namokespacio", "count" : 2 },
-      { "item" : "namoktiempo", "count" : 1 }
+      { "item" : "sustanciaespacio", "count" : 2 },
+      { "item" : "sustanciatiempo", "count" : 1 }
     ],
     
     "output" : { "item" : "teleportercore", "count" : 1},

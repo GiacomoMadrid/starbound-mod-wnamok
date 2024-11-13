@@ -1,0 +1,10 @@
+{
+  "itemName" : "sustanciainteligencia",
+  "price" : 0,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "sustanciainteligencia.png",
+  "description" : "La esencia de la inteligencia encapsulada en un fino empaque de platino.",
+  "shortdescription" : "Sustancia de inteligencia",
+  "itemTags" : [ "reagent" ]
+}

@@ -2,7 +2,7 @@
   "objectName" : "namoktent1",
   "colonyTags" : ["explorer"],
   "rarity" : "Common",
-  "description" : "Tienda de campamento. Protégete del entorno, hambre y de los fío y calor extremos.",
+  "description" : "Tienda de campamento. Protégete del entorno, hambre, del frío y del calor.",
   "shortdescription" : "Tienda Ñámok I",
   "race" : "generic",
   "category" : "furniture",

@@ -4,7 +4,7 @@
       { "item" : "goldbar", "count" : 2 },
       { "item" : "sulphur", "count" : 20 },
       { "item" : "wire", "count" : 16 },
-      { "item" : "namokenergia", "count" : 4 }
+      { "item" : "sustanciaenergia", "count" : 4 }
     ],
     
     "output" : { "item" : "battery", "count" : 4},

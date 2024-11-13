@@ -1,7 +1,7 @@
 {
     "input" : [
       { "item" : "corefragmentore", "count" : 5 },
-      { "item" : "namokessence", "count" : 1 },
+      { "item" : "sustanciaforma", "count" : 3 },
       { "item" : "obsidian", "count" : 10 }
     ],
     

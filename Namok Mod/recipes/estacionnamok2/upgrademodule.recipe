@@ -3,9 +3,9 @@
       { "item" : "diamond", "count" : 1 },
       { "item" : "tungstenbar", "count" : 10 },
       { "item" : "stickofram", "count" : 2 },
-      { "item" : "namokforma", "count" : 1 },
-      { "item" : "namokpoder", "count" : 1 },
-      { "item" : "namokfuncion", "count" : 2 }
+      { "item" : "sustanciaforma", "count" : 1 },
+      { "item" : "sustanciapoder", "count" : 1 },
+      { "item" : "sustanciafuncion", "count" : 2 }
     ],
     
     "output" : { "item" : "upgrademodule", "count" : 1},

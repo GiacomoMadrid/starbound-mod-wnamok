@@ -2,7 +2,7 @@
 	"input": [
 		{ "item" : "tungstenbar", "count" : 1 }, 
 		{ "item" : "chipnamok", "count" : 1 },
-		{ "item" : "namokespacio", "count" : 1 },  
+		{ "item" : "sustanciaespacio", "count" : 1 },  
 		{ "item" : "namokessence", "count" : 4 },  
 		{ "item" : "wire", "count" : 4 }
 	],

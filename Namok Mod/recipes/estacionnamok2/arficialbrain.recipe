@@ -3,12 +3,12 @@
       { "item" : "tungstenbar", "count" : 1 },
       { "item" : "brain", "count" : 1 },
       { "item" : "oktolojim", "count" : 1 },
-      { "item" : "namokinteligencia", "count" : 4 },
-      { "item" : "namokfuncion", "count" : 2 }
+      { "item" : "sustanciainteligencia", "count" : 4 },
+      { "item" : "sustanciafuncion", "count" : 2 }
     ],
     
     "output" : { "item" : "artificialbrain", "count" : 1},
 
-    "groups" : [ "wire", "estacionnamok2" ]
+    "groups" : [ "wire", "estacionsustancia2" ]
   }
   

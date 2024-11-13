@@ -1,0 +1,19 @@
+{
+  "itemName": "pastillanapkal",
+  "rarity": "Common",
+  "price": 160,
+  "category": "medicine",
+  "shortdescription": "Pastilla napkal",
+  "description": "Pastilla que aumenta tu defensa en 20 por 180 segundos al consumirla.",
+  "inventoryIcon": "pastillanapkal.png",
+  "effects": [
+    [
+      {
+        "effect": "aumentardefensa",
+        "duration": 180
+      }
+    ]
+  ],
+  "emote": "",
+  "emitters": ["stimuse"]
+}

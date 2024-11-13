@@ -1,0 +1,10 @@
+{
+    "input" : [
+      { "item" : "platinumbar", "count" : 1 }
+    ],
+    
+    "output" : { "item" : "celdadeplatino", "count" : 4},
+
+    "groups" : [ "tech", "estacionnamok2", "estacionnamok3", "wingo1", "wingo2" ]
+  }
+  

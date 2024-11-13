@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "liquidhealing", "count" : 50 },
     { "item" : "liquidmilk", "count" : 50 }, 
-    { "item" : "namokexistencia", "count" : 8 }
+    { "item" : "sustanciaexistencia", "count" : 8 }
 
   ],
   "output" : {

@@ -3,8 +3,8 @@
       { "item" : "diamond", "count" : 1 },
       { "item" : "goldbar", "count" : 4 },
       { "item" : "laserdiode", "count" : 1 },
-      { "item" : "namokfuncion", "count" : 1 },
-      { "item" : "namokforma", "count" : 1 }
+      { "item" : "sustanciafuncion", "count" : 1 },
+      { "item" : "sustanciaforma", "count" : 1 }
     ],
     
     "output" : { "item" : "manipulatormodule", "count" : 1},

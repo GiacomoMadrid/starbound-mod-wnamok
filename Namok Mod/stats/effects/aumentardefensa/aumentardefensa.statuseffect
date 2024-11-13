@@ -1,0 +1,15 @@
+{
+  "name": "aumentardefensa",
+  "label": "Aumentar Defensa",
+  "effects": [
+    {
+      "stat": "protection",
+      "amount": 20
+    }
+  ],
+  "scripts" : [
+    "aumentardefensa.lua"
+  ],
+  "duration": 30,
+  "icon": "/interface/statuses/aumentardefensa.png"
+}

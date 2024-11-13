@@ -4,7 +4,8 @@
     ],
     
     "output" : { "item" : "prisilitestar", "count" : 1},
-    "groups" : [ "bars", "transmutadordemateria", "hornowin1" ]
+    "duration" : 0.25,
+    "groups" : [ "craftingfurnace", "bar", "all", "hornowin1", "hornowin2", "transmutadordemateria"  ]
   }
   
   

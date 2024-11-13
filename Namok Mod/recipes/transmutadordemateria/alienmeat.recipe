@@ -2,8 +2,8 @@
     "input" : [
       { "item" : "rottenfood", "count" : 5 },
       { "item" : "fleshstrand", "count" : 1 },
-      { "item" : "namokforma", "count" : 1 },
-      { "item" : "namoktiempo", "count" : 1 }
+      { "item" : "sustanciaforma", "count" : 1 },
+      { "item" : "sustanciatiempo", "count" : 1 }
     ],
     
     "output" : { "item" : "alienmeat", "count" : 1},

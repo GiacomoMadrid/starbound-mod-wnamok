@@ -1,7 +1,8 @@
 {
     "input" : [
       { "item" : "liquidpoison", "count" : 100 },
-      { "item" : "namokessence", "count" : 1 }
+      { "item" : "sustanciaforma", "count" : 1 },
+      { "item" : "sustanciapoder", "count" : 1 }
     ],
     
     "output" : { "item" : "venomsample", "count" : 5},

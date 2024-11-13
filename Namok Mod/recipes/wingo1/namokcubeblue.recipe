@@ -2,7 +2,7 @@
     "input": [
 		{ "item" : "tungstenbar", "count" : 2 }, 
 		{ "item" : "chipnamok", "count" : 2 },
-		{ "item" : "namokespacio", "count" : 2 },  
+		{ "item" : "sustanciaespacio", "count" : 2 },  
 		{ "item" : "wire", "count" : 8 }
 	],
     "output" : {

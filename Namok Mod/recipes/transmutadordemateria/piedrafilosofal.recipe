@@ -1,7 +1,7 @@
 {
     "input" : [
-      { "item" : "namokexistencia", "count" : 8 },
-      { "item" : "namokforma", "count" : 8 },
+      { "item" : "sustanciaexistencia", "count" : 8 },
+      { "item" : "sustanciaforma", "count" : 8 },
       { "item" : "corefragmentore", "count" : 16 },
       { "item" : "cobblestonematerial", "count" : 64 }
     ],

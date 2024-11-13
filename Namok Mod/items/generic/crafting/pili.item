@@ -1,0 +1,10 @@
+{
+  "itemName" : "pili",
+  "price" : 0,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pili.png",
+  "description" : "Pili en blanco. Puedes escribir secuencias de información genética en él para ser replicados en el futuro.",
+  "shortdescription" : "Pili en blanco",
+  "itemTags" : [ "reagent" ]
+}

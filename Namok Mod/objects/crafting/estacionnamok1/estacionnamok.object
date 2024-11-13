@@ -82,7 +82,17 @@
           "platodelosa",
           "namokwoodenchair",
           "namokwoodentable",
-          "namokgoldenchair"
+          "namokgoldenchair",
+          "pastillanapkal",
+          "celdadeplatino",
+          "sustanciatiempo",
+          "sustanciaespacio",
+          "sustanciainteligencia",
+          "sustanciaexistencia",
+          "sustanciafuncion",
+          "sustanciaforma",
+          "sustanciapoder",
+          "sustanciaenergia"
         ],
         
         "upgradeMaterials" : [
@@ -124,7 +134,17 @@
         "platodelosa",
         "namokwoodenchair",
         "namokwoodentable",
-        "namokgoldenchair"
+        "namokgoldenchair",
+        "pastillanapkal",
+        "celdadeplatino",
+        "sustanciatiempo",
+        "sustanciaespacio",
+        "sustanciainteligencia",
+        "sustanciaexistencia",
+        "sustanciafuncion",
+        "sustanciaforma",
+        "sustanciapoder",
+        "sustanciaenergia"
       ],
 
       "upgradeSoundEffect" : "fanfare",

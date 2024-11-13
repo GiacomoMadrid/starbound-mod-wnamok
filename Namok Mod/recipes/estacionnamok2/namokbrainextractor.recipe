@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "oktolojim", "count" : 2 },
     { "item" : "tungstenbar", "count" : 8 },
-    { "item" : "namokpoder", "count" : 1 },
+    { "item" : "sustanciapoder", "count" : 1 },
     { "item" : "staticcell", "count" : 4 },
     { "item" : "glass", "count" : 10 }
   ],

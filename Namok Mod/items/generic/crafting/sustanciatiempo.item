@@ -1,0 +1,10 @@
+{
+  "itemName" : "sustanciatiempo",
+  "price" : 0,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "sustanciatiempo.png",
+  "description" : "La esencia del tiempo encapsulada en un fino empaque de platino.",
+  "shortdescription" : "Sustancia de tiempo",
+  "itemTags" : [ "reagent" ]
+}

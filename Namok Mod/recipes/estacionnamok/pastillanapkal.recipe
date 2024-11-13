@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "calciorefinado", "count" : 1 },
+    { "item" : "shroom", "count" : 2 },
+    { "item" : "liquidhealing", "count" : 8 }
+  ],
+  "output" : {
+    "item" : "pastillanapkal",
+    "count" : 4
+  },
+  "groups" : ["all", "estacionnamok", "estacionnamok2", "herramienta"]
+}

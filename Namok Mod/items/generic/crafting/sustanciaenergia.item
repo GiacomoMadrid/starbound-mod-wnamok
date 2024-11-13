@@ -1,0 +1,10 @@
+{
+  "itemName" : "sustanciaenergia",
+  "price" : 0,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "sustanciaenergia.png",
+  "description" : "La esencia de la energía encapsulada en un fino empaque de platino.",
+  "shortdescription" : "Sustancia de energia",
+  "itemTags" : [ "reagent" ]
+}

@@ -1,8 +1,7 @@
 {
     "input" : [
       { "item" : "cellmatter", "count" : 25 },
-      { "item" : "namokessence", "count" : 1 },
-      { "item" : "namokpoder", "count" : 2 }
+      { "item" : "sustanciapoder", "count" : 2 }
     ],
     
     "output" : { "item" : "staticcell", "count" : 5},

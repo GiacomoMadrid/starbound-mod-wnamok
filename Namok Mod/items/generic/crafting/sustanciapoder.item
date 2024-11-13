@@ -1,0 +1,10 @@
+{
+  "itemName" : "sustanciapoder",
+  "price" : 0,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "sustanciapoder.png",
+  "description" : "La esencia del poder encapsulada en un fino empaque de platino.",
+  "shortdescription" : "Sustancia de poder",
+  "itemTags" : [ "reagent" ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "sustanciafuncion",
+  "price" : 0,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "sustanciafuncion.png",
+  "description" : "La esencia de la funcion encapsulada en un fino empaque de platino.",
+  "shortdescription" : "Sustancia de funcion",
+  "itemTags" : [ "reagent" ]
+}

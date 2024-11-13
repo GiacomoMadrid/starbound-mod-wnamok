@@ -1,0 +1,11 @@
+{
+    "input" : [
+      { "item" : "namokinteligencia", "count" : 1 },
+      { "item" : "celdadeplatino", "count" : 4 }
+    ],
+    
+    "output" : { "item" : "sustanciainteligencia", "count" : 4},
+
+    "groups" : [ "tech", "estacionnamok2", "estacionnamok3", "wingo1", "wingo2" ]
+  }
+  

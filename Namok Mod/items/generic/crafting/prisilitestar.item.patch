@@ -1,12 +1,13 @@
 [
   {
     "op": "replace",
-    "path": "/rarity",
-    "value": "Rare"
+    "path": "/price",
+    "value": 250
   },
   {
     "op": "replace",
-    "path": "/price",
-    "value": 250
+    "path": "/rarity",
+    "value": "Rare"
   }
+  
 ]

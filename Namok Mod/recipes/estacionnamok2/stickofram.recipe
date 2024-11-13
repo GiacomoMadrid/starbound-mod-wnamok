@@ -2,7 +2,7 @@
     "input" : [
       { "item" : "goldbar", "count" : 1 },
       { "item" : "siliconboard", "count" : 2 },
-      { "item" : "namokfuncion", "count" : 2 }
+      { "item" : "sustanciafuncion", "count" : 2 }
     ],
     
     "output" : { "item" : "stickofram", "count" : 2},

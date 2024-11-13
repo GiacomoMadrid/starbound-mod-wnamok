@@ -1,0 +1,10 @@
+{
+  "itemName" : "celdadeplatino",
+  "price" : 0,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "celdadeplatino.png",
+  "description" : "Una celda de platino. Útil para encapsular escencias para su posterior uso.",
+  "shortdescription" : "Celda de platino",
+  "itemTags" : [ "reagent" ]
+}

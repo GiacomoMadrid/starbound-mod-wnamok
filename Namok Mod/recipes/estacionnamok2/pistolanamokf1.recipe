@@ -3,7 +3,7 @@
     { "item" : "silverbar", "count" : 16 },
     { "item" : "tungstenbar", "count" : 8 },
     { "item" : "scorchedcore", "count" : 1 },
-    { "item" : "namokpoder", "count" : 4 }
+    { "item" : "sustanciapoder", "count" : 4 }
   ],
   "output" : {
     "item" : "pistolanamokf1",

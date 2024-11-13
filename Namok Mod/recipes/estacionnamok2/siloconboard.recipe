@@ -2,7 +2,7 @@
     "input" : [
       { "item" : "sand2", "count" : 25 },
       { "item" : "wire", "count" : 8 },
-      { "item" : "namokforma", "count" : 1 }
+      { "item" : "sustanciaforma", "count" : 1 }
     ],
     
     "output" : { "item" : "siliconboard", "count" : 8},

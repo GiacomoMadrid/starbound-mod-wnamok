@@ -4,7 +4,7 @@
     ],
     
     "output" : { "item" : "calciorefinado", "count" : 1},
-    "groups" : [ "bars", "transmutadordemateria", "hornowin1" ]
+    "groups" : [ "craftingfurnace", "bars", "transmutadordemateria", "hornowin1" ]
   }
   
   

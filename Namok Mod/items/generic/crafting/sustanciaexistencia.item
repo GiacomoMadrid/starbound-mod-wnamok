@@ -1,0 +1,10 @@
+{
+  "itemName" : "sustanciaexistencia",
+  "price" : 0,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "sustanciaexistencia.png",
+  "description" : "La esencia de la existencia encapsulada en un fino empaque de platino.",
+  "shortdescription" : "Sustancia de existencia",
+  "itemTags" : [ "reagent" ]
+}

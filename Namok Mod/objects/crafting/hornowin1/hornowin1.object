@@ -76,7 +76,7 @@
           }
         },
 
-        "filter" : [ "craftingfurnace", "hornowin1" ],
+        "filter" : [ "craftingfurnace", "hornowin1", "prisilitestar" ],
         "initialRecipeUnlocks" : [
           "copperbar",
           "ironbar",
@@ -105,7 +105,7 @@
           { "item" : "tungstenbar", "count" : 10 },
           { "item" : "glass", "count" : 20 },
           { "item" : "namokessence", "count" : 4 },
-          { "item" : "namokforma", "count" : 4 }
+          { "item" : "sustanciaforma", "count" : 4 }
         ]
       },
 
@@ -167,8 +167,8 @@
         "upgradeMaterials" : [
           { "item" : "titaniumbar", "count" : 20 },
           { "item" : "glass", "count" : 20 },
-          { "item" : "namokforma", "count" : 16 },
-          { "item" : "namokfuncion", "count" : 16 },
+          { "item" : "sustanciaforma", "count" : 16 },
+          { "item" : "sustanciafuncion", "count" : 16 },
           { "item" : "chipnamok", "count" : 4 },
           { "item" : "laserdiode", "count" : 8 },
           { "item" : "stickofram", "count" : 4 },
