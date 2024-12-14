@@ -1,0 +1,13 @@
+{
+    "input" : [
+      { "item" : "oktolojim", "count" : 1 },
+      { "item" : "tungstenbar", "count" : 5 },
+      { "item" : "dirtmaterial", "count" : 32 },
+      { "item" : "wire", "count" : 4 }
+    ],
+    
+    "output" : { "item" : "bandejadecultivo1", "count" : 1},
+
+    "groups" : [ "herramienta", "estacionnamok2" ]
+  }
+  

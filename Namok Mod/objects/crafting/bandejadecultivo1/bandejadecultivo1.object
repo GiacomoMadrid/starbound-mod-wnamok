@@ -1,0 +1,68 @@
+{
+    "objectName" : "bandejadecultivo1",
+    "printable" : false,
+    "colonyTags" : [ "science", "farming", "plants", "farm", "storage" ],
+    "rarity" : "Rare",
+    "description" : "Bandeja de cultivo que automatiza el proceso de agricultura.",
+    "shortdescription" : "^cyan;Bandeja de cultivo^reset;",
+    "race" : "generic",
+    "category" : "wire",
+    "objectType" : "container",
+    "tooltipKind" : "container",
+    "price" : 256,
+
+    "inventoryIcon" : "bandejadecultivo1icon.png",    
+       
+    "orientations" : [
+        {
+            "dualImage" : "bandejadecultivo1_base.png",
+            "imagePosition" : [0, 0],
+            "spaceScan" : 0.1,
+            "collision" : "platform",
+            "anchors" : [ "bottom" ]
+        }
+    ], 
+
+    "inputNodes" : [ [1, 1] ],
+    "outputNodes" : [ [1, 0] ],
+
+    "slotCount" : 15,
+    "uiConfig" : "/interface/objectcrafting/bandejadecultivo1.config",
+    "frameCooldown" : 67,
+    "autoCloseCooldown" : 3600,
+
+    "scripts" : [ "bandejadecultivo1.lua" ],
+    "scriptDelta" : 60,
+
+    "animation" : "bandejadecultivo1.animation",
+    "animationParts" : {
+        "growth" : "bandejadecultivo1_growth.png",
+        "base" : "bandejadecultivo1_base.png"
+    },
+    "animationPosition" : [0, 0],
+  
+    "baseGrowthPerSecond" : 1.01,
+    "defaultWaterUse" : 2,
+    "defaultSeedUse" : 4,
+    "baseYields" : 4,
+
+    "waterInputs" : {
+        "liquidwater" : { "value" : 1 },
+        "swampwater" : { "value" : 1, "growthRate" : 0.9, "yield" : 1 },
+        "liquidhealing" : { "value" : 1, "growthRate" : 1.5 },
+        "fluidobase" : { "value" : 1, "growthRate" : 2, "yield" : 2 }
+    },
+
+    "fertInputs" : {
+        "rottenfood" : { "growthRate" : 1.25},
+        "poop" : { "growthRate" : 1.5, "yield" : 1},
+
+        "sustanciatiempo" : { "growthRate" : 8},
+        "namoktiempo" : { "growthRate" : 32},    
+
+        "sustanciaexistencia" : { "growthRate" : 0.8, "fluidUse" : -0.5, "yield" : 4},
+        "namokexistencia" : { "growthRate" : 0.5, "fluidUse" : -1, "yield" : 16}
+    }
+
+
+}

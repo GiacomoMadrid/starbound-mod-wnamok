@@ -16,6 +16,18 @@
 "op":"add",
 "path":"/defaultBlueprints/tier1/-",
 "value":{"item":"vasodevidrio"}
+},
+
+{
+"op":"add",
+"path":"/defaultBlueprints/tier1/-",
+"value":{"item":"calciorefinado"}
+},
+
+{
+"op":"add",
+"path":"/defaultBlueprints/tier1/-",
+"value":{"item":"prisilitestar"}
 }
 
 ]
