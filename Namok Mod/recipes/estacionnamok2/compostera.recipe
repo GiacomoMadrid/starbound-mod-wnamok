@@ -1,0 +1,14 @@
+{
+    "input" : [
+      { "item" : "oktolojim", "count" : 1 },
+      { "item" : "tungstenbar", "count" : 5 },
+      { "item" : "dirtmaterial", "count" : 16 },
+      { "item" : "greendye", "count" : 1 },
+      { "item" : "sustanciaforma", "count" : 1 }
+    ],
+    
+    "output" : { "item" : "compostera", "count" : 1},
+
+    "groups" : [ "farm", "estacionnamok2" ]
+  }
+  

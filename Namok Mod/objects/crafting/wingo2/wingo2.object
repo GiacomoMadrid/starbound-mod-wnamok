@@ -24,9 +24,8 @@
   "price" : 1042,
 
   "learnBlueprintsOnPickup" : [
-    "estacionnamok",
+    "estacionnamok1",
     "extractornamok1",
-    "transmutadordemateria",
     "cubonamok1",
     "namokplaca1",
     "namokplacarefri1",

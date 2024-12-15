@@ -56,6 +56,9 @@
     "fertInputs" : {
         "rottenfood" : { "growthRate" : 1.25},
         "poop" : { "growthRate" : 1.5, "yield" : 1},
+        "compost" : {"growthRate" : 2, "fluidUse" : -0.5, "yield" : 2},
+
+        "swampwater" : {"growthRate" : 1.15, "yield" : 1 },
 
         "sustanciatiempo" : { "growthRate" : 8},
         "namoktiempo" : { "growthRate" : 32},    

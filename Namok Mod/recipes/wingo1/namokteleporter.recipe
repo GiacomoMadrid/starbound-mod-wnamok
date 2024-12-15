@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "goldbar", "count" : 1 },  
     { "item" : "marmolwin", "count" : 30 }, 
-    { "item" : "chipnamok", "count" : 2 }, 
+    { "item" : "oktolojim", "count" : 2 }, 
     { "item" : "teleportercore", "count" : 1 }
 
   ],

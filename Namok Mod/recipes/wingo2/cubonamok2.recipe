@@ -2,7 +2,7 @@
 	"input": [
 		{ "item" : "durasteelbar", "count" : 1 }, 
 		{ "item" : "chipnamok", "count" : 2 },
-		{ "item" : "namokespacio", "count" : 4 },  
+		{ "item" : "sustanciaespacio", "count" : 4 },  
 		{ "item" : "wire", "count" : 16 }
 	],
 

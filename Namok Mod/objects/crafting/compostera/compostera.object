@@ -1,0 +1,60 @@
+{
+  "objectName" : "compostera",
+  "colonyTags" : ["commerce", "farm"],
+  "rarity" : "Uncommon",
+  "description" : "Convierte materia orgánica en compost.",
+  "shortdescription" : "^yellow;Compostera^white;",
+  "subtitle" : "Convierte materia orgánica en compost.",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 128,
+  "objectType" : "container",
+  "printable" : false,
+  "health" : 1.5,  
+
+  "inventoryIcon" : "composteraicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "compostera.png:<color>.<frame>", "fullbright" : true }, { "image" : "composteralit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "compostera.png:<color>.<frame>", "fullbright" : true }, { "image" : "composteralit.png:<color>.<frame>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "learnBlueprintsOnPickup" : [
+    "compost"
+  ],
+
+  "soundEffect" : "/sfx/objects/campfire.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "statusEffects" : [ ],
+
+  "recipeGroup" : "compostera",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 10,
+  "uiConfig" : "/interface/objectcrafting/compostera.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+  
+  "scripts" : ["/objects/crafting/compostera/compostera.lua"]
+
+}

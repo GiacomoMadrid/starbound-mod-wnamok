@@ -1,0 +1,694 @@
+[
+    {
+        "input": [
+          { "item": "alienmeat", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "cookedalienmeat", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "cookedribmeat", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "rawribmeat", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "rawbacon", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "cookedbacon", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "rawfish", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "rawham", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "rawpoultry", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "rawtentacle", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "cookedham", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "cookedpoultry", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "cookedtentacle", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "automato", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "avesmingo", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "banana", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "beakseed", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "boltbulb", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "boneboo", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "carrot", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "chili", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "cocoa", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "coffeebeans", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "coralcreep", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "corn", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "cotton", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "crystalplant", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "currentcorn", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "diodia", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "dirturchin", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "eggshoot", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "feathercrown", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "grapes", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "kiwi", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "shroom", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "neonmelon", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "oculemon", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "pearlpea", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "pineapple", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "potato", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "pussplum", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "reefpod", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "rice", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "sugar", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "tomato", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "toxictop", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "wartweed", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "wheat", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "egg", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "milk", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "coconut", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "kelp", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "cannedfood", "count" : 1}
+        ],
+        "output":[
+          {"item": "rottenfood", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "rottenfood", "count" : 3}
+        ],
+        "output":[
+          {"item": "compost", "count": 2}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "biosample", "count" : 1}
+        ],
+        "output":[
+          {"item": "compost", "count": 2}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "livingroot", "count" : 1}
+        ],
+        "output":[
+          {"item": "compost", "count": 2}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "poop", "count" : 1}
+        ],
+        "output":[
+          {"item": "compost", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "larva", "count" : 16}
+        ],
+        "output":[
+          {"item": "compost", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "bugshell", "count" : 16}
+        ],
+        "output":[
+          {"item": "compost", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "plantfibre", "count" : 16}
+        ],
+        "output":[
+          {"item": "compost", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "petalblue", "count" : 8}
+        ],
+        "output":[
+          {"item": "compost", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "petalred", "count" : 8}
+        ],
+        "output":[
+          {"item": "compost", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "petalyellow", "count" : 8}
+        ],
+        "output":[
+          {"item": "compost", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "giantflowerpetal", "count" : 8}
+        ],
+        "output":[
+          {"item": "compost", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "logblock", "count" : 8}
+        ],
+        "duration": 1.25,
+        "output":[
+          {"item": "compost", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "alienstripedwood", "count" : 8}
+        ],
+        "duration": 1.25,
+        "output":[
+          {"item": "compost", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "alienweirdwood", "count" : 8}
+        ],
+        "duration": 1.25,
+        "output":[
+          {"item": "compost", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    },
+    
+    {
+        "input": [
+          { "item": "rainbowwood", "count" : 8}
+        ],
+        "duration": 1.25,
+        "output":[
+          {"item": "compost", "count": 1}
+        ],
+        "groups" : ["compostera"]
+    }               
+    
+    
+    
+    
+    
+    
+    
+    
+
+  ]

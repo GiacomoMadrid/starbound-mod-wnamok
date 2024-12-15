@@ -607,7 +607,7 @@
 
     {
         "input" : [
-          { "item" : "namokessence", "count" : 16 }
+          { "item" : "namokessence", "count" : 8 }
         ],
         "output" : [
           { "item" : "namokexistencia", "count" : 1},
@@ -1152,6 +1152,29 @@
       ],
       "output" : [
         { "item" : "paper", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "oillantern1", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "oil", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "corn", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "oil", "count" : 1},
+        { "item" : "plantfibre", "count" : 1}
     
       ],
       "groups" : [ "extractornamok1" ]

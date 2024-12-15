@@ -217,7 +217,8 @@
           "oktolojim",           
           "wingo2",
           "chipnamok",
-          "bandejadecultivo1"
+          "bandejadecultivo1",
+          "compostera"
         ],
         "upgradeMaterials" : [
           { "item" : "titaniumbar", "count" : 10 },
@@ -269,7 +270,8 @@
         "oktolojim",           
         "wingo2",
         "chipnamok",
-        "bandejadecultivo1"
+        "bandejadecultivo1",
+        "compostera"
       ],
 
       "upgradeSoundEffect" : "fanfare",

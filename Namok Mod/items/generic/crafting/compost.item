@@ -1,0 +1,10 @@
+{
+  "itemName" : "compost",
+  "price" : 4,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "compost.png",
+  "description" : "Compost. Úsalo para fertilizar lo cultivos.",
+  "shortdescription" : "Compost",
+  "itemTags" : [ "reagent" ]
+}

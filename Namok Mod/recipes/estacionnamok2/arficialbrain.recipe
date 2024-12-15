@@ -9,6 +9,6 @@
     
     "output" : { "item" : "artificialbrain", "count" : 1},
 
-    "groups" : [ "wire", "estacionsustancia2" ]
+    "groups" : [ "wire", "estacionnamok2" ]
   }
   
