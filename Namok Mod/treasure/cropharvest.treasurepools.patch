@@ -1,0 +1,324 @@
+[
+
+  //******************************** CRIADEROS ********************************//
+
+  {
+    "op":"add",
+    "path":"/larvaHarvest",
+    "value":[[0,
+      {
+        "pool":[
+          {"weight" : 1.0, "item" : "larva"}
+        ],
+        "poolRounds" : [
+          [0.36, 2],
+          [0.33, 3],
+          [0.31, 4]
+        ]
+          
+      }]]
+  },
+
+  {
+    "op":"add",
+    "path":"/bugHarvest",
+    "value":[[0,
+      {
+        "pool":[
+          {"weight" : 1.0, "item" : "bugshell"}
+        ],
+        "poolRounds" : [
+          [0.36, 2],
+          [0.33, 3],
+          [0.31, 4]
+        ]
+          
+      }]]
+  },
+
+  {
+    "op":"add",
+    "path":"/silk2Harvest",
+    "value":[[0,
+      {
+        "pool":[
+          {"weight" : 1.0, "item" : "silkfibre"}
+        ],
+        "poolRounds" : [
+          [0.34, 2],
+          [0.33, 3],
+          [0.33, 4]
+        ]
+          
+      }]]
+  },
+  
+  //******************************** ESENCIAS ÑÁMOK ********************************//
+
+  {
+    "op":"add",
+    "path":"/existenciaCosecha",
+    "value":[[0,
+      {
+        "pool":[
+          {"weight" : 1.0, "item" : "namokexistencia"}
+        ],
+        "poolRounds" : [
+          [0.55, 1],
+          [0.35, 2],
+          [0.1, 4]
+        ]
+          
+      }]]
+  },
+
+  {
+    "op":"add",
+    "path":"/inteligenciaCosecha",
+    "value":[[0,
+      {
+        "pool":[
+          {"weight" : 1.0, "item" : "namokinteligencia"}
+        ],
+        "poolRounds" : [
+          [0.55, 1],
+          [0.35, 2],
+          [0.1, 4]
+        ]
+          
+      }]]
+  },
+
+  {
+    "op":"add",
+    "path":"/tiempoCosecha",
+    "value":[[0,
+      {
+        "pool":[
+          {"weight" : 1.0, "item" : "namoktiempo"}
+        ],
+        "poolRounds" : [
+          [0.55, 1],
+          [0.35, 2],
+          [0.1, 4]
+        ]
+          
+      }]]
+  },
+
+  {
+    "op":"add",
+    "path":"/espacioCosecha",
+    "value":[[0,
+      {
+        "pool":[
+          {"weight" : 1.0, "item" : "namokespacio"}
+        ],
+        "poolRounds" : [
+          [0.55, 1],
+          [0.35, 2],
+          [0.1, 4]
+        ]
+          
+      }]]
+  },
+
+  {
+    "op":"add",
+    "path":"/formaCosecha",
+    "value":[[0,
+      {
+        "pool":[
+          {"weight" : 1.0, "item" : "namokforma"}
+        ],
+        "poolRounds" : [
+          [0.55, 1],
+          [0.35, 2],
+          [0.1, 4]
+        ]
+          
+      }]]
+  },
+
+  {
+    "op":"add",
+    "path":"/funcionCosecha",
+    "value":[[0,
+      {
+        "pool":[
+          {"weight" : 1.0, "item" : "namokfuncion"}
+        ],
+        "poolRounds" : [
+          [0.55, 1],
+          [0.35, 2],
+          [0.1, 4]
+        ]
+          
+      }]]
+  },
+
+  {
+    "op":"add",
+    "path":"/poderCosecha",
+    "value":[[0,
+      {
+        "pool":[
+          {"weight" : 1.0, "item" : "namokpoder"}
+        ],
+        "poolRounds" : [
+          [0.55, 1],
+          [0.35, 2],
+          [0.1, 4]
+        ]
+          
+      }]]
+  },
+
+  {
+    "op":"add",
+    "path":"/energiaCosecha",
+    "value":[[0,
+      {
+        "pool":[
+          {"weight" : 1.0, "item" : "namokenergia"}
+        ],
+        "poolRounds" : [
+          [0.55, 1],
+          [0.35, 2],
+          [0.1, 4]
+        ]
+          
+      }]]
+  },
+
+  {
+    "op":"add",
+    "path":"/namokessenceCosecha",
+    "value":[[0,
+      {
+        "pool":[
+          {"weight" : 1.0, "item" : "namokessence"}
+        ],
+        "poolRounds" : [
+          [0.55, 1],
+          [0.35, 2],
+          [0.1, 4]
+        ]
+          
+      }]]
+  },
+
+  {
+    "op":"add",
+    "path":"/essenceCosecha",
+    "value":[[0,
+      {
+        "pool":[
+          {"weight" : 1.0, "item" : "essence"}
+        ],
+        "poolRounds" : [
+          [0.55, 4],
+          [0.35, 8],
+          [0.1, 16]
+        ]
+          
+      }]]
+  },
+
+  //*************************************** SEMILLAS ***************************************//
+
+  {
+    "op":"add",
+    "path":"/moneyHarvest",
+    "value":[[0,
+      {
+        "pool":[
+          {"weight" : 0.8, "item" : "money"},
+          {"weight" : 0.2, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 8],
+          [0.3, 16],
+          [0.1, 64]
+        ]
+          
+      }]]
+  },
+
+  {
+    "op":"add",
+    "path":"/essenceHarvest",
+    "value":[[0,
+      {
+        "pool":[
+          {"weight" : 0.8, "item" : "essence"},
+          {"weight" : 0.2, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 4],
+          [0.3, 8],
+          [0.1, 16]
+        ]
+          
+      }]]
+  },
+
+  {
+    "op":"add",
+    "path":"/shroomHarvest",
+    "value":[[0,
+      {
+        "pool":[
+          {"weight" : 0.95, "item" : "shroom"},
+          {"weight" : 0.05, "item" : "shroomseed"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.4, 2]
+        ]
+          
+      }]]
+  },
+
+  {
+    "op":"add",
+    "path":"/bonebooHarvest",
+    "value":[[0,
+      {
+        "pool":[
+          {"weight" : 0.7, "item" : "boneboo"},
+          {"weight" : 0.01, "item" : "bonebooseed"},
+          {"weight" : 0.19, "item" : "bone"},
+          {"weight" : 0.1, "item" : "plantfibre"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.4, 2]
+        ]
+          
+      }]]
+  },
+
+  {
+    "op":"add",
+    "path":"/thornyplantHarvest",
+    "value":[[0,
+      {
+        "pool":[
+          {"weight" : 0.9, "item" : "thornfruit"},
+          {"weight" : 0.05, "item" : "plantfibre"},
+          {"weight" : 0.05, "item" : "thornyseed"}
+        ],
+        "poolRounds" : [
+          [0.4, 1],
+          [0.4, 2],
+          [0.2, 3]
+        ]
+          
+      }]]
+  }
+
+
+]
+
+

@@ -28,7 +28,8 @@
         {"item" : ["goldenwinblock2", 50]},
         {"item" : ["goldwintiles", 20]},
         {"item" : ["goldwintiles2", 2]},
-        {"item" : [ "goldwintiles3", 2]}
+        {"item" : ["goldwintiles3", 2]},
+        {"item" : ["namokflag", 4]}
 
       ]            
     }]]

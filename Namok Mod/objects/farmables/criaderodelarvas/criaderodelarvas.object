@@ -1,0 +1,66 @@
+{
+  "objectName" : "criaderodelarvas",
+  "colonyTags" : ["outdoor","light"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 110,
+  "description" : "Cria larvas. Las larvas ayudan con el compost.",
+  "shortdescription" : "Criadero de larvas",
+  "race" : "generic",
+
+  "inventoryIcon" : "criaderodelarvasicon.png",
+  "orientations" : [
+    {
+      "image" : "criaderodelarvas.png:1",
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [-8, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "criaderodelarvas.png:1",
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [-8, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "criaderodelarvas.animation",
+  "animationParts" : {
+    "light" : "criaderodelarvaslit.png",
+    "post" : "criaderodelarvas.png"
+  },
+
+  "scripts" : [ "/objects/scripts/harvestable.lua" ],
+  "scriptDelta" : 60,
+
+  "activeTimeRange" : [0.7, 1.0],
+  "activeAnimationStates" : {
+    "light" : "on"
+  },
+  "inactiveAnimationStates" : {
+    "light" : "off"
+  },
+
+  "itemDropOffset" : [0.5, 2.5],
+  "stages" : [
+    {
+      "duration" : [55, 65]
+    },
+    {
+      "duration" : [55, 65]
+    },
+    {
+      "harvestPool" : "larvaHarvest"
+    }
+  ]
+}
