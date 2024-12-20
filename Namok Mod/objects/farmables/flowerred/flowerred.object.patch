@@ -1,0 +1,10 @@
+[
+  {
+    "op": "replace",
+    "path": "/breakDropOptions/0",
+    "value": [
+      ["flowerredseed", 1, {}],
+      ["petalred", 1, {}]
+    ]
+  }
+]

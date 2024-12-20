@@ -317,7 +317,83 @@
         ]
           
       }]]
+  },
+
+  {
+    "op":"add",
+    "path":"/protectorateflowerHarvest",
+    "value":[[0,
+      {
+        "pool":[
+          {"weight" : 0.75, "item" : "protectorateflowerhead"},
+          {"weight" : 0.15, "item" : "plantfibre"},
+          {"weight" : 0.1, "item" : "protectorateflowerseed"}
+        ],
+        "poolRounds" : [
+          [0.8, 1],
+          [0.2, 2]
+        ]
+          
+      }]]
+  },
+
+  {
+    "op":"add",
+    "path":"/flowerblueHarvest",
+    "value":[[0,
+      {
+        "pool":[
+          {"weight" : 0.7, "item" : "petalblue"},
+          {"weight" : 0.15, "item" : "plantfibre"},
+          {"weight" : 0.15, "item" : "flowerblueseed"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+          
+      }]]
+  },
+
+  {
+    "op":"add",
+    "path":"/flowerredHarvest",
+    "value":[[0,
+      {
+        "pool":[
+          {"weight" : 0.7, "item" : "petalred"},
+          {"weight" : 0.15, "item" : "plantfibre"},
+          {"weight" : 0.15, "item" : "flowerredseed"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+          
+      }]]
+  },
+
+  {
+    "op":"add",
+    "path":"/floweryellowHarvest",
+    "value":[[0,
+      {
+        "pool":[
+          {"weight" : 0.7, "item" : "petalyellow"},
+          {"weight" : 0.15, "item" : "plantfibre"},
+          {"weight" : 0.15, "item" : "floweryellowseed"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.3, 2],
+          [0.1, 3]
+        ]
+          
+      }]]
   }
+
 
 
 ]

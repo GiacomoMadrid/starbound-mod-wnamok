@@ -681,6 +681,54 @@
           {"item": "compost", "count": 1}
         ],
         "groups" : ["compostera"]
+    },
+    
+    {
+      "input" : [
+        { "item" : "flowerblueseed", "count" : 16 }
+      ],
+      "duration": 1.25,
+      "output" : [
+        { "item" : "compost", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "flowerredseed", "count" : 16 }
+      ],
+      "duration": 1.25,
+      "output" : [
+        { "item" : "compost", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "floweryellowseed", "count" : 16 }
+      ],
+      "duration": 1.25,
+      "output" : [
+        { "item" : "compost", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "protectorateflowerhead", "count" : 1 }
+      ],
+      "duration": 1.25,
+      "output" : [
+        { "item" : "compost", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
     }               
     
     

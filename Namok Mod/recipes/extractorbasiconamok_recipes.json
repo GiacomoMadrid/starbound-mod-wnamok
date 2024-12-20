@@ -1178,6 +1178,50 @@
     
       ],
       "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "flowerblueseed", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "petalblue", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "flowerredseed", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "petalred", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "floweryellowseed", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "petalyellow", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "protectorateflowerhead", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "pinkdye", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
     }
     
     

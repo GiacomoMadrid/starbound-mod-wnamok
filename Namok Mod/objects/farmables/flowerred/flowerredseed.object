@@ -1,0 +1,61 @@
+{
+  "objectName" : "flowerredseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "A flower with bright red petals. Useful for making dye.",
+  "shortdescription" : "Red Flower",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 23,
+
+  "apexDescription" : "A red flower. It has a purpose.",
+  "avianDescription" : "A pretty red flower, I can use this to make coloured dyes.",
+  "floranDescription" : "Thiss red flower can be used to colour clothes!",
+  "glitchDescription" : "Thoughtful. A red flower. It has a practical use in creating dye.",
+  "humanDescription" : "A green flower. Wait, no, it's red.",
+  "hylotlDescription" : "A delightful red flower, beautiful and useful.",
+  "novakidDescription" : "A red flower? This must be useful for somethin'.",
+
+  "inventoryIcon" : "flowerredseedicon.png",
+
+  "tooltipKind" : "seed",
+  "largeImage" : "flowerred.png:default.2.0",
+
+
+  "orientations" : [
+    {
+      "dualImage" : "flowerred.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [230, 270]
+    },
+    {
+      "duration" : [230, 270]
+    },
+    {
+      "alts" : 5,
+      "duration" : [1240, 1260]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "flowerredHarvest",
+      "resetToStage" : 2
+    }
+  ],
+
+  "maxImmersion" : 0.25
+}

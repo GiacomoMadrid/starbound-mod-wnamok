@@ -1,0 +1,61 @@
+{
+  "objectName" : "protectorateflowerseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "What a lovely flower!",
+  "shortdescription" :"Protectorate Flower Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 23,
+
+  "apexDescription" : "A lovely, pink flower. I should pick it and keep it as a memory of today.",
+  "avianDescription" : "What a hopeful and vibrant flower. I should take it with me!",
+  "floranDescription" : "Hey little friend... Maybe Floran could keep flower in Floran's pocketsss!",
+  "glitchDescription" : "Sentimental. I should pick this and keep it as a reminder of my graduation day.",
+  "humanDescription" : "Hey little guy... Maybe I should take you with me as a graduation memory?",
+  "hylotlDescription" : "What a beatiful flower to find on a beautiful day. Should I take it with me?",
+  "novakidDescription" : "I ain't the sentimental type... but I feel like takin' this flower with me as a memory of today.",
+
+  "inventoryIcon" : "protectorateflowerseedicon.png",
+
+  "tooltipKind" : "seed",
+  "largeImage" : "protectorateflowerseed.png",
+
+
+  "orientations" : [
+    {
+      "dualImage" : "protectorateflowerseed.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [230, 270]
+    },
+    {
+      "duration" : [230, 270]
+    },
+    {
+      "alts" : 5,
+      "duration" : [1240, 1260]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "protectorateflowerHarvest",
+      "resetToStage" : 2
+    }
+  ],
+
+  "maxImmersion" : 0.25
+}

@@ -5,7 +5,7 @@
     "value": [[0, {
       "fill" : [
         {"item" : [ "flashlight" ]},
-        {"item" : [ "torch", 10 ]},
+        {"item" : [ "torch", 16 ]},
         {"item" : [ "cannedfood", 1 ]},
         {"item" : [ "cannedfood", 1 ]},
         {"item" : [ "cannedfood", 1 ]},
@@ -19,17 +19,17 @@
         {"item" : ["namoktorch", 16]},
         {"item" : ["liquidhealing", 64]},
         {"item" : ["namoktent1", 1]},
-        {"item" : ["marmolwin", 100]},
-        {"item" : ["pillarwin", 50]},
+        {"item" : ["marmolwin", 200]},
+        {"item" : ["pillarwin", 32]},
         {"item" : ["marmolwinbrick", 50]},
-        {"item" : ["pisomarmolwin", 30]},
+        {"item" : ["pisomarmolwin", 32]},
         {"item" : ["marmolwinplatform", 16]},
         {"item" : ["namokpilardoor", 2]},
         {"item" : ["goldenwinblock2", 50]},
-        {"item" : ["goldwintiles", 20]},
+        {"item" : ["goldwintiles", 30]},
         {"item" : ["goldwintiles2", 2]},
         {"item" : ["goldwintiles3", 2]},
-        {"item" : ["namokflag", 4]}
+        {"item" : ["flagnamok", 4]}
 
       ]            
     }]]
