@@ -101,17 +101,29 @@
         {"weight" : 0.01, "item" : "inferiorbrain"},
         {"weight" : 0.8, "item" : "cellmatter"},
         {"weight" : 0.19, "item" : "cellmateria"}
+      ],
+      "poolRounds" : [
+        [0.3, 1]
+      ]
+    } ]
+  ],
+
+  "nutmidgebrain" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.7, "item" : "hardenedcarapace"},
+        {"weight" : 0.3, "item" : "monsterplating"}
       ]
     } ]
   ],
 
   "brain" : [ //consistencia
-    [0, {
-      "pool" : [
-        {"weight" : 1.0, "item" : "money"}
-      ]
-    } ]
-  ]
+  [0, {
+    "pool" : [
+      {"weight" : 1.0, "item" : "money"}
+    ]
+  } ]
+]
 
 }
 

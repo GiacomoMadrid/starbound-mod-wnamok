@@ -6,6 +6,7 @@ function init()
 	canExplode = false
     isMonster = false
     isNPC = false
+    isCritter = false
 
 	if (status.resourceMax("health") < config.getParameter("minMaxHealth", 0)) or (not world.entityExists(entity.id())) then
 		return
@@ -21,21 +22,27 @@ function init()
         subType = eConfig.bodyMaterialKind or status.statusProperty("targetMaterialKind") or (eConfig.statusSettings and eConfig.statusSettings.statusProperties and eConfig.statusSettings.statusProperties.targetMaterialKind)
         
         if minBaseHealth then
-            local baseHealth=eConfig.statusSettings and eConfig.statusSettings.stats and eConfig.statusSettings.stats.maxHealth and eConfig.statusSettings.stats.maxHealth.baseValue or 0
+            local baseHealth = eConfig.statusSettings and eConfig.statusSettings.stats and eConfig.statusSettings.stats.maxHealth and eConfig.statusSettings.stats.maxHealth.baseValue or 0
             
             if baseHealth > minBaseHealth then
                 canExplode = true
             end
         else
-            canExplode=true
+            canExplode = true
         end
 
     elseif entType == "npc" then
         isNPC = true
         subType = world.entitySpecies(entity.id())
         canExplode = true
+    
+    elseif entType == "critter" then
+        isCritter = true
+        canExplode = true
     end
 	
+
+
 	self.didInit=true
 end
 
@@ -79,6 +86,9 @@ function explode()
                 elseif monsterType == "chicken" or monsterType == "hen" or monsterType == "mooshi" then
                     treasureP = "inferiorbrain"
                 
+                elseif monsterType == "nutmidge" then
+                    treasureP = "nutmidgebrain"
+                
                 elseif monsterType == "robot" or targetType == "robotic" then --consistencia para mods ajenos que tengan robots no registrados
                     treasureP = "brainrobot"
 
@@ -93,6 +103,9 @@ function explode()
                 else
                     treasureP = "brainnpc"
                 end  
+
+            elseif isCritter then
+                treasureP = "braincritter"
             end            
 
             status.addPersistentEffect(blocker,{stat=blocker,amount=1})

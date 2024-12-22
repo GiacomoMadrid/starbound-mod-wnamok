@@ -52,7 +52,7 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "flowerredHarvest",
+      "harvestPool" : "flowerredseedHarvest",
       "resetToStage" : 2
     }
   ],
