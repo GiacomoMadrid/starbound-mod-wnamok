@@ -1,0 +1,325 @@
+[
+  //************************************* CÁPSULAS, POTS *************************************//
+  {
+    "op": "add",
+    "path": "/capsule/0/1/pool/-",
+    "value": {"weight": 0.03, "item": "namokessence"}
+  },
+  {
+    "op": "add",
+    "path": "/capsule/1/1/pool/-",
+    "value": {"weight": 0.08, "item": "namokessence"}
+  },
+
+  {
+    "op": "add",
+    "path": "/jarronviva",
+    "value": [
+      [0, {
+        "poolRounds": [
+          [0.9, 1], 
+          [0.1, 2]
+        ],
+
+        "pool": [
+          {"weight": 0.84, "item": ["namokessence", 2]},
+          {"weight": 0.02, "item": ["namoktiempo", 1]},
+          {"weight": 0.02, "item": ["namokespacio", 1]},
+          {"weight": 0.02, "item": ["namokexistencia", 1]},
+          {"weight": 0.02, "item": ["namokpoder", 1]},
+          {"weight": 0.02, "item": ["namokforma", 1]},
+          {"weight": 0.02, "item": ["namokfuncion", 1]},
+          {"weight": 0.02, "item": ["namokinteligencia", 1]},
+          {"weight": 0.02, "item": ["namokenergia", 1]}
+        ]
+      }],
+      [1.9, {
+        "poolRounds": [
+          [0.9, 1], 
+          [0.1, 2]
+        ],
+
+        "pool": [
+          {"weight": 0.66, "item": ["namokessence", 2]},
+          {"weight": 0.1, "item": ["namokessence", 3]},
+          {"weight": 0.03, "item": ["namoktiempo", 1]},
+          {"weight": 0.03, "item": ["namokespacio", 1]},
+          {"weight": 0.03, "item": ["namokexistencia", 1]},
+          {"weight": 0.03, "item": ["namokpoder", 1]},
+          {"weight": 0.03, "item": ["namokforma", 1]},
+          {"weight": 0.03, "item": ["namokfuncion", 1]},
+          {"weight": 0.03, "item": ["namokinteligencia", 1]},
+          {"weight": 0.03, "item": ["namokenergia", 1]}
+        ]
+      }],
+      [2.9, {
+        "poolRounds": [
+          [0.9, 1], 
+          [0.1, 2]
+        ],
+
+        "pool": [
+          {"weight": 0.58, "item": ["namokessence", 2]},
+          {"weight": 0.1, "item": ["namokessence", 4]},
+          {"weight": 0.04, "item": ["namoktiempo", 1]},
+          {"weight": 0.04, "item": ["namokespacio", 1]},
+          {"weight": 0.04, "item": ["namokexistencia", 1]},
+          {"weight": 0.04, "item": ["namokpoder", 1]},
+          {"weight": 0.04, "item": ["namokforma", 1]},
+          {"weight": 0.04, "item": ["namokfuncion", 1]},
+          {"weight": 0.04, "item": ["namokinteligencia", 1]},
+          {"weight": 0.04, "item": ["namokenergia", 1]}
+        ]
+      }],
+      [3.9, {
+        "poolRounds": [
+          [0.9, 1], 
+          [0.1, 2]
+        ],
+
+        "pool": [
+          {"weight": 0.58, "item": ["namokessence", 3]},
+          {"weight": 0.1, "item": ["namokessence", 4]},
+          {"weight": 0.04, "item": ["namoktiempo", 1]},
+          {"weight": 0.04, "item": ["namokespacio", 1]},
+          {"weight": 0.04, "item": ["namokexistencia", 1]},
+          {"weight": 0.04, "item": ["namokpoder", 1]},
+          {"weight": 0.04, "item": ["namokforma", 1]},
+          {"weight": 0.04, "item": ["namokfuncion", 1]},
+          {"weight": 0.04, "item": ["namokinteligencia", 1]},
+          {"weight": 0.04, "item": ["namokenergia", 1]}
+        ]
+      }],
+      [4.9, {
+        "poolRounds": [
+          [0.9, 1], 
+          [0.1, 2]
+        ],
+
+        "pool": [
+          {"weight": 0.58, "item": ["namokessence", 4]},
+          {"weight": 0.1, "item": ["namokessence", 5]},
+          {"weight": 0.04, "item": ["namoktiempo", 1]},
+          {"weight": 0.04, "item": ["namokespacio", 1]},
+          {"weight": 0.04, "item": ["namokexistencia", 1]},
+          {"weight": 0.04, "item": ["namokpoder", 1]},
+          {"weight": 0.04, "item": ["namokforma", 1]},
+          {"weight": 0.04, "item": ["namokfuncion", 1]},
+          {"weight": 0.04, "item": ["namokinteligencia", 1]},
+          {"weight": 0.04, "item": ["namokenergia", 1]}
+        ]
+      }],
+      [5.9, {
+        "poolRounds": [
+          [0.9, 1], 
+          [0.1, 2]
+        ],
+
+        "pool": [
+          {"weight": 0.5, "item": ["namokessence", 4]},
+          {"weight": 0.1, "item": ["namokessence", 5]},
+          {"weight": 0.05, "item": ["namoktiempo", 1]},
+          {"weight": 0.05, "item": ["namokespacio", 1]},
+          {"weight": 0.05, "item": ["namokexistencia", 1]},
+          {"weight": 0.05, "item": ["namokpoder", 1]},
+          {"weight": 0.05, "item": ["namokforma", 1]},
+          {"weight": 0.05, "item": ["namokfuncion", 1]},
+          {"weight": 0.05, "item": ["namokinteligencia", 1]},
+          {"weight": 0.05, "item": ["namokenergia", 1]}
+        ]
+      }],
+      [6.9, {
+        "poolRounds": [
+          [0.8, 1], 
+          [0.19, 2], 
+          [0.01, 4]
+        ],
+
+        "pool": [
+          {"weight": 0.55, "item": ["namokessence", 4]},
+          {"weight": 0.05, "item": ["namokessence", 8]},
+          {"weight": 0.05, "item": ["namoktiempo", 1]},
+          {"weight": 0.05, "item": ["namokespacio", 1]},
+          {"weight": 0.05, "item": ["namokexistencia", 1]},
+          {"weight": 0.05, "item": ["namokpoder", 1]},
+          {"weight": 0.05, "item": ["namokforma", 1]},
+          {"weight": 0.05, "item": ["namokfuncion", 1]},
+          {"weight": 0.05, "item": ["namokinteligencia", 1]},
+          {"weight": 0.05, "item": ["namokenergia", 1]}
+        ]
+      }]
+    ]
+  },
+
+  {
+    "op": "add",
+    "path": "/namoktiempo",
+    "value": [
+      [0, {
+        "poolRounds": [
+          [0.9, 1], 
+          [0.1, 2]
+        ],
+
+        "pool": [
+          {"weight": 0.3, "item": ["namokessence", 1]},
+          {"weight": 0.7, "item": ["namoktiempo", 1]}
+        ]
+      }]
+    ]
+  },
+
+  {
+    "op": "add",
+    "path": "/namokespacio",
+    "value": [
+      [0, {
+        "poolRounds": [
+          [0.9, 1], 
+          [0.1, 2]
+        ],
+
+        "pool": [
+          {"weight": 0.3, "item": ["namokessence", 1]},
+          {"weight": 0.7, "item": ["namokespacio", 1]}
+        ]
+      }]
+    ]
+  },
+
+  {
+    "op": "add",
+    "path": "/namokforma",
+    "value": [
+      [0, {
+        "poolRounds": [
+          [0.9, 1], 
+          [0.1, 2]
+        ],
+
+        "pool": [
+          {"weight": 0.3, "item": ["namokessence", 1]},
+          {"weight": 0.7, "item": ["namokforma", 1]}
+        ]
+      }]
+    ]
+  },
+
+  {
+    "op": "add",
+    "path": "/namokfuncion",
+    "value": [
+      [0, {
+        "poolRounds": [
+          [0.9, 1], 
+          [0.1, 2]
+        ],
+
+        "pool": [
+          {"weight": 0.3, "item": ["namokessence", 1]},
+          {"weight": 0.7, "item": ["namokfuncion", 1]}
+        ]
+      }]
+    ]
+  },
+
+  {
+    "op": "add",
+    "path": "/namokexistencia",
+    "value": [
+      [0, {
+        "poolRounds": [
+          [0.9, 1], 
+          [0.1, 2]
+        ],
+
+        "pool": [
+          {"weight": 0.3, "item": ["namokessence", 1]},
+          {"weight": 0.7, "item": ["namokexistencia", 1]}
+        ]
+      }]
+    ]
+  },
+
+  {
+    "op": "add",
+    "path": "/namokinteligencia",
+    "value": [
+      [0, {
+        "poolRounds": [
+          [0.9, 1], 
+          [0.1, 2]
+        ],
+
+        "pool": [
+          {"weight": 0.3, "item": ["namokessence", 1]},
+          {"weight": 0.7, "item": ["namokinteligencia", 1]}
+        ]
+      }]
+    ]
+  },
+
+  {
+    "op": "add",
+    "path": "/namokenergia",
+    "value": [
+      [0, {
+        "poolRounds": [
+          [0.9, 1], 
+          [0.1, 2]
+        ],
+
+        "pool": [
+          {"weight": 0.3, "item": ["namokessence", 1]},
+          {"weight": 0.7, "item": ["namokenergia", 1]}
+        ]
+      }]
+    ]
+  },
+
+  {
+    "op": "add",
+    "path": "/namokpoder",
+    "value": [
+      [0, {
+        "poolRounds": [
+          [0.9, 1], 
+          [0.1, 2]
+        ],
+
+        "pool": [
+          {"weight": 0.3, "item": ["namokessence", 1]},
+          {"weight": 0.7, "item": ["namokpoder", 1]}
+        ]
+      }]
+    ]
+  },
+
+
+
+  //*************************************  OTROS  *************************************//
+
+  {
+    "op": "replace",
+    "path": "/birdsnest/0/1/poolRounds",
+    "value": [
+      [0.1, 2],
+      [0.9, 1]
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/birdsnest/0/1/pool",
+    "value": [
+      {"weight": 1, "item": "egg"}
+    ]
+  }
+
+
+
+
+
+
+
+
+]

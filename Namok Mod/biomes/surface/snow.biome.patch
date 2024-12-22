@@ -1,0 +1,58 @@
+[
+  {
+    "op": "add",
+    "path": "/surfacePlaceables/items/-",
+    "value": {
+      "mode": "floor",
+      "priority": 1.0,
+      "variants": 1,
+      "distribution": "/biomes/distributions.config:surfaceViva",
+      "type": "object",
+      "objectSets": [
+        {
+          "pool": [
+            [0.125, "jarronviva0"],
+            [0.125, "jarronviva1"],
+            [0.125, "jarronviva2"],
+            [0.125, "jarronviva3"],
+            [0.125, "jarronviva4"],
+            [0.125, "jarronviva5"],
+            [0.125, "jarronviva6"],
+            [0.125, "jarronviva7"]
+          ],
+          "parameters": {
+            "groupCount": { "range": [2, 10], "bias": 0.5 }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/undergroundPlaceables/items/-",
+    "value": {
+      "mode": "floor",
+      "priority": 1.0,
+      "variants": 1,
+      "distribution": "/biomes/distributions.config:undergroundViva",
+      "type": "object",
+      "objectSets": [
+        {
+          "pool": [
+            [0.125, "jarronviva0"],
+            [0.125, "jarronviva1"],
+            [0.125, "jarronviva2"],
+            [0.125, "jarronviva3"],
+            [0.125, "jarronviva4"],
+            [0.125, "jarronviva5"],
+            [0.125, "jarronviva6"],
+            [0.125, "jarronviva7"]
+          ],
+          "parameters": {
+            "groupCount": { "range": [3, 10], "bias": 0.5 }
+          }
+        }
+      ]
+    }
+  }
+]

@@ -27,7 +27,9 @@
   "baseOffset" : [0.75, 0.125],
   "muzzleOffset" : [1.0, 0.125],
 
-  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "scripts" : [
+    "/items/active/weapons/ranged/gun.lua"
+  ],
 
   
   "primaryAbility" : {
@@ -41,7 +43,7 @@
     "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType" : "brainshock",
+    "projectileType" : "winbrainshock",
     "projectileParameters" : {
       "knockback" : 2,
       "bounces" : 1,

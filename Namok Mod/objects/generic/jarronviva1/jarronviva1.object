@@ -1,0 +1,30 @@
+{
+  "objectName" : "jarronviva1",
+  "colonyTags" : ["misc"],
+  "rarity" : "Legendary",
+  "category" : "breakable",
+  "price" : 64,
+  "printable" : false,
+
+  "description" : "Jarrón ñámok genérico. Representa un viva genérico. Puede contener tesoros sorprendentes.",
+  "shortdescription" : "Jarrón Viva",
+  "race" : "generic",
+
+  "inventoryIcon" : "jarronviva1icon.png",
+  "orientations" : [
+    {
+      "image" : "jarronviva1.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/capsule_break1.ogg", "/sfx/objects/capsule_break2.ogg", "/sfx/objects/capsule_break3.ogg" ],
+  "smashDropPool" : "jarronviva",
+  "breakDropPool" : "jarronviva"
+}

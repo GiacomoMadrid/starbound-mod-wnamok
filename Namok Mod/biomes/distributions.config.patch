@@ -1,0 +1,30 @@
+[
+  {
+    "op": "add",
+    "path": "/surfaceViva",
+    "value": {
+      "type": "periodic",
+      "octaves": 3,
+      "alpha": 2.0,
+      "beta": 2.0,
+      "modulus": 8.0,
+      "modulusVariance": 2.0,
+      "densityPeriod": 10,
+      "densityOffset": -0.4
+    }
+  },
+  {
+    "op": "add",
+    "path": "/undergroundViva",
+    "value": {
+      "type": "periodic",
+      "octaves": 3,
+      "alpha": 2.0,
+      "beta": 2.0,
+      "modulus": 6.0,
+      "modulusVariance": 2.0,
+      "densityPeriod": 10,
+      "densityOffset": -0.3
+    }
+  }
+]

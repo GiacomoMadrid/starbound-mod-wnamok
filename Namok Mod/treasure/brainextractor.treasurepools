@@ -1,0 +1,117 @@
+{
+  // ==============================================================================================
+  //                                          BRAIN EXTRACTOR
+  // ==============================================================================================
+
+  "braindefault" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.15, "item" : "cellmateria"},
+        {"weight" : 0.5, "item" : "cellmatter"},
+        {"weight" : 0.3, "item" : "inferiorbrain"},
+        {"weight" : 0.05, "item" : "brain"}
+      ]
+    } ]
+  ],
+
+  "brainquadruped" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.6, "item" : "inferiorbrain"},
+        {"weight" : 0.4, "item" : "brain"}
+      ]
+    } ]
+  ],
+
+  "brainflying" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.65, "item" : "inferiorbrain"},
+        {"weight" : 0.35, "item" : "brain"}
+      ]
+    } ]
+  ],
+
+  "brainrobot" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.1, "item" : "artificialbrain"},
+        {"weight" : 0.4, "item" : "wire"},
+        {"weight" : 0.2, "item" : "stickofram"},
+        {"weight" : 0.2, "item" : "siliconboard"},
+        {"weight" : 0.1, "item" : "namokfuncion"}
+      ]
+    } ]
+  ],
+
+  "brainnpc" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.1, "item" : "namokinteligencia"},
+        {"weight" : 0.9, "item" : "brain"}
+      ]
+    } ]
+  ],
+
+  "brainnpcglitch" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.05, "item" : "brain"},
+        {"weight" : 0.1, "item" : "namokinteligencia"},
+        {"weight" : 0.85, "item" : "artificialbrain"}
+      ]
+    } ]
+  ],
+
+  "brainfish" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.05, "item" : "inferiorbrain"},
+        {"weight" : 0.75, "item" : "cellmatter"},
+        {"weight" : 0.2, "item" : "cellmateria"}
+      ]
+    } ]
+  ],
+
+  "inferiorbrain" : [ //gallinas y animales de granja
+    [0, {
+      "pool" : [
+        {"weight" : 0.9, "item" : "inferiorbrain"},
+        {"weight" : 0.05, "item" : "cellmatter"},
+        {"weight" : 0.05, "item" : "cellmateria"}
+      ]
+    } ]
+  ],
+
+  "erchiusbrain" : [ 
+    [0, {
+      "pool" : [
+        {"weight" : 0.5, "item" : "inferiorbrain"},
+        {"weight" : 0.1, "item" : "cellmatter"},
+        {"weight" : 0.1, "item" : "cellmateria"},
+        {"weight" : 0.1, "item" : "brain"},
+        {"weight" : 0.2, "item" : "supermatter"}
+      ]
+    } ]
+  ],
+
+  "braincritter" : [ 
+    [0, {
+      "pool" : [
+        {"weight" : 0.01, "item" : "inferiorbrain"},
+        {"weight" : 0.8, "item" : "cellmatter"},
+        {"weight" : 0.19, "item" : "cellmateria"}
+      ]
+    } ]
+  ],
+
+  "brain" : [ //consistencia
+    [0, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "money"}
+      ]
+    } ]
+  ]
+
+}
+

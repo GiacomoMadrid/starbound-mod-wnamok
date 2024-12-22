@@ -1,0 +1,30 @@
+{
+  "objectName" : "jarronviva2",
+  "colonyTags" : ["misc"],
+  "rarity" : "Legendary",
+  "category" : "breakable",
+  "price" : 64,
+  "printable" : false,
+
+  "description" : "Jarrón ñámok con forma de Noli Viva. Puede contener tesoros sorprendentes.",
+  "shortdescription" : "Jarrón Viva",
+  "race" : "generic",
+
+  "inventoryIcon" : "jarronviva2icon.png",
+  "orientations" : [
+    {
+      "image" : "jarronviva2.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/capsule_break1.ogg", "/sfx/objects/capsule_break2.ogg", "/sfx/objects/capsule_break3.ogg" ],
+  "smashDropPool" : "jarronviva",
+  "breakDropPool" : "jarronviva"
+}

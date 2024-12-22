@@ -1,0 +1,30 @@
+{
+  "objectName" : "jarronviva0",
+  "colonyTags" : ["misc"],
+  "rarity" : "Legendary",
+
+  "category" : "breakable",
+  "price" : 64,
+  "printable" : false,
+  "description" : "Jarrón ñámok con forma de Viva. Puede contener tesoros sorprendentes.",
+  "shortdescription" : "Jarrón Viva",
+  "race" : "generic",
+
+
+  "inventoryIcon" : "jarronviva0icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "jarronviva0.png:<color>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/ancient_pot_break_medium1.ogg", "/sfx/objects/ancient_pot_break_medium2.ogg", "/sfx/objects/ancient_pot_break_medium3.ogg", "/sfx/objects/ancient_pot_break_medium4.ogg", "/sfx/objects/ancient_pot_break_medium5.ogg", "/sfx/objects/ancient_pot_break_medium6.ogg" ],
+  "smashParticles" : [ { "count" : 10, "particle" : "ancientshard1" }, { "count" : 10, "particle" : "ancientenergy1" } ],
+  "smashDropPool" : "jarronviva", 
+  "breakDropPool" : "jarronviva"
+}
