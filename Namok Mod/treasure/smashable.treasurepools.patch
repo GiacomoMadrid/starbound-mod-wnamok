@@ -22,7 +22,9 @@
         ],
 
         "pool": [
-          {"weight": 0.84, "item": ["namokessence", 2]},
+          {"weight": 0.04, "item": ["essence", 4]},
+          {"weight": 0.5, "item": ["money", 64]},
+          {"weight": 0.3, "item": ["namokessence", 1]},
           {"weight": 0.02, "item": ["namoktiempo", 1]},
           {"weight": 0.02, "item": ["namokespacio", 1]},
           {"weight": 0.02, "item": ["namokexistencia", 1]},
@@ -40,8 +42,10 @@
         ],
 
         "pool": [
-          {"weight": 0.66, "item": ["namokessence", 2]},
-          {"weight": 0.1, "item": ["namokessence", 3]},
+          {"weight": 0.25, "item": ["namokessence", 1]},
+          {"weight": 0.05, "item": ["namokessence", 2]},
+          {"weight": 0.06, "item": ["essence", 4]},
+          {"weight": 0.4, "item": ["money", 64]},
           {"weight": 0.03, "item": ["namoktiempo", 1]},
           {"weight": 0.03, "item": ["namokespacio", 1]},
           {"weight": 0.03, "item": ["namokexistencia", 1]},
@@ -59,8 +63,10 @@
         ],
 
         "pool": [
-          {"weight": 0.58, "item": ["namokessence", 2]},
-          {"weight": 0.1, "item": ["namokessence", 4]},
+          {"weight": 0.24, "item": ["namokessence", 1]},
+          {"weight": 0.04, "item": ["namokessence", 2]},
+          {"weight": 0.1, "item": ["essence", 4]},
+          {"weight": 0.3, "item": ["money", 64]},
           {"weight": 0.04, "item": ["namoktiempo", 1]},
           {"weight": 0.04, "item": ["namokespacio", 1]},
           {"weight": 0.04, "item": ["namokexistencia", 1]},
@@ -78,8 +84,10 @@
         ],
 
         "pool": [
-          {"weight": 0.58, "item": ["namokessence", 3]},
-          {"weight": 0.1, "item": ["namokessence", 4]},
+          {"weight": 0.24, "item": ["namokessence", 1]},
+          {"weight": 0.04, "item": ["namokessence", 2]},
+          {"weight": 0.1, "item": ["essence", 4]},
+          {"weight": 0.3, "item": ["money", 64]},
           {"weight": 0.04, "item": ["namoktiempo", 1]},
           {"weight": 0.04, "item": ["namokespacio", 1]},
           {"weight": 0.04, "item": ["namokexistencia", 1]},
@@ -97,8 +105,10 @@
         ],
 
         "pool": [
-          {"weight": 0.58, "item": ["namokessence", 4]},
-          {"weight": 0.1, "item": ["namokessence", 5]},
+          {"weight": 0.24, "item": ["namokessence", 1]},
+          {"weight": 0.04, "item": ["namokessence", 2]},
+          {"weight": 0.1, "item": ["essence", 4]},
+          {"weight": 0.3, "item": ["money", 64]},
           {"weight": 0.04, "item": ["namoktiempo", 1]},
           {"weight": 0.04, "item": ["namokespacio", 1]},
           {"weight": 0.04, "item": ["namokexistencia", 1]},
@@ -116,8 +126,10 @@
         ],
 
         "pool": [
-          {"weight": 0.5, "item": ["namokessence", 4]},
-          {"weight": 0.1, "item": ["namokessence", 5]},
+          {"weight": 0.22, "item": ["namokessence", 1]},
+          {"weight": 0.06, "item": ["namokessence", 2]},
+          {"weight": 0.1, "item": ["essence", 4]},
+          {"weight": 0.22, "item": ["money", 64]},
           {"weight": 0.05, "item": ["namoktiempo", 1]},
           {"weight": 0.05, "item": ["namokespacio", 1]},
           {"weight": 0.05, "item": ["namokexistencia", 1]},
@@ -136,8 +148,10 @@
         ],
 
         "pool": [
-          {"weight": 0.55, "item": ["namokessence", 4]},
-          {"weight": 0.05, "item": ["namokessence", 8]},
+          {"weight": 0.2, "item": ["namokessence", 1]},
+          {"weight": 0.1, "item": ["namokessence", 2]},
+          {"weight": 0.1, "item": ["essence", 4]},
+          {"weight": 0.2, "item": ["money", 64]},
           {"weight": 0.05, "item": ["namoktiempo", 1]},
           {"weight": 0.05, "item": ["namokespacio", 1]},
           {"weight": 0.05, "item": ["namokexistencia", 1]},
@@ -162,8 +176,10 @@
         ],
 
         "pool": [
-          {"weight": 0.3, "item": ["namokessence", 1]},
-          {"weight": 0.7, "item": ["namoktiempo", 1]}
+          {"weight": 0.1, "item": ["essence", 1]},
+          {"weight": 0.1, "item": ["money", 64]},
+          {"weight": 0.2, "item": ["namokessence", 1]},
+          {"weight": 0.6, "item": ["namoktiempo", 1]}
         ]
       }]
     ]
@@ -180,8 +196,10 @@
         ],
 
         "pool": [
-          {"weight": 0.3, "item": ["namokessence", 1]},
-          {"weight": 0.7, "item": ["namokespacio", 1]}
+          {"weight": 0.1, "item": ["essence", 1]},
+          {"weight": 0.1, "item": ["money", 64]},
+          {"weight": 0.2, "item": ["namokessence", 1]},
+          {"weight": 0.6, "item": ["namokespacio", 1]}
         ]
       }]
     ]
@@ -198,8 +216,10 @@
         ],
 
         "pool": [
-          {"weight": 0.3, "item": ["namokessence", 1]},
-          {"weight": 0.7, "item": ["namokforma", 1]}
+          {"weight": 0.1, "item": ["essence", 1]},
+          {"weight": 0.1, "item": ["money", 64]},
+          {"weight": 0.2, "item": ["namokessence", 1]},
+          {"weight": 0.6, "item": ["namokforma", 1]}
         ]
       }]
     ]
@@ -216,8 +236,10 @@
         ],
 
         "pool": [
-          {"weight": 0.3, "item": ["namokessence", 1]},
-          {"weight": 0.7, "item": ["namokfuncion", 1]}
+          {"weight": 0.1, "item": ["essence", 1]},
+          {"weight": 0.1, "item": ["money", 64]},
+          {"weight": 0.2, "item": ["namokessence", 1]},
+          {"weight": 0.6, "item": ["namokfuncion", 1]}
         ]
       }]
     ]
@@ -234,8 +256,10 @@
         ],
 
         "pool": [
-          {"weight": 0.3, "item": ["namokessence", 1]},
-          {"weight": 0.7, "item": ["namokexistencia", 1]}
+          {"weight": 0.1, "item": ["essence", 1]},
+          {"weight": 0.1, "item": ["money", 64]},
+          {"weight": 0.2, "item": ["namokessence", 1]},
+          {"weight": 0.6, "item": ["namokexistencia", 1]}
         ]
       }]
     ]
@@ -252,8 +276,10 @@
         ],
 
         "pool": [
-          {"weight": 0.3, "item": ["namokessence", 1]},
-          {"weight": 0.7, "item": ["namokinteligencia", 1]}
+          {"weight": 0.1, "item": ["essence", 1]},
+          {"weight": 0.1, "item": ["money", 64]},
+          {"weight": 0.2, "item": ["namokessence", 1]},
+          {"weight": 0.6, "item": ["namokinteligencia", 1]}
         ]
       }]
     ]
@@ -270,8 +296,10 @@
         ],
 
         "pool": [
-          {"weight": 0.3, "item": ["namokessence", 1]},
-          {"weight": 0.7, "item": ["namokenergia", 1]}
+          {"weight": 0.1, "item": ["essence", 1]},
+          {"weight": 0.1, "item": ["money", 64]},
+          {"weight": 0.2, "item": ["namokessence", 1]},
+          {"weight": 0.6, "item": ["namokenergia", 1]}
         ]
       }]
     ]
@@ -288,8 +316,10 @@
         ],
 
         "pool": [
-          {"weight": 0.3, "item": ["namokessence", 1]},
-          {"weight": 0.7, "item": ["namokpoder", 1]}
+          {"weight": 0.1, "item": ["essence", 1]},
+          {"weight": 0.1, "item": ["money", 64]},
+          {"weight": 0.2, "item": ["namokessence", 1]},
+          {"weight": 0.6, "item": ["namokpoder", 1]}
         ]
       }]
     ]
