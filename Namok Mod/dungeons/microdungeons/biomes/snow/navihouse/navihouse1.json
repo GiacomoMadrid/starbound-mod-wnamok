@@ -1209,25 +1209,29 @@
         {
          "draworder":"topdown",
          "id":4,
-         "name":"monsters",
+         "name":"monsters & npcs",
          "objects":[
                 {
-                 "gid":6424,
-                 "height":40,
-                 "id":118,
+                 "height":8,
+                 "id":119,
                  "name":"",
                  "properties":[
                         {
-                         "name":"npcTypeOptions",
+                         "name":"npc",
+                         "type":"string",
+                         "value":"human"
+                        }, 
+                        {
+                         "name":"typeName",
                          "type":"string",
                          "value":"santa"
                         }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":16,
-                 "x":392,
-                 "y":256
+                 "width":8,
+                 "x":447.5,
+                 "y":320
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1236,7 +1240,7 @@
          "y":0
         }],
  "nextlayerid":5,
- "nextobjectid":119,
+ "nextobjectid":120,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.11.0",
