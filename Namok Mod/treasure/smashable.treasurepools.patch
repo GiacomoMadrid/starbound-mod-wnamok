@@ -23,8 +23,50 @@
 
         "pool": [
           {"weight": 0.04, "item": ["essence", 4]},
-          {"weight": 0.5, "item": ["money", 64]},
+          {"weight": 0.58, "item": ["money", 64]},
           {"weight": 0.3, "item": ["namokessence", 1]},
+          {"weight": 0.01, "item": ["namoktiempo", 1]},
+          {"weight": 0.01, "item": ["namokespacio", 1]},
+          {"weight": 0.01, "item": ["namokexistencia", 1]},
+          {"weight": 0.01, "item": ["namokpoder", 1]},
+          {"weight": 0.01, "item": ["namokforma", 1]},
+          {"weight": 0.01, "item": ["namokfuncion", 1]},
+          {"weight": 0.01, "item": ["namokinteligencia", 1]},
+          {"weight": 0.01, "item": ["namokenergia", 1]}
+        ]
+      }],
+      [1.9, {
+        "poolRounds": [
+          [0.9, 1], 
+          [0.1, 2]
+        ],
+
+        "pool": [
+          {"weight": 0.31, "item": ["namokessence", 1]},
+          {"weight": 0.05, "item": ["namokessence", 2]},
+          {"weight": 0.06, "item": ["essence", 4]},
+          {"weight": 0.5, "item": ["money", 64]},
+          {"weight": 0.01, "item": ["namoktiempo", 1]},
+          {"weight": 0.01, "item": ["namokespacio", 1]},
+          {"weight": 0.01, "item": ["namokexistencia", 1]},
+          {"weight": 0.01, "item": ["namokpoder", 1]},
+          {"weight": 0.01, "item": ["namokforma", 1]},
+          {"weight": 0.01, "item": ["namokfuncion", 1]},
+          {"weight": 0.01, "item": ["namokinteligencia", 1]},
+          {"weight": 0.01, "item": ["namokenergia", 1]}
+        ]
+      }],
+      [2.9, {
+        "poolRounds": [
+          [0.9, 1], 
+          [0.1, 2]
+        ],
+
+        "pool": [
+          {"weight": 0.3, "item": ["namokessence", 1]},
+          {"weight": 0.04, "item": ["namokessence", 2]},
+          {"weight": 0.1, "item": ["essence", 4]},
+          {"weight": 0.4, "item": ["money", 64]},
           {"weight": 0.02, "item": ["namoktiempo", 1]},
           {"weight": 0.02, "item": ["namokespacio", 1]},
           {"weight": 0.02, "item": ["namokexistencia", 1]},
@@ -35,17 +77,38 @@
           {"weight": 0.02, "item": ["namokenergia", 1]}
         ]
       }],
-      [1.9, {
+      [3.9, {
         "poolRounds": [
           [0.9, 1], 
           [0.1, 2]
         ],
 
         "pool": [
-          {"weight": 0.25, "item": ["namokessence", 1]},
-          {"weight": 0.05, "item": ["namokessence", 2]},
-          {"weight": 0.06, "item": ["essence", 4]},
+          {"weight": 0.3, "item": ["namokessence", 1]},
+          {"weight": 0.04, "item": ["namokessence", 2]},
+          {"weight": 0.1, "item": ["essence", 4]},
           {"weight": 0.4, "item": ["money", 64]},
+          {"weight": 0.02, "item": ["namoktiempo", 1]},
+          {"weight": 0.02, "item": ["namokespacio", 1]},
+          {"weight": 0.02, "item": ["namokexistencia", 1]},
+          {"weight": 0.02, "item": ["namokpoder", 1]},
+          {"weight": 0.02, "item": ["namokforma", 1]},
+          {"weight": 0.02, "item": ["namokfuncion", 1]},
+          {"weight": 0.02, "item": ["namokinteligencia", 1]},
+          {"weight": 0.02, "item": ["namokenergia", 1]}
+        ]
+      }],
+      [4.9, {
+        "poolRounds": [
+          [0.9, 1], 
+          [0.1, 2]
+        ],
+
+        "pool": [
+          {"weight": 0.32, "item": ["namokessence", 1]},
+          {"weight": 0.04, "item": ["namokessence", 2]},
+          {"weight": 0.1, "item": ["essence", 4]},
+          {"weight": 0.3, "item": ["money", 64]},
           {"weight": 0.03, "item": ["namoktiempo", 1]},
           {"weight": 0.03, "item": ["namokespacio", 1]},
           {"weight": 0.03, "item": ["namokexistencia", 1]},
@@ -56,69 +119,6 @@
           {"weight": 0.03, "item": ["namokenergia", 1]}
         ]
       }],
-      [2.9, {
-        "poolRounds": [
-          [0.9, 1], 
-          [0.1, 2]
-        ],
-
-        "pool": [
-          {"weight": 0.24, "item": ["namokessence", 1]},
-          {"weight": 0.04, "item": ["namokessence", 2]},
-          {"weight": 0.1, "item": ["essence", 4]},
-          {"weight": 0.3, "item": ["money", 64]},
-          {"weight": 0.04, "item": ["namoktiempo", 1]},
-          {"weight": 0.04, "item": ["namokespacio", 1]},
-          {"weight": 0.04, "item": ["namokexistencia", 1]},
-          {"weight": 0.04, "item": ["namokpoder", 1]},
-          {"weight": 0.04, "item": ["namokforma", 1]},
-          {"weight": 0.04, "item": ["namokfuncion", 1]},
-          {"weight": 0.04, "item": ["namokinteligencia", 1]},
-          {"weight": 0.04, "item": ["namokenergia", 1]}
-        ]
-      }],
-      [3.9, {
-        "poolRounds": [
-          [0.9, 1], 
-          [0.1, 2]
-        ],
-
-        "pool": [
-          {"weight": 0.24, "item": ["namokessence", 1]},
-          {"weight": 0.04, "item": ["namokessence", 2]},
-          {"weight": 0.1, "item": ["essence", 4]},
-          {"weight": 0.3, "item": ["money", 64]},
-          {"weight": 0.04, "item": ["namoktiempo", 1]},
-          {"weight": 0.04, "item": ["namokespacio", 1]},
-          {"weight": 0.04, "item": ["namokexistencia", 1]},
-          {"weight": 0.04, "item": ["namokpoder", 1]},
-          {"weight": 0.04, "item": ["namokforma", 1]},
-          {"weight": 0.04, "item": ["namokfuncion", 1]},
-          {"weight": 0.04, "item": ["namokinteligencia", 1]},
-          {"weight": 0.04, "item": ["namokenergia", 1]}
-        ]
-      }],
-      [4.9, {
-        "poolRounds": [
-          [0.9, 1], 
-          [0.1, 2]
-        ],
-
-        "pool": [
-          {"weight": 0.24, "item": ["namokessence", 1]},
-          {"weight": 0.04, "item": ["namokessence", 2]},
-          {"weight": 0.1, "item": ["essence", 4]},
-          {"weight": 0.3, "item": ["money", 64]},
-          {"weight": 0.04, "item": ["namoktiempo", 1]},
-          {"weight": 0.04, "item": ["namokespacio", 1]},
-          {"weight": 0.04, "item": ["namokexistencia", 1]},
-          {"weight": 0.04, "item": ["namokpoder", 1]},
-          {"weight": 0.04, "item": ["namokforma", 1]},
-          {"weight": 0.04, "item": ["namokfuncion", 1]},
-          {"weight": 0.04, "item": ["namokinteligencia", 1]},
-          {"weight": 0.04, "item": ["namokenergia", 1]}
-        ]
-      }],
       [5.9, {
         "poolRounds": [
           [0.9, 1], 
@@ -126,18 +126,18 @@
         ],
 
         "pool": [
-          {"weight": 0.22, "item": ["namokessence", 1]},
+          {"weight": 0.38, "item": ["namokessence", 1]},
           {"weight": 0.06, "item": ["namokessence", 2]},
           {"weight": 0.1, "item": ["essence", 4]},
           {"weight": 0.22, "item": ["money", 64]},
-          {"weight": 0.05, "item": ["namoktiempo", 1]},
-          {"weight": 0.05, "item": ["namokespacio", 1]},
-          {"weight": 0.05, "item": ["namokexistencia", 1]},
-          {"weight": 0.05, "item": ["namokpoder", 1]},
-          {"weight": 0.05, "item": ["namokforma", 1]},
-          {"weight": 0.05, "item": ["namokfuncion", 1]},
-          {"weight": 0.05, "item": ["namokinteligencia", 1]},
-          {"weight": 0.05, "item": ["namokenergia", 1]}
+          {"weight": 0.03, "item": ["namoktiempo", 1]},
+          {"weight": 0.03, "item": ["namokespacio", 1]},
+          {"weight": 0.03, "item": ["namokexistencia", 1]},
+          {"weight": 0.03, "item": ["namokpoder", 1]},
+          {"weight": 0.03, "item": ["namokforma", 1]},
+          {"weight": 0.03, "item": ["namokfuncion", 1]},
+          {"weight": 0.03, "item": ["namokinteligencia", 1]},
+          {"weight": 0.03, "item": ["namokenergia", 1]}
         ]
       }],
       [6.9, {
@@ -148,18 +148,18 @@
         ],
 
         "pool": [
-          {"weight": 0.2, "item": ["namokessence", 1]},
+          {"weight": 0.28, "item": ["namokessence", 1]},
           {"weight": 0.1, "item": ["namokessence", 2]},
           {"weight": 0.1, "item": ["essence", 4]},
           {"weight": 0.2, "item": ["money", 64]},
-          {"weight": 0.05, "item": ["namoktiempo", 1]},
-          {"weight": 0.05, "item": ["namokespacio", 1]},
-          {"weight": 0.05, "item": ["namokexistencia", 1]},
-          {"weight": 0.05, "item": ["namokpoder", 1]},
-          {"weight": 0.05, "item": ["namokforma", 1]},
-          {"weight": 0.05, "item": ["namokfuncion", 1]},
-          {"weight": 0.05, "item": ["namokinteligencia", 1]},
-          {"weight": 0.05, "item": ["namokenergia", 1]}
+          {"weight": 0.04, "item": ["namoktiempo", 1]},
+          {"weight": 0.04, "item": ["namokespacio", 1]},
+          {"weight": 0.04, "item": ["namokexistencia", 1]},
+          {"weight": 0.04, "item": ["namokpoder", 1]},
+          {"weight": 0.04, "item": ["namokforma", 1]},
+          {"weight": 0.04, "item": ["namokfuncion", 1]},
+          {"weight": 0.04, "item": ["namokinteligencia", 1]},
+          {"weight": 0.04, "item": ["namokenergia", 1]}
         ]
       }]
     ]

@@ -1,0 +1,19 @@
+{
+	"metadata": {
+		"name": "navihouse1",
+		"species": "generic",
+		"rules": [],
+		"anchor": ["navihouse1"],
+		"gravity": 80,
+		"maxRadius": 200,
+		"maxParts": 1,
+		"protected": false
+	},
+	"parts": [{
+		"name": "navihouse1",
+		"rules": [
+			["maxSpawnCount", [1]]
+		],
+		"def": ["tmx", "navihouse1.json"]
+	}]
+}

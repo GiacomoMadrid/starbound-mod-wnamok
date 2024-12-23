@@ -1,0 +1,21 @@
+[
+  {
+    "op" : "add",
+    "path" : "/metadata/anchor",
+    "value" : ["navihouse1"]
+
+  },
+
+  {
+    "op": "add",
+    "path": "/parts/-",
+    "value": {
+      "name": "navihouse1",
+      "rules": [
+        ["maxSpawnCount", [1]]
+      ],
+      "def": ["tmx","/dungeons/microdungeons/biomes/snow/navihouse/navihouse1.json"]
+    }
+  }
+
+]

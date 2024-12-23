@@ -1,0 +1,89 @@
+[
+
+  // *****************************************  Navihouse *****************************************//
+
+  {
+    "op": "add",
+    "path": "/navihousefridge",
+    "value": [
+      [0, {
+        "poolRounds": [
+          [0.50, 3],
+          [0.35, 4],
+          [0.15, 5]
+        ],
+
+        "pool": [
+          {"weight" : 0.2, "item" : [ "rawpoultry", 1]},
+          {"weight" : 0.2, "item" : [ "rawham" , 1]},
+          {"weight" : 0.1, "item" : [ "rawribmeat" , 1]},
+          {"weight" : 0.1, "item" : [ "rawbacon" , 1]},
+          {"weight" : 0.1, "item" : [ "rawtentacle" , 1]},
+          {"weight" : 0.2, "item" : [ "milk" , 1]},
+          {"weight" : 0.05, "item" : [ "candyapple" , 1]},
+          {"weight" : 0.05, "item" : [ "candyautomato" , 1]}
+        ]
+      }]
+    ]
+  },
+
+  {
+    "op": "add",
+    "path": "/navihousekitchen",
+    "value": [
+      [0, {
+        "poolRounds": [
+          [0.50, 3],
+          [0.35, 4],
+          [0.15, 5]
+        ],
+
+        "pool": [
+          {"weight" : 0.1, "item" : [ "rice", 4]},
+          {"weight" : 0.1, "item" : [ "wheat", 4]},
+          {"weight" : 0.1, "item" : [ "sugar", 4]},
+          {"weight" : 0.1, "item" : [ "chocolate", 2]},
+          {"weight" : 0.1, "item" : [ "cocoa", 4]},
+          {"weight" : 0.1, "item" : [ "cider", 3]},
+          {"weight" : 0.1, "item" : [ "smashabledrink1", 3]},
+          {"weight" : 0.1, "item" : [ "smashabledrink2", 3]},
+          {"weight" : 0.1, "item" : [ "smashabledrink3", 3]},
+          {"weight" : 0.1, "item" : [ "smashabledrink4", 3]}
+        ]
+      }]
+    ]
+  },  
+
+  {
+    "op": "add",
+    "path": "/navihousegift",
+    "value": [
+      [0, {
+        "poolRounds": [
+          [0.50, 1],
+          [0.35, 2],
+          [0.15, 3]
+        ],
+
+        "pool": [
+          {"weight" : 0.1, "item" : [ "mrclaushead", 1]},
+          {"weight" : 0.1, "item" : [ "mrclauschest", 1]},
+          {"weight" : 0.1, "item" : [ "mrclauspants", 1]},
+          {"weight" : 0.1, "item" : [ "mrclausback", 1]},
+          {"weight" : 0.1, "item" : [ "hotholidayhead", 1]},
+          {"weight" : 0.1, "item" : [ "hotholidaychest", 1]},
+          {"weight" : 0.1, "item" : [ "hotholidaypants", 1]},
+          {"weight" : 0.5, "item" : [ "gnomegun", 1]},
+          {"weight" : 0.5, "item" : [ "snowgun", 1]},
+          {"weight" : 0.5, "item" : [ "fireworkgun", 1]},
+          {"weight" : 0.5, "item" : [ "scifisleigh", 1]},
+          {"weight" : 0.1, "item" : [ "holidayspirit", 16]}	
+        ]
+      }]
+    ]
+  }
+
+
+
+
+]
