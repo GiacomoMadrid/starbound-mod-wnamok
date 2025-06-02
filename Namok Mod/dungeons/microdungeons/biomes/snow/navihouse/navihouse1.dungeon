@@ -7,7 +7,7 @@
 		],
 		"anchor": ["navihouse1"],
 		"gravity": 80,
-		"maxRadius": 1000000,
+		"maxRadius": 100,
 		"maxParts": 1,
 		"protected": false
 	},

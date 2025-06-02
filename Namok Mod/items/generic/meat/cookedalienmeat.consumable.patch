@@ -1,0 +1,8 @@
+[
+  {  
+  "op": "replace",
+  "path": "/maxStack",
+  "value": 5
+ }
+
+]

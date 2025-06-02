@@ -1162,7 +1162,7 @@
         { "item" : "oillantern1", "count" : 1 }
       ],
       "output" : [
-        { "item" : "oil", "count" : 1}
+        { "item" : "liquidoil", "count" : 1}
     
       ],
       "groups" : [ "extractornamok1" ]
@@ -1173,7 +1173,7 @@
         { "item" : "corn", "count" : 1 }
       ],
       "output" : [
-        { "item" : "oil", "count" : 1},
+        { "item" : "liquidoil", "count" : 1},
         { "item" : "plantfibre", "count" : 1}
     
       ],

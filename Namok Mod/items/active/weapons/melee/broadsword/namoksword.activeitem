@@ -13,7 +13,7 @@
 
   "inventoryIcon" : "namoksword.png",
 
-  "animation" : "/items/active/weapons/melee/broadsword/broadsword.animation",
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
   "animationParts" : {
     "handle" : "",
     "blade" : "namoksword.png"

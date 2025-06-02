@@ -1,8 +1,8 @@
 [
   {
     "op" : "add",
-    "path" : "/metadata/anchor",
-    "value" : ["navihouse1"]
+    "path" : "/metadata/anchor/-",
+    "value" : "navihouse1"
 
   },
 
