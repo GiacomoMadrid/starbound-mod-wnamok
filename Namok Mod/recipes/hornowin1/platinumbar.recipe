@@ -4,6 +4,7 @@
     ],
     
     "output" : { "item" : "platinumbar", "count" : 1},
+    "duration" : 0.15,
     "groups" : [ "bars", "transmutadordemateria", "hornowin1" ]
   }
   

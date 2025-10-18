@@ -4,7 +4,7 @@
     ],
     
     "output" : { "item" : "triangliumwinpyramid", "count" : 1},
-    "duration" : 0.5,
+    "duration" : 0.15,
     "groups" : [ "bars", "transmutadordemateria", "hornowin1" ]
   }
   

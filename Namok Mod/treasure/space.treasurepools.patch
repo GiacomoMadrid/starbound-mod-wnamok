@@ -1,0 +1,143 @@
+[
+  
+  {
+    "op": "add",
+    "path": "/commonSpaceItem",
+    "value": [
+      [0, {
+      "pool" : [
+        {"weight" : 0.20, "item" : ["nceldadeplatino", 1]},
+        {"weight" : 0.10, "item" : ["celdadeplatino", 2]},
+        {"weight" : 0.03, "item" : ["sustanciaespacio", 1]},
+        {"weight" : 0.05, "item" : ["platinumore", 3]},
+        {"weight" : 0.01, "item" : ["namokespacio", 1]}
+      ]
+    }]
+    ]
+  },
+
+  {
+    "op": "add",
+    "path": "/rareSpaceItem",
+    "value": [
+      [0, {
+      "pool" : [
+        {"weight" : 0.20, "item" : ["celdadeplatino", 2]},
+        {"weight" : 0.10, "item" : ["celdadeplatino", 4]},
+        {"weight" : 0.05, "item" : ["platinumore", 5]},
+        {"weight" : 0.05, "item" : ["sustanciaespacio", 3]},
+        {"weight" : 0.03, "item" : ["sustanciaespacio", 5]},
+        {"weight" : 0.02, "item" : ["sustanciatiempo", 2]},
+        {"weight" : 0.04, "item": ["essence", 4]},
+        {"weight" : 0.03, "item": ["namokessence", 1]},
+        {"weight" : 0.01, "item": ["namoktiempo", 1]},
+        {"weight" : 0.01, "item": ["namokespacio", 1]},
+        {"weight" : 0.01, "item": ["namokexistencia", 1]},
+        {"weight" : 0.01, "item": ["namokpoder", 1]},
+        {"weight" : 0.01, "item": ["namokforma", 1]},
+        {"weight" : 0.01, "item": ["namokfuncion", 1]},
+        {"weight" : 0.01, "item": ["namokinteligencia", 1]},
+        {"weight" : 0.01, "item": ["namokenergia", 1]}
+      ]
+    }]
+    ]
+  },
+
+  {
+    "op": "add",
+    "path": "/industrialcargoCanister/0/1/pool/-",
+    "value":  {"weight": 0.1, "item": ["sustanciaenergia", 3]}    
+  },
+  {
+    "op": "add",
+    "path": "/industrialcargoCanister/0/1/pool/-",
+    "value":  {"weight": 0.05, "item": ["sustanciaenergia", 8]}   
+  },
+  {
+    "op": "add",
+    "path": "/industrialcargoCanister/0/1/pool/-",
+    "value":  {"weight": 0.05, "item": ["namokenergia", 1]}    
+  },
+  {
+    "op": "add",
+    "path": "/industrialcargoCanister/0/1/pool/-",
+    "value":  {"weight": 0.03, "item": ["namokenergia", 2]}    
+  },
+  {
+    "op": "add",
+    "path": "/industrialcargoCanister/0/1/pool/-",
+    "value":  {"weight": 0.03, "item": ["namokenergia", 3]}    
+  },
+
+
+  {
+    "op": "add",
+    "path": "/industrialLargeCargoCanister/0/1/pool/-",
+    "value":  {"weight": 0.1, "item": ["sustanciaenergia", 16]}    
+  },
+  {
+    "op": "add",
+    "path": "/industrialLargeCargoCanister/0/1/pool/-",
+    "value":  {"weight": 0.05, "item": ["sustanciaenergia", 32]}   
+  },
+  {
+    "op": "add",
+    "path": "/industrialLargeCargoCanister/0/1/pool/-",
+    "value":  {"weight": 0.05, "item": ["namokenergia", 4]}    
+  },
+  {
+    "op": "add",
+    "path": "/industrialLargeCargoCanister/0/1/pool/-",
+    "value":  {"weight": 0.03, "item": ["namokenergia", 8]}    
+  },
+  {
+    "op": "add",
+    "path": "/industrialLargeCargoCanister/0/1/pool/-",
+    "value":  {"weight": 0.01, "item": ["namokenergia", 16]}    
+  },
+
+  // *************************** monsters
+
+  {
+    "op": "add",
+    "path": "/spaceRobot/1/1/pool/-",
+    "value": {"weight": 0.05, "item": ["sustanciafuncion", 1]}
+    
+  },  
+  {
+    "op": "add",
+    "path": "/spaceRobot/1/1/pool/-",
+    "value": {"weight": 0.01,"item": ["namokfuncion", 1]}
+    
+  },
+
+  {
+    "op": "add",
+    "path": "/spaceRobotPassive/1/1/pool/-",
+    "value": {"weight": 0.05, "item": ["sustanciafuncion", 1]}
+  },
+  {
+    "op": "add",
+    "path": "/spaceRobotPassive/1/1/pool/-",
+    "value": {"weight": 0.01, "item": ["namokfuncion", 1]}
+  },
+  
+  {
+    "op": "add",
+    "path": "/spaceRock/1/1/pool/-",
+    "value": {"weight": 0.05, "item": ["sustanciaespacio", 1]}
+  },
+  {
+    "op": "add",
+    "path": "/spaceRock/1/1/pool/-",
+    "value": {"weight": 0.01, "item": ["namokespacio", 1]}
+  },
+  {
+    "op": "add",
+    "path": "/spaceRock/1/1/pool/-",
+    "value": {"weight": 0.10, "item": ["essence", 4]}
+  }
+ 
+
+
+]

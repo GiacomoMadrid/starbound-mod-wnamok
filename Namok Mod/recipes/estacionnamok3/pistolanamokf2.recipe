@@ -1,0 +1,15 @@
+{
+    "input" : [
+      { "item" : "pistolanamokf1", "count" : 1 },
+      { "item" : "silverbar", "count" : 8 },
+      { "item" : "titaniumbar", "count" : 4 },
+      { "item" : "upgrademodule", "count" : 2 },
+      { "item" : "scorchedcore", "count" : 4 },
+      { "item" : "sustanciapoder", "count" : 4 }
+    ],
+    "output" : {
+      "item" : "pistolanamokf2",
+      "count" : 1
+    },
+    "groups" : ["all", "weapon", "pistol", "estacionnamok3"]
+  }

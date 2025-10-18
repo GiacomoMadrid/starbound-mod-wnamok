@@ -1,22 +1,22 @@
 {
-  "itemName" : "pistolanamokv1",
-  "level" : 4,
+  "itemName" : "pistolanamokf2",
+  "level" : 5,
   "price" : 1024,
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "Pistola que dispara balas envenenadas. Para una muerte lenta.",
-  "shortdescription" : "Pistola de veneno I",
+  "description" : "Pistola Ñámok de plata mejorada. ¡Se quemarán!",
+  "shortdescription" : "Pistola de Plata Mejorada",
   "tooltipKind" : "gun",
   "category" : "pistol",
   "twoHanded" : false,
   "itemTags" : ["weapon","ranged","pistol"],
 
-  "inventoryIcon" : "pistolanamokv1.png",
+  "inventoryIcon" : "pistolanamokf2.png",
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "pistolanamokv1.png",
+    "middle" : "pistolanamokf2.png",
     "barrel" : "",
     "muzzleFlash" : ""
   },
@@ -44,9 +44,9 @@
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 0.3,
-    "baseDps" : 8,
-    "energyUsage" : 16,
+    "fireTime" : 0.2,
+    "baseDps" : 32,
+    "energyUsage" : 20,
     "inaccuracy" : 0.02,
     "projectileCount" : 1,
     "fireType" : "auto",
@@ -54,7 +54,7 @@
     "projectileType" : "balaplata",
     "projectileParameters" : {
       "knockback" : 8,
-      "statusEffects" : [ "weakpoison" ],
+      "statusEffects" : [ "melting" ],
       "bounces" : 1
     },
 

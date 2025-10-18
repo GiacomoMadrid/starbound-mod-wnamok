@@ -306,7 +306,10 @@
         "initialRecipeUnlocks" : [
           "battery",
           "namoksilvershield2",
-          "pistolanamok2"
+          "pistolanamok2",
+          "pistolanamoke2",
+          "pistolanamokf2",
+          "pistolanamokv2"
         ]           
       },
 
