@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "category" : "light",
   "price" : 110,
-  "description" : "Cria larvas. Las larvas ayudan con el compost.",
+  "description" : "Cría larvas, para algo te han de servir. Son orgánicas ;)",
   "shortdescription" : "Criadero de larvas",
   "race" : "generic",
 
@@ -13,8 +13,8 @@
   "orientations" : [
     {
       "image" : "criaderodelarvas.png:1",
-      "imagePosition" : [-8, 0],
-      "animationPosition" : [-8, 0],
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
 
       "direction" : "left",
       "flipImages" : true,
@@ -24,8 +24,8 @@
     },
     {
       "image" : "criaderodelarvas.png:1",
-      "imagePosition" : [-8, 0],
-      "animationPosition" : [-8, 0],
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
 
       "direction" : "right",
 
@@ -54,13 +54,15 @@
   "itemDropOffset" : [0.5, 2.5],
   "stages" : [
     {
-      "duration" : [55, 65]
+      "duration" : [85, 95]
     },
     {
-      "duration" : [55, 65]
+      "duration" : [85, 95]
     },
     {
       "harvestPool" : "larvaHarvest"
     }
   ]
 }
+
+

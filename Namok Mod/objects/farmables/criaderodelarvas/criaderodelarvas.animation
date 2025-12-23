@@ -6,14 +6,12 @@
         "states" : {
           "off" : {
             "properties" : {
-              "particleEmittersOff" : [ "bugs" ],
-              "lightsOff" : [ "mothtrapglow" ]
+              "particleEmittersOff" : [ "bugs" ]              
             }
           },
           "on" : {
             "properties" : {
-              "particleEmittersOn" : [ "bugs" ],
-              "lightsOn" : [ "mothtrapglow" ]
+              "particleEmittersOn" : [ "bugs" ]
             }
           }
         }

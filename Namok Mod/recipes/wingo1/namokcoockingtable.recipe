@@ -1,0 +1,14 @@
+{
+    "input" : [
+      { "item" : "woodencookingtable", "count" : 1 },
+      { "item" : "glass", "count" : 10 },
+      { "item" : "titaniumbar", "count" : 4 },
+      { "item" : "upgrademodule", "count" : 1 },
+      { "item" : "oktolojim", "count" : 1 }
+    ],
+    "output" : {
+      "item" : "namokcoockingtable",
+      "count" : 1
+    },
+    "groups" : ["herramienta", "objects", "wingo1", "all", "estructura"]
+  }

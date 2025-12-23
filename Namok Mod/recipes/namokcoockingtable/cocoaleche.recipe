@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "cocoabebida", "count" : 1 },
+    { "item" : "milk", "count" : 1 }
+
+  ],
+  "output" : {
+    "item" : "cocoaleche",
+    "count" : 1
+  },
+  "groups" : [ "all", "craftingfood", "cocina", "drinks" ]
+}

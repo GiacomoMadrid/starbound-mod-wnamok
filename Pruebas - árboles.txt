@@ -1,0 +1,13 @@
+Metal Wood:
+/spawnitem sapling 1 '{"stemName":"rust","stemHueShift":30,"foliageName":"orangeflower","foliageHueShift":130}'
+
+Flesh:
+/spawnitem sapling 1 '{"stemName":"fleshstem","stemHueShift":0,"foliageName":"greenleaves","foliageHueShift":-170}'
+
+
+
+/spawnitem sapling 1 '{"stemName":"steamspring","stemHueShift":0,"foliageName":"bigflowers","foliageHueShift":70}'
+
+/spawnitem sapling 1 '{"stemName":"kelp","stemHueShift":0,"foliageName":"bigflowers","foliageHueShift":110}'
+
+/spawnitem sapling 10 '{"stemName":"hive","stemHueShift":0,"foliageName":"bigflowers","foliageHueShift":180}'

@@ -1,0 +1,29 @@
+{
+  "itemName" : "paparellena",
+  "rarity" : "Common",
+  "price" : 300,
+  "category" : "preparedFood",
+  "inventoryIcon" : "paparellena.png",
+  "description" : "Una deliciosa papa rellena. De las mejores comidas al paso.",
+  "shortdescription" : "Papa Rellena",
+   "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 428
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 428
+    }
+  ] ],
+  "foodValue" : 55,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 5,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ ]
+}

@@ -1,0 +1,26 @@
+{
+  "itemName" : "cocoabebida",
+  "rarity" : "Common",
+  "price" : 125,
+  "category" : "drink",
+  "inventoryIcon" : "cocoabebida.png",
+  "description" : "Bebida a base de cocoa. ¡Deliciosa!",
+  "shortdescription" : "Cocoa",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 180
+    }
+  ] ],
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 5,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "cocoaleche" ]
+}

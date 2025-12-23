@@ -218,7 +218,8 @@
           "wingo2",
           "chipnamok",
           "bandejadecultivo1",
-          "compostera"
+          "compostera",
+          "criaderodelarvas"
         ],
         "upgradeMaterials" : [
           { "item" : "titaniumbar", "count" : 10 },
@@ -271,7 +272,8 @@
         "wingo2",
         "chipnamok",
         "bandejadecultivo1",
-        "compostera"
+        "compostera",
+        "criaderodelarvas"
       ],
 
       "upgradeSoundEffect" : "fanfare",
@@ -309,11 +311,20 @@
           "pistolanamok2",
           "pistolanamoke2",
           "pistolanamokf2",
-          "pistolanamokv2"
+          "pistolanamokv2",
+          "namokcoockingtable"
         ]           
       },
 
-      "learnBlueprintsOnPickup" : []
+      "learnBlueprintsOnPickup" : [
+          "battery",
+          "namoksilvershield2",
+          "pistolanamok2",
+          "pistolanamoke2",
+          "pistolanamokf2",
+          "pistolanamokv2",
+          "namokcoockingtable"
+        ]
     }
   ],
 

@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "mashedpotato", "count" : 1 },
+    { "item" : "alienmeat", "count" : 1 },
+    { "item" : "egg", "count" : 1 }
+
+  ],
+  "output" : {
+    "item" : "paparellena",
+    "count" : 1
+  },
+  "groups" : [ "all", "craftingfood", "cocina", "mains" ]
+}
