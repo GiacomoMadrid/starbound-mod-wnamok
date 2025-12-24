@@ -1,0 +1,13 @@
+[  
+  {
+    "op": "add",
+    "path": "/smashDropPool",
+    "value": "glowOcean"
+  },
+  
+  {
+    "op": "add",
+    "path": "/breakDropPool",
+    "value": "glowOcean"
+  }
+]

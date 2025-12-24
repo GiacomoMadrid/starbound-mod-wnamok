@@ -219,7 +219,8 @@
           "chipnamok",
           "bandejadecultivo1",
           "compostera",
-          "criaderodelarvas"
+          "criaderodelarvas",
+          "chainsaw"
         ],
         "upgradeMaterials" : [
           { "item" : "titaniumbar", "count" : 10 },
@@ -273,7 +274,8 @@
         "chipnamok",
         "bandejadecultivo1",
         "compostera",
-        "criaderodelarvas"
+        "criaderodelarvas",
+          "chainsaw"
       ],
 
       "upgradeSoundEffect" : "fanfare",

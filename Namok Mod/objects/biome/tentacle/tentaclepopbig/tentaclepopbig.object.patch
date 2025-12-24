@@ -1,0 +1,13 @@
+[
+  {
+    "op": "replace",
+    "path": "/smashDropPool",
+    "value": "tentaclePod"
+  },
+  
+  {
+    "op": "replace",
+    "path": "/breakDropPool",
+    "value": "tentaclePod"
+  }
+]

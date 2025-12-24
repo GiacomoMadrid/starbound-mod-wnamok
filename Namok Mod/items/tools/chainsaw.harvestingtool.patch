@@ -1,0 +1,66 @@
+[
+  {
+    "op" : "add",
+    "path": "/tileDamage",
+    "value": 32.0
+  },
+
+  {
+    "op" : "add",
+    "path": "/harvestLevel",
+    "value": 99
+  },
+
+  {
+    "op" : "replace",
+    "path": "/price",
+    "value": 512
+  },
+
+  {
+    "op" : "replace",
+    "path": "/blockRadius",
+    "value": 5
+  },
+
+  {
+    "op" : "add",
+    "path": "/durability",
+    "value": 16000
+  },
+
+  {
+    "op" : "add",
+    "path": "/durabilityPerUse",
+    "value": 1
+  },
+
+  {
+    "op" : "add",
+    "path": "/swingStart",
+    "value": 0
+  },
+
+  {
+    "op" : "add",
+    "path": "/swingFinish",
+    "value": 0
+  },
+
+  {
+    "op" : "add",
+    "path": "/stances",
+    "value": [
+        {
+          "idle" : {
+            "armRotation" : -90,
+            "weaponRotation" : -10,
+            "weaponOffset" : [0.8, 2.25],
+
+            "allowFlip" : true,
+            "allowRotate" : false
+          }
+      }
+    ]
+  }
+]

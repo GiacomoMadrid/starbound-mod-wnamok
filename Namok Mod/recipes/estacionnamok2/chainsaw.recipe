@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 8 },  
+    { "item" : "liquidoil", "count" : 10 },  
+    { "item" : "triangliumwinpyramid", "count" : 4 },
+    { "item" : "wire", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "chainsaw",
+    "count" : 1
+  },
+  "groups" : [ "estacionnamok2", "estacionnamok3", "herramienta", "all"]
+}

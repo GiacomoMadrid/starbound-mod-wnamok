@@ -343,6 +343,97 @@
     "value": [
       {"weight": 1, "item": "egg"}
     ]
+  },
+
+  
+  {
+    "op":"add",
+    "path":"/glowOcean",
+    "value":[[0,
+      {
+        "pool":[
+          {"weight" : 1.0, "item" : "glowfibre"}
+        ],
+        "poolRounds" : [
+          [0.8, 1],
+          [0.15, 2],
+          [0.05, 3]
+        ]
+          
+      }]]
+  },
+
+  {
+    "op": "add",
+    "path": "/glowToxic",
+    "value": [
+      [0, {
+        "poolRounds": [
+          [0.9, 1], 
+          [0.1, 2]
+        ],
+
+        "pool": [
+          {"weight": 0.8, "item": ["glowfibre", 1]},
+          {"weight": 0.2, "item": ["venomsample", 1]}
+        ]
+      }]
+    ]
+  },
+
+  {
+    "op": "add",
+    "path": "/tentaclePod",
+    "value": [
+      [0, {
+        "poolRounds": [
+          [0.9, 1], 
+          [0.1, 2]
+        ],
+
+        "pool": [
+          {"weight": 0.4, "item": ["money", 64]},
+          {"weight": 0.1, "item": ["essence", 8]},
+          {"weight": 0.1, "item": ["essence", 16]},
+          {"weight": 0.04, "item": ["fluidobase", 5]},
+          {"weight": 0.02, "item": ["dermisblock", 3]},
+          {"weight": 0.02, "item": ["hellstonematerial", 3]},
+          {"weight": 0.02, "item": ["stomachblock", 3]},
+          {"weight": 0.02, "item": ["tentaclepipe", 3]},
+          {"weight": 0.02, "item": ["matteritem", 10]},
+          {"weight": 0.02, "item": ["tentacleblock", 3]},
+          {"weight": 0.02, "item": ["jellyblock", 3]},
+          {"weight": 0.02, "item": ["brainsblock", 3]},
+          {"weight": 0.04, "item": ["namokessence", 8]},
+          {"weight": 0.02, "item": ["namoktiempo", 2]},
+          {"weight": 0.02, "item": ["namokespacio", 2]},
+          {"weight": 0.02, "item": ["namokexistencia", 2]},
+          {"weight": 0.02, "item": ["namokpoder", 2]},
+          {"weight": 0.02, "item": ["namokforma", 2]},
+          {"weight": 0.02, "item": ["namokfuncion", 2]},
+          {"weight": 0.02, "item": ["namokinteligencia", 2]},
+          {"weight": 0.02, "item": ["namokenergia", 2]}
+        ]
+      }]
+    ]
+  },
+
+  {
+    "op": "add",
+    "path": "/tentacleBreak",
+    "value": [
+      [0, {
+        "poolRounds": [
+          [0.9, 1], 
+          [0.1, 2]
+        ],
+
+        "pool": [
+          {"weight": 0.8, "item": ["rawtentacle", 1]},
+          {"weight": 0.2, "item": ["fluidobase", 5]}
+        ]
+      }]
+    ]
   }
 
 
