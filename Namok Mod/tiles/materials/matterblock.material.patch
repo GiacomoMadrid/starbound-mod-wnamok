@@ -1,0 +1,14 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/renderParameters/multiColored",
+    "value" : false
+  },
+  
+  {
+    "op" : "replace",
+    "path" : "/health",
+    "value" : 3
+  }
+]
+

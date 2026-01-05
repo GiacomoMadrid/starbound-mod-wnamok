@@ -2,7 +2,7 @@
   {
     "op" : "add",
     "path": "/tileDamage",
-    "value": 32.0
+    "value": 64.0
   },
 
   {

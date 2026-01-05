@@ -1,0 +1,17 @@
+[
+  {
+    "op": "add",
+    "path": "/itemDrop",
+    "value": "liquidlava"
+  },
+
+  {
+    "op" : "add",
+    "path": "/interactions",
+    "value": [{
+      "liquid" : 2,
+      "liquidResult" : 2
+    }]
+  }
+
+]

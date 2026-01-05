@@ -54,5 +54,10 @@
         }
       ]
     }
+  },
+  {
+    "op" : "add",
+    "path" : "/subBlocks/-",
+    "value" : "matterblock"
   }
 ]

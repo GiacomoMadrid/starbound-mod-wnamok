@@ -6,7 +6,7 @@
   },
   
   {
-    "op": "replace",
+    "op": "add",
     "path": "/breakDropPool",
     "value": "tentaclePod"
   }

@@ -1562,7 +1562,7 @@
       "output" : [
         { "item" : "goldore", "count" : 4},
         { "item" : "crystal", "count" : 2},
-        { "item" : "siilverore", "count" : 2},
+        { "item" : "silverore", "count" : 2},
         { "item" : "prisiliteore", "count" : 1}
     
       ],
@@ -2155,7 +2155,7 @@
       ],
       "output" : [
         { "item" : "ironore", "count" : 1},
-        { "item" : "oil", "count" : 2}
+        { "item" : "liquidoil", "count" : 2}
     
       ],
       "groups" : [ "extractornamok1" ]
@@ -2167,7 +2167,7 @@
       ],
       "output" : [
         { "item" : "copperore", "count" : 1},
-        { "item" : "oil", "count" : 2}
+        { "item" : "liquidoil", "count" : 2}
     
       ],
       "groups" : [ "extractornamok1" ]
@@ -2178,7 +2178,7 @@
         { "item" : "corn", "count" : 1 }
       ],
       "output" : [
-        { "item" : "oil", "count" : 1},
+        { "item" : "liquidoil", "count" : 1},
         { "item" : "plantfibre", "count" : 2},
         { "item" : "cellmatter", "count" : 1}
     
@@ -2226,6 +2226,215 @@
       "output" : [
         { "item" : "pinkdye", "count" : 2}
     
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "floranlight", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "glowfibre", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "floranlamp1", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "glowfibre", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "sarcoavian1", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "goldore", "count" : 2},
+        { "item" : "avianfossil1", "count" : 1},
+        { "item" : "avianfossil2", "count" : 1},
+        { "item" : "avianfossil3", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "sarcoavian2", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "goldore", "count" : 2},
+        { "item" : "crystal", "count" : 1},
+        { "item" : "avianfossil1", "count" : 1},
+        { "item" : "avianfossil2", "count" : 1},
+        { "item" : "avianfossil3", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "sarcobunny", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "goldore", "count" : 2},
+        { "item" : "bone", "count" : 10}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "sarcohuman", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "goldore", "count" : 2},
+        { "item" : "humanfossil1", "count" : 1},
+        { "item" : "humanfossil2", "count" : 1},
+        { "item" : "humanfossil3", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "sarcohumanalive", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "goldore", "count" : 2},
+        { "item" : "humanfossil1", "count" : 1},
+        { "item" : "humanfossil2", "count" : 1},
+        { "item" : "humanfossil3", "count" : 1},
+        { "item" : "brain", "count" : 1},
+        { "item" : "fleshstrand", "count" : 10}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "altaravian", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "goldore", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "altarbunny", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "goldore", "count" : 2}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "wingedurn", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "goldore", "count" : 1},
+        { "item" : "ash", "count" : 10}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "sewervalve", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "copperore", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "boilervalve", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "copperore", "count" : 1}
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "miningsupplies", "count" : 1 }
+      ],
+      "output" : [
+        { "item" : "copperpickaxe", "count" : 1},
+        { "item" : "silverpickaxe", "count" : 1},
+        { "item" : "mininglantern", "count" : 1},
+        { "item" : "climbingrope", "count" : 2}
+
+    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "larva", "count" : 10 }
+      ],
+      "output" : [
+        { "item" : "cellmatter", "count" : 3},
+        { "item" : "cellmateria", "count" : 1}    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "mud", "count" : 100 }
+      ],
+      "output" : [
+        { "item" : "dirtmaterial", "count" : 30},
+        { "item" : "liquidwater", "count" : 15}    
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "plantmatter", "count" : 50 }
+      ],
+      "output" : [
+        { "item" : "plantfibre", "count" : 3}  
+      ],
+      "groups" : [ "extractornamok1" ]
+    },
+    
+    {
+      "input" : [
+        { "item" : "floweryblock", "count" : 100 }
+      ],
+      "output" : [
+        { "item" : "plantfibre", "count" : 2},
+        { "item" : "petalred", "count" : 1} ,
+        { "item" : "petalblue", "count" : 1} ,
+        { "item" : "petalyellow", "count" : 1} 
       ],
       "groups" : [ "extractornamok1" ]
     }

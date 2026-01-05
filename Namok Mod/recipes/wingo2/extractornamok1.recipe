@@ -1,0 +1,17 @@
+{
+	"input": [
+		{ "item" : "titaniumbar", "count" : 20 }, 
+		{ "item" : "chipnamok", "count" : 1 }, 
+		{ "item" : "sustanciaexistencia", "count" : 2 }, 
+		{ "item" : "sustanciaforma", "count" : 2 }, 
+		{ "item" : "glass", "count" : 10 }
+	],
+
+	"duration": 0.75,
+
+	"output": {
+		"item": "extractornamok1",
+		"count": 1
+	},
+	"groups" : ["all", "estructura", "wingo2"]
+}
