@@ -1,0 +1,19 @@
+{
+  "itemName": "mooshispawner",
+  "rarity": "Uncommon",
+  "price": 3000,
+  "level": 1,
+  "category": "mysteriousReward",
+  "shortdescription": "Tarjeta Mooshi",
+  "description": "Por alguna razón este mooshi fue convertido en una tarjeta. Puedes invocarlo de nuevo al consumir el objeto.",
+  "inventoryIcon": "mooshispawner.png",    
+  "twoHanded" : true,
+
+  "scripts" : ["/items/consumables/mooshispawner/mooshispawner.lua"],
+  "animation" : "/items/consumables/mooshispawner/mooshispawner.animation",
+  "animationCustom" : {},
+  
+  "fireTime" : 1.0,
+  "fireOffset" : [0.5, 0.0]
+
+}
