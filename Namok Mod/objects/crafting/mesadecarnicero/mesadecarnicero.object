@@ -1,0 +1,62 @@
+{
+  "objectName" : "mesadecarnicero",
+  "colonyTags" : ["namok", "kitchen", "cooking"],
+  "rarity" : "Uncommon",
+  "description" : "Procesa animales para aprovechar su carne... y otras cosas.",
+  "shortdescription" : "^yellow;Mesa de Carnicero^white;",
+  "subtitle" : "Procesa animales",
+  "race" : "generic",
+  "category" : "fridgeStorage",
+  "price" : 256,
+  "objectType" : "container",
+  "printable" : false,
+  "health" : 1.5,  
+
+  "inventoryIcon" : "mesadecarniceroicon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "mesadecarnicero.png:<color>.<frame>", "fullbright" : true }],
+        "direction" : "left",
+        "flipImages" : true,
+
+        "imagePosition" : [0, 0],
+        "frames" : 6,
+        "animationCycle" : 5,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      },
+      {
+        "imageLayers" : [ { "image" : "mesadecarnicero.png:<color>.<frame>", "fullbright" : true }],
+        "direction" : "right",
+
+        "imagePosition" : [0, 0],
+        "frames" : 6,
+        "animationCycle" : 5,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      }
+    ],
+
+
+  
+  "learnBlueprintsOnPickup" : [
+  ],
+
+
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "statusEffects" : [ ],
+
+  "recipeGroup" : "mesadecarnicero",
+  "openSounds" : [ "/sfx/melee/sword_parry.ogg" ],
+  "slotCount" : 10,
+  "uiConfig" : "/interface/objectcrafting/mesadecarnicero.config",
+  "frameCooldown" : 2,
+  "autoCloseCooldown" : 3600,
+  "itemAgeMultiplier" : 0.0,
+  
+  "scripts" : ["/objects/crafting/mesadecarnicero/mesadecarnicero.lua"]
+
+}

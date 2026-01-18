@@ -1,0 +1,29 @@
+[
+    {
+        "input": [
+          { "item": "henspawner", "count" : 1}
+        ],
+        "output":[
+          {"item": "rawpoultry", "count": 1},
+          {"item": "bone", "count": 2},
+          {"item": "inferiorbrain", "count": 1}
+        ],
+        "duration" : 1.0,
+        "groups" : ["mesadecarnicero"]
+    },
+
+    {
+        "input": [
+          { "item": "mooshispawner", "count" : 1}
+        ],
+        "output":[
+          {"item": "alienmeat", "count": 8},
+          {"item": "bone", "count": 8},
+          {"item": "rawribmeat", "count": 2},
+          {"item": "leather", "count": 1},
+          {"item": "inferiorbrain", "count": 1}
+        ],
+        "duration" : 4.0,
+        "groups" : ["mesadecarnicero"]
+    }
+]

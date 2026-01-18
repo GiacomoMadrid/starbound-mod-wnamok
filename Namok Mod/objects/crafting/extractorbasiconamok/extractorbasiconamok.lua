@@ -24,7 +24,7 @@ function update(dt)
     end
   else
     -- Verificar si hay un ítem de entrada y si podemos procesarlo
-    local inputItem = world.containerItemAt(entity.id(), self.inputSlot)
+    local inputItem = world.containerItemAt(entity.id(), self.inputSlot) or nil
     if inputItem ~= nil and isRecipeValid(inputItem) then
       -- Iniciar el procesamiento
       startProcessing(inputItem)
@@ -79,39 +79,111 @@ function completeProcessing()
       sb.logError("La receta activa no tiene salidas definidas.")
       return
     end
-
-    -- Definir el tamaño máximo de la pila (ajústalo según lo necesario, generalmente es 1000)
-    local maxStackSize = 1000
-
+    
     -- Distribuir los ítems de salida a los slots de salida
     for i, output in ipairs(self.activeItem.output) do
-      local outputItem = {name = output.item, count = output.count}
-      
-      -- Insertar el ítem en el siguiente slot de salida disponible
-      local placed = false
-      for _, slot in ipairs(self.outputSlots) do
-        local existingStack = world.containerItemAt(entity.id(), slot)
-        
-        -- Asegurarse de que el existingStack es válido
-        if existingStack == nil then
-          existingStack = {name = outputItem.name, count = 0}
-        end
-        
-        -- Verificar si el slot tiene espacio suficiente
-        if (existingStack.name == outputItem.name and (existingStack.count + outputItem.count <= maxStackSize)) or existingStack.name == nil then
-          world.containerPutItemsAt(entity.id(), outputItem, slot)
-          placed = true
-          break
-        end
-      end
-
-      -- Si no hay espacio, devolver los ítems al jugador
-      if not placed then
-        world.spawnItem(outputItem, entity.position())
-      end
+      local item = {name = output.item, count = output.count}
+      outputToButcherTable(entity.id(), self.outputSlots, item)
     end
-
+    
     -- Reiniciar el proceso
     self.activeItem = nil
+  end
+  sb.logInfo("----------------------------------------------------------")
+end
+
+function getMaxStack(itemName)
+  local cfg = root.itemConfig(itemName)
+  if not cfg or not cfg.config then return 1000 end
+  if cfg.config.maxStack == nil then return 1000 end
+  return math.min(cfg.config.maxStack, 1000)
+end
+
+
+function countItemInContainer(containerId, itemName)
+  local total = 0
+  local size = world.containerSize(containerId)
+
+  for i = 0, size - 1 do
+    local item = world.containerItemAt(containerId, i)
+    if item and item.name == itemName then
+      total = total + item.count
+    end
+  end
+
+  return total
+end
+
+function stackIntoOutputSlots(containerId, outputSlots, item)
+  local remaining = item.count
+  local maxStack = getMaxStack(item.name)
+
+  for _, slot in ipairs(outputSlots) do
+    if remaining <= 0 then break end
+
+    local current = world.containerItemAt(containerId, slot)
+    if current and current.name == item.name and (maxStack >= current.count) then
+      local space = maxStack - current.count
+      if space > 0 then
+        local toAdd = math.min(space, remaining)
+        
+        if  maxStack < 1000 then break end
+        --[[ 
+        Por alguna razón, la función containerPutItemsAt() aparentemente falla cuando el maxStack del item
+        no es 1000, motivo por el cual los items cuyo maxStack sea menor a 1000 serán invocados en otro
+         slot si es que está disponible, de lo contrario serán invocados con spawnItem()
+        ]]
+        world.containerPutItemsAt(containerId, { name = item.name, count = toAdd }, slot)
+        sb.logInfo("Agregando: %s de %s al slot %s", toAdd, item.name, slot)
+        local numItem = countItemInContainer(containerId, item.name)
+        sb.logInfo("Cantidad total de %s en el contenedor: %s", item.name, numItem)
+        remaining = remaining - toAdd
+        sb.logInfo("Sobrante: %s de %s", remaining, item.name)
+      end
+    end
+  end
+
+  if remaining > 0 then
+    return { name = item.name, count = remaining }
+  end
+
+  return nil
+end
+
+function putIntoEmptyOutputSlots(containerId, outputSlots, item)
+  local remaining = item.count
+  local maxStack = getMaxStack(item.name)
+
+  for _, slot in ipairs(outputSlots) do
+    if remaining <= 0 then break end
+
+    if world.containerItemAt(containerId, slot) == nil then
+      local toPut = math.min(maxStack, remaining)
+
+      world.containerPutItemsAt(containerId, { name = item.name, count = toPut }, slot)
+      sb.logInfo("Agregando: %s de %s al slot %s", toPut, item.name, slot)
+      local numItem = countItemInContainer(containerId, item.name)
+      sb.logInfo("Cantidad total de %s en el contenedor: %s", item.name, numItem)
+      remaining = remaining - toPut
+      sb.logInfo("Sobrante: %s de %s", remaining, item.name)
+    end
+  end
+
+  if remaining > 0 then
+    return { name = item.name, count = remaining }
+  end
+
+  return nil
+end
+
+function outputToButcherTable(containerId, outputSlots, item)
+  local leftover = stackIntoOutputSlots(containerId, outputSlots, item)
+
+  if leftover then
+    leftover = putIntoEmptyOutputSlots(containerId, outputSlots, leftover)
+  end
+
+  if leftover then
+    world.spawnItem(leftover, entity.position())
   end
 end

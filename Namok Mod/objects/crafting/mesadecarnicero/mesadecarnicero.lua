@@ -11,7 +11,7 @@ function init()
   self.activeItem = nil
 
   -- Cargar todas las recetas desde el archivo unificado
-  self.recipes = root.assetJson("/recipes/compostera_recipes.json")
+  self.recipes = root.assetJson("/recipes/mesadecarnicero_recipes.json")
 end
 
 function update(dt)
@@ -24,13 +24,11 @@ function update(dt)
     end
   else
     -- Verificar si hay un ítem de entrada y si podemos procesarlo
-    if world.containerItemAt(entity.id(), self.inputSlot) then
-      local inputItem = world.containerItemAt(entity.id(), self.inputSlot)
-      if inputItem ~= nil and isRecipeValid(inputItem) then
-        -- Iniciar el procesamiento
-        startProcessing(inputItem)
-      end
-    end   
+    local inputItem = world.containerItemAt(entity.id(), self.inputSlot) or nil
+    if inputItem ~= nil and isRecipeValid(inputItem) then
+      -- Iniciar el procesamiento
+      startProcessing(inputItem)
+    end
   end
 end
 
@@ -55,7 +53,7 @@ function startProcessing(item)
   local recipe = getRecipeForItem(item)
   if recipe then
     -- Iniciar el procesamiento
-    self.processingTimer = self.processingTime
+    self.processingTimer = recipe.duration or self.processingTime
     self.activeItem = recipe
     -- Remover la cantidad necesaria del ítem de entrada
     world.containerConsumeAt(entity.id(), self.inputSlot, recipe.input[1].count)
@@ -129,7 +127,7 @@ function stackIntoOutputSlots(containerId, outputSlots, item)
       if space > 0 then
         local toAdd = math.min(space, remaining)
         
-        if maxStack < 1000 then break end
+        if  maxStack < 1000 then break end
         --[[ 
         Por alguna razón, la función containerPutItemsAt() aparentemente falla cuando el maxStack del item
         no es 1000, motivo por el cual los items cuyo maxStack sea menor a 1000 serán invocados en otro
@@ -189,3 +187,102 @@ function outputToButcherTable(containerId, outputSlots, item)
     world.spawnItem(leftover, entity.position())
   end
 end
+
+
+--[[
+  *********************** FUNCIÓN QUE NO STACKEA PERO RESPETA EL INPUT SLOT ***********************
+
+  -- Insertar el ítem en el siguiente slot de salida disponible 
+      local placed = false
+      for _, slot in ipairs(self.outputSlots) do
+        local existingStack = world.containerItemAt(entity.id(), slot)
+        
+        -- Asegurarse de que el existingStack es válido
+        if existingStack == nil then
+          existingStack = {name = outputItem.name, count = 0}
+        end
+        
+        -- Verificar si el slot tiene espacio suficiente
+        if (existingStack.name == outputItem.name and (existingStack.count + outputItem.count <= maxStackItem)) or existingStack.name == nil then
+          world.containerPutItemsAt(entity.id(), outputItem, slot)
+          local numItem =  world.containerItemAt(entity.id(), slot).count or 0
+          sb.logInfo("Cantidad total del item agregado: %s", numItem)
+          
+          placed = true
+          break
+        end
+      end
+
+      -- Si no hay espacio, devolver los ítems al jugador
+      if not placed then
+        world.spawnItem(outputItem, entity.position())
+      end
+    
+
+  *********************** FUNCIÓN QUE STACKEA PERO NO RESPETA EL INPUT SLOT ***********************
+  
+  for i, output in ipairs(self.activeItem.output) do
+    local maxStackItem = getMaxStack(output.item)
+    local outputItem = {name = output.item, count = output.count}
+    sb.logInfo("Item de salida: %s MaxStack: %s", outputItem, maxStackItem)     
+    
+
+    local leftover = world.containerStackItems(entity.id(), outputItem)
+
+    if leftover then
+      local emptySlots = getEmptySlots(entity.id())
+      if #emptySlots > 0 then
+        leftover = world.containerPutItemsAt(entity.id(), leftover, emptySlots[1])
+      end
+    end
+
+    if leftover then
+      world.spawnItem(leftover, entity.position())
+    end
+  end
+
+  *********************** FUNCIONES AUXILIARES DESCONTINUADAS ***********************
+  
+  function getEmptySlots(containerId)
+    local empty = {}
+    local size = world.containerSize(containerId)
+    for i = 0, size - 1 do
+      if world.containerItemAt(containerId, i) == nil then
+        table.insert(empty, i)
+      end
+    end
+    return empty
+  end
+
+  function getEmptyOutputSlots(containerId)
+    local empty = {}
+    local size = world.containerSize(containerId)
+    for i = 1, size - 1 do
+      if world.containerItemAt(containerId, i) == nil then
+        table.insert(empty, i)
+      end
+    end
+    return empty
+  end
+
+  function containerHasEmptySlot(containerId)
+    local size = world.containerSize(containerId)
+    for i = 0, size - 1 do
+      if world.containerItemAt(containerId, i) == nil then
+        return true
+      end
+    end
+    return false
+  end
+
+  function containerHasEmptyOutputSlot(containerId)
+    for out in self.outputSlots do
+      if world.containerItemAt(containerId, out) == nil then
+        return true
+      end
+    end
+    return false
+  end
+
+
+]]
