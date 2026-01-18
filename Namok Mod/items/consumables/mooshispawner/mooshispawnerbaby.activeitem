@@ -1,0 +1,19 @@
+{
+  "itemName": "mooshispawnerbaby",
+  "rarity": "Uncommon",
+  "price": 3000,
+  "level": 1,
+  "category": "mysteriousReward",
+  "shortdescription": "Mooshi Bebé",
+  "description": "Re-invoca al mooshi bebé al consumir el objeto.",
+  "inventoryIcon": "mooshispawnerbaby.png",    
+  "twoHanded" : true,
+
+  "scripts" : ["/items/consumables/mooshispawner/mooshispawnerbaby.lua"],
+  "animation" : "/items/consumables/mooshispawner/mooshispawnerbaby.animation",
+  "animationCustom" : {},
+  
+  "fireTime" : 1.0,
+  "fireOffset" : [0.5, 0.0]
+
+}

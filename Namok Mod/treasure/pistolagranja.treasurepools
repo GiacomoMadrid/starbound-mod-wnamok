@@ -1,0 +1,38 @@
+{
+  // ==============================================================================================
+  //                                          PISTOLA DE GRANJA
+  // ==============================================================================================
+
+  "mooshispawner" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "mooshispawner"}
+      ]
+    } ]
+  ],
+
+  "henspawner" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "henspawner"}
+      ]
+    } ]
+  ],
+
+  "mooshispawnerbaby" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "mooshispawnerbaby"}
+      ]
+    } ]
+  ],
+
+  "henspawnerbaby" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "henspawnerbaby"}
+      ]
+    } ]
+  ]
+}
+

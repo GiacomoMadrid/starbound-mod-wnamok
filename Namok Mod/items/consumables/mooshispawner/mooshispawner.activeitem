@@ -4,8 +4,8 @@
   "price": 3000,
   "level": 1,
   "category": "mysteriousReward",
-  "shortdescription": "Tarjeta Mooshi",
-  "description": "Por alguna razón este mooshi fue convertido en una tarjeta. Puedes invocarlo de nuevo al consumir el objeto.",
+  "shortdescription": "Mooshi",
+  "description": "Re-invoca al mooshi al consumir el objeto.",
   "inventoryIcon": "mooshispawner.png",    
   "twoHanded" : true,
 

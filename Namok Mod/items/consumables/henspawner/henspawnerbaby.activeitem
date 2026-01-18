@@ -1,0 +1,19 @@
+{
+  "itemName": "henspawnerbaby",
+  "rarity": "Uncommon",
+  "price": 1500,
+  "level": 1,
+  "category": "mysteriousReward",
+  "shortdescription": "Pollito",
+  "description": "Re-invoca al pollito al usar el objeto.",
+  "inventoryIcon": "henspawnerbaby.png",    
+  "twoHanded" : true,
+
+  "scripts" : ["/items/consumables/henspawner/henspawnerbaby.lua"],
+  "animation" : "/items/consumables/henspawner/henspawnerbaby.animation",
+  "animationCustom" : {},
+  
+  "fireTime" : 1.0,
+  "fireOffset" : [0.5, 0.0]
+
+}

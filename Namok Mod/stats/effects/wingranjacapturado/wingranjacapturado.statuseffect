@@ -1,0 +1,13 @@
+{
+	"name": "wingranjacapturado",
+    "label": "Wingranjacapturado",
+	"effectConfig": {
+        "blocker":"wingranjacapturado"
+	},
+	"defaultDuration": 3,
+
+	"scripts": [
+		"wingranjacapturado.lua"
+	],
+    "icon": "/interface/statuses/wingranjacapturado.png"
+}

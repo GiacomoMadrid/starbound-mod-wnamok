@@ -1,0 +1,19 @@
+{
+  "itemName": "henspawner",
+  "rarity": "Uncommon",
+  "price": 1500,
+  "level": 1,
+  "category": "mysteriousReward",
+  "shortdescription": "Gallina",
+  "description": "Re-invoca a la gallina al consumir el objeto.",
+  "inventoryIcon": "henspawner.png",    
+  "twoHanded" : true,
+
+  "scripts" : ["/items/consumables/henspawner/henspawner.lua"],
+  "animation" : "/items/consumables/henspawner/henspawner.animation",
+  "animationCustom" : {},
+  
+  "fireTime" : 1.0,
+  "fireOffset" : [0.5, 0.0]
+
+}
