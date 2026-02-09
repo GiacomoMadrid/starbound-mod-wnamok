@@ -1,0 +1,15 @@
+{
+  "input" : [
+    { "item" : "goldbar", "count" : 10 },
+    { "item" : "ironbar", "count" : 4 }, 
+    { "item" : "campfire", "count" : 1 },
+    { "item" : "reddye", "count" : 16 }
+  ],
+  "output" : {
+    "item" : "heartforge",
+    "count" : 1
+  },
+  "duration" : 1.0,
+  "groups" : [ "wingo", "all", "estructura", "wingo1" ,"wingo2", "wingo3", "wingo4", "wingo5"]
+}
+

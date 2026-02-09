@@ -1,0 +1,11 @@
+{
+    "input" : [
+      { "item" : "preparadoespecial", "count" : 4 },
+      { "item" : "sustanciatiempo", "count" : 1 }
+    ],
+    
+    "output" : { "item" : "preparadoveloz", "count" : 4},
+
+    "groups" : [ "farm", "estacionnamok3", "transmutadordemateria" ]
+  }
+  

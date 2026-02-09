@@ -1,0 +1,12 @@
+{
+    "input" : [
+      { "item" : "corn", "count" : 5 },
+      { "item" : "plantfibre", "count" : 40 },
+      { "item" : "rice", "count" : 16 }
+    ],
+    
+    "output" : { "item" : "preparadoespecial", "count" : 16},
+
+    "groups" : [ "farm", "estacionnamok3", "transmutadordemateria" ]
+  }
+  

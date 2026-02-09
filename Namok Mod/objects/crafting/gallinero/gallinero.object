@@ -1,0 +1,119 @@
+{
+  "objectName" : "gallinero",
+  "colonyTags" : ["namok", "farm"],
+  "rarity" : "Uncommon",
+  "description" : "Cría gallinas: producen huevos.\nAliméntalas (no alimentos picantes ni robóticos).",
+  "shortdescription" : "^yellow;Gallinero^white;",
+  "subtitle" : "Gallinero",
+  "race" : "generic",
+  "category" : "^orange;wire^white;",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "price" : 2048,
+  "printable" : false,
+  "health" : 1.5,  
+
+  "inventoryIcon" : "gallineroicon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "gallinero.png:<color>.<frame>", "fullbright" : true }],
+        "direction" : "left",
+        "flipImages" : true,
+
+        "imagePosition" : [0, 0],
+        "frames" : 6,
+        "animationCycle" : 5,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      },
+      {
+        "imageLayers" : [ { "image" : "gallinero.png:<color>.<frame>", "fullbright" : true }],
+        "direction" : "right",
+
+        "imagePosition" : [0, 0],
+        "frames" : 6,
+        "animationCycle" : 5,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      }
+    ],
+
+
+  
+  "learnBlueprintsOnPickup" : [
+  ],
+
+
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "statusEffects" : [ ],
+
+  "recipeGroup" : "gallinero",
+  "slotCount" : 17,
+  "openSounds" : [ "/sfx/npc/monsters/hen_harvest3.ogg" ],
+  "uiConfig" : "/interface/objectcrafting/gallinero.config",
+  "frameCooldown" : 2,
+  "autoCloseCooldown" : 3600,
+  "itemAgeMultiplier" : 0.0,
+
+  "productionTime" : 300,
+  "incubationTime" : 180,
+  
+
+  "scripts" : ["/objects/crafting/gallinero/gallinero.lua"],
+  "scriptDelta" : 10,
+
+  "waterInputs" : {
+    "liquidwater" : { "value" : 8 },
+    "liquidhealing" : { "value" : 12, "produceRate" : 1.15 }
+  },
+
+  "foodInputs" : {
+     "alienfruit" : {"value" : 1, "produceRate" : 1.1, "doubleeggBonus" : 0.05},
+     "avesmingo" : {"value" : 1, "produceRate" : 1.05},
+     "banana" : {"value" : 1, "produceRate" : 1.05},
+     "beakseed" : {"value" : 1, "produceRate" : 1.05, "doubleeggBonus" : 0.03},
+     "boneboo" : {"value" : 1, "produceRate" : 1.05, "doubleeggBonus" : 0.03},
+     "coffebeans" : {"value" : 2, "produceRate" : 1.3},
+     "coralcreep" : {"value" : 1, "produceRate" : 1.05},
+     "carrot" : {"value" : 1, "produceRate" : 1.15, "doubleeggBonus" : 0.3},
+     "corn" : {"value" : 2, "produceRate" : 1.1},
+     "dirturchin" : {"value" : 1, "produceRate" : 1.05, "doubleeggBonus" : 0.1},
+     "eggshoot" : {"value" : 1, "produceRate" : 1.15, "doubleeggBonus" : 0.15},
+     "feathercrown" : {"value" : 1, "produceRate" : 1.2, "doubleeggBonus" : 0.15, "heneggProduceProbability" : 0.05},
+     "grapes" : {"value" : 1, "produceRate" : 1.05},
+     "greenapple" : {"value" : 1, "produceRate" : 1.3},
+     "kiwi" : {"value" : 1, "produceRate" : 1.5},
+     "neonmelon" : {"value" : 2, "produceRate" : 1.05, "doubleeggBonus" : 0.12, "heneggProduceProbability" : 0.08, "waterUse" : -0.5},
+     "oculemon" : {"value" : 1, "produceRate" : 1.05, "doubleeggBonus" : 0.08},
+     "corange" : {"value" : 1, "produceRate" : 1.15, "doubleeggBonus" : 0.08, "waterUse" : -0.5},
+     "pearlpea" : {"value" : 1, "produceRate" : 1.25, "doubleeggBonus" : 0.08, "heneggProduceProbability" : 0.05},
+     "pineapple" : {"value" : 1, "produceRate" : 1.15, "doubleeggBonus" : 0.13, "waterUse" : -0.5},
+     "potato" : {"value" : 1, "produceRate" : 1.05},
+     "pussplum" : {"value" : 1, "produceRate" : 1.05, "doubleeggBonus" : 0.13},
+     "redapple" : {"value" : 1, "produceRate" : 1.13},
+     "reefpod" : {"value" : 1, "produceRate" : 1.05},
+     "thornfruit" : {"value" : 1, "produceRate" : 1.15, "doubleeggBonus" : 0.03},
+     "tomato" : {"value" : 1, "produceRate" : 1.05},
+     "wartweed" : {"value" : 1, "produceRate" : 1.15, "doubleeggBonus" : 0.13},
+     "rice" : {"value" : 2, "produceRate" : 1},
+     "crystalplant" : {"value" : 1, "produceRate" : 1.15, "doubleeggBonus" : 0.2, "heneggProduceProbability" : 0.1},
+     "shroom" : {"value" : 1, "produceRate" : 1},
+     "wheat" : {"value" : 1, "produceRate" : 1.05},
+     "cocoa" : {"value" : 1, "produceRate" : 1.25},
+     "preparadoespecial" : {"value" : 10, "produceRate" : 1.15, "waterUse" : -0.2},
+     "preparadoveloz" : {"value" : 3, "produceRate" : 2, "waterUse" : -0.3},
+     "preparadocupido" : {"value" : 3, "produceRate" : 1.05, "waterUse" : 1.2, "doubleeggBonus" : 0.2, "heneggProduceProbability" : 0.33 },
+     "preparadoponedora" : {"value" : 5, "produceRate" : 1.5, "waterUse" : -0.5, "doubleeggBonus" : 0.33, "heneggProduceProbability" : 0.1}
+  },
+
+  "lojikumInputs" : {
+     "sustanciatiempo" : {"produceRate" : 4}, 
+     "namoktiempo" : {"produceRate" : 16},
+     "sustanciaexistencia" : {"produceRate" : 0.75, "doubleeggBonus" : 1.0, "heneggProduceProbability" : 0.5, "waterUse" : -0.25},
+     "namokexistencia" : {"produceRate" : 0.8, "doubleeggBonus" : 1.0, "heneggProduceProbability" : 1.0, "waterUse" : -1.0}
+  }
+
+}

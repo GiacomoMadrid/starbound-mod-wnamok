@@ -1,0 +1,10 @@
+{
+  "itemName" : "preparadoespecial",
+  "price" : 0,
+  "rarity" : "Uncommon",
+  "category" : "food",
+  "inventoryIcon" : "preparadoespecial.png",
+  "description" : "Alimento especial para animales herbívoros. ^green;Rinde 10 puntos de comida.^white;",
+  "shortdescription" : "^yellow;Preparado Especial^white;",
+  "itemTags" : [ "food" ]
+}

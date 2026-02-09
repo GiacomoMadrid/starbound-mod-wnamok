@@ -1,0 +1,10 @@
+{
+  "itemName" : "preparadoveloz",
+  "price" : 0,
+  "rarity" : "Rare",
+  "category" : "food",
+  "inventoryIcon" : "preparadoveloz.png",
+  "description" : "Alimento especial para animales. ^green; Velocidad de producción: x2.^white;",
+  "shortdescription" : "^yellow;Preparado Veloz^white;",
+  "itemTags" : [ "food" ]
+}

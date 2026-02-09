@@ -1,0 +1,14 @@
+{
+    "input" : [
+      { "item" : "titaniumbar", "count" : 20 },
+      { "item" : "glass", "count" : 16 },
+      { "item" : "laserdiode", "count" : 1 },
+      { "item" : "chipnamok", "count" : 1 },
+      { "item" : "sustanciaexistencia", "count" : 4 }
+    ],
+    
+    "output" : { "item" : "pistolagranja", "count" : 1},
+
+    "groups" : ["all", "herramienta", "estacionnamok3", "farm"]
+  }
+  

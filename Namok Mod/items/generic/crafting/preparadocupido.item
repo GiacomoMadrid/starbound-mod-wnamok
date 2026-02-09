@@ -1,0 +1,10 @@
+{
+  "itemName" : "preparadocupido",
+  "price" : 0,
+  "rarity" : "Rare",
+  "category" : "food",
+  "inventoryIcon" : "preparadocupido.png",
+  "description" : "Alimento especial para animales. ^green; Aumenta la probabilidad de generar un huevo.^white;",
+  "shortdescription" : "^red;Preparado Cupido^white;",
+  "itemTags" : [ "food" ]
+}

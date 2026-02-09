@@ -1,0 +1,16 @@
+{
+    "input" : [
+      { "item" : "titaniumbar", "count" : 10 },
+      { "item" : "marmolwinbrick", "count" : 40 },
+      { "item" : "goldbar", "count" : 4 },
+      { "item" : "glass", "count" : 20 },
+      { "item" : "liquidwater", "count" : 8 },
+      { "item" : "dirtmaterial", "count" : 10 }
+    ],
+    
+    "output" : { "item" : "gallinero", "count" : 1},
+    "duration" : 1.0,
+
+    "groups" : ["all", "estructura", "wingo2"]
+  }
+  

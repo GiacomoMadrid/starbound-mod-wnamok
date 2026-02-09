@@ -1,0 +1,10 @@
+{
+  "itemName" : "preparadoponedora",
+  "price" : 0,
+  "rarity" : "Rare",
+  "category" : "food",
+  "inventoryIcon" : "preparadoponedora.png",
+  "description" : "Alimento especial para gallinas. ^green; Las gallinas ponen más huevos.^white;",
+  "shortdescription" : "^yellow;Preparado Ponedora^white;",
+  "itemTags" : [ "food" ]
+}

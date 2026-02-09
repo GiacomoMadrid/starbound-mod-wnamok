@@ -1,6 +1,6 @@
 {
     "input" : [
-      { "item" : "lead", "count" : 1 },
+      { "item" : "lead", "count" : 2 },
       { "item" : "piedrafilosofal", "count" : 1 }
     ],
     

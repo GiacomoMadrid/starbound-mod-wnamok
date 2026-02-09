@@ -2,12 +2,12 @@
     "input" : [
       { "item" : "titaniumbar", "count" : 4 },
       { "item" : "goldbar", "count" : 2 },
-      { "item" : "sulphur", "count" : 20 },
+      { "item" : "sulphur", "count" : 24 },
       { "item" : "wire", "count" : 16 },
       { "item" : "sustanciaenergia", "count" : 4 }
     ],
     
-    "output" : { "item" : "battery", "count" : 4},
+    "output" : { "item" : "battery", "count" : 8},
 
     "groups" : [ "wire", "estacionnamok3", "transmutadordemateria" ]
   }
