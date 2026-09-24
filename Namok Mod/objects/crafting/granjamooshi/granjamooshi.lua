@@ -2,9 +2,15 @@ require "/scripts/util.lua"
 
 function init()
   self.slots = {
-    water = 0, food = 1, hens = 2, vitamin = 3,
-    incubation = {4, 5, 6, 7},
-    output = {8, 9, 10, 11, 12, 13, 14, 15, 16}
+    water = 0, food = 1, mooshis = 2, lojikum = 3,
+    incubation = {4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15},
+    output = {16, 17, 18, 19, 
+              20, 21, 22, 23, 
+              24, 25, 26, 27, 
+              28, 29, 30, 31, 
+              32, 33, 34, 35, 
+              36, 37, 38, 39 
+            }
   }
 
   self.productionTime = config.getParameter("productionTime", 300) -- 5 minutos para producir huevos
@@ -21,13 +27,13 @@ function init()
   storage.foodBuffer = storage.foodBuffer or 0
   storage.productionTimer = storage.productionTimer or 0
   storage.restTimer = storage.restTimer or 0
-  storage.activeHens = storage.activeHens or 0
+  storage.activeMooshis = storage.activeMooshis or 0
   storage.isResting = storage.isResting or false
   
   -- Modificadores guardados del ciclo de producción actual
   storage.currentProduceRate = storage.currentProduceRate or 1.0
-  storage.currentDoubleEgg = storage.currentDoubleEgg or 0
-  storage.currentHenEggBonus = storage.currentHenEggBonus or 0
+  storage.currentDoubleMilk = storage.currentDoubleMilk or 0
+  storage.currentMooshiEggBonus = storage.currentMooshiEggBonus or 0
   storage.currentWaterUse = storage.currentWaterUse or 0
 
   -- Estructura de incubación con velocidad individual por slot
@@ -53,8 +59,8 @@ function update(dt)
 end
 
 -- Función auxiliar para validar vitamina
-function getValidVitamin()
-  local v = world.containerItemAt(entity.id(), self.slots.vitamin)
+function getValidLojikum()
+  local v = world.containerItemAt(entity.id(), self.slots.lojikum)
   if v and self.lojikumInputs[v.name] then
     return v, self.lojikumInputs[v.name]
   end
@@ -68,25 +74,25 @@ function handleProduction(dt)
     return
   end
 
-  if storage.productionTimer <= 0 and storage.activeHens <= 0 then
+  if storage.productionTimer <= 0 and storage.activeMooshis <= 0 then
     local henStack = world.containerItemAt(entity.id(), self.slots.hens)
-    if henStack and henStack.name == "henspawner" then
+    if henStack and henStack.name == "mooshispawner" then
       if checkResources() then
-        storage.activeHens = math.min(henStack.count, 8)
+        storage.activeMooshis = math.min(henStack.count, 8)
         world.containerConsumeAt(entity.id(), self.slots.hens, storage.activeHens)
 
         local mods = getModifiers()
         storage.currentProduceRate = mods.produceRate
-        storage.currentDoubleEgg = mods.doubleeggBonus
-        storage.currentHenEggBonus = mods.heneggProduceProbability
+        storage.currentDoubleMilk = mods.doubleMilkBonus
+        storage.currentMooshiEggBonus = mods.mooshieggProduceProbability
         storage.currentWaterUse = mods.waterUse
         
         -- Consumo de VITAMINA: Solo si es válida
-        local itemV, dataV = getValidVitamin()
+        local itemV, dataV = getValidLojikum()
         if itemV then
           -- Aplicar el bono de la vitamina consumida al rate de producción
           storage.currentProduceRate = storage.currentProduceRate * (dataV.produceRate or 1.0)
-          world.containerConsumeAt(entity.id(), self.slots.vitamin, 1)
+          world.containerConsumeAt(entity.id(), self.slots.lojikum, 1)
         end
 
         storage.productionTimer = self.productionTime
@@ -95,7 +101,7 @@ function handleProduction(dt)
   end
 
   if storage.productionTimer > 0 then
-    local consumptionRate = (storage.activeHens / self.productionTime) * dt
+    local consumptionRate = (storage.activeMooshis / self.productionTime) * dt
     storage.waterBuffer = math.max(0, storage.waterBuffer - (consumptionRate * (1 + storage.currentWaterUse)))
     storage.foodBuffer = math.max(0, storage.foodBuffer - consumptionRate)
     storage.productionTimer = storage.productionTimer - (dt * storage.currentProduceRate)
@@ -111,17 +117,17 @@ function handleIncubation(dt)
     local item = world.containerItemAt(entity.id(), slotIdx)
 
     if not state.item then
-      if item and (item.name == "henegg" or item.name == "henspawnerbaby") then
+      if item and (item.name == "mooshiegg" or item.name == "mooshispawnerbaby") then
         state.item = item.name
-        state.timer = (item.name == "henegg") and self.incubationTime or self.growTime
+        state.timer = (item.name == "mooshiegg") and self.incubationTime or self.growTime
         world.containerConsumeAt(entity.id(), slotIdx, 1)
         
         -- Consumo de VITAMINA para crianza: Solo si es válida
-        local itemV, dataV = getValidVitamin()
+        local itemV, dataV = getValidLojikum()
         state.speed = 1.0 -- Velocidad base
         if itemV then
           state.speed = dataV.produceRate or 1.0
-          world.containerConsumeAt(entity.id(), self.slots.vitamin, 1)
+          world.containerConsumeAt(entity.id(), self.slots.lojikum, 1)
         end
       end
     end
@@ -130,7 +136,7 @@ function handleIncubation(dt)
       state.timer = state.timer - (dt * state.speed)
       
       if state.timer <= 0 then
-        local resultItem = (state.item == "henegg") and "henspawnerbaby" or "henspawner"
+        local resultItem = (state.item == "mooshiegg") and "mooshispawnerbaby" or "mooshispawner"
         if addToOutput(resultItem, 1) == nil then
           state.item = nil
           state.timer = 0
@@ -146,24 +152,30 @@ function updateDescription()
   local report = "^orange;PRODUCCIÓN^reset;"
   
   -- Datos Producción
-  local prodHens = storage.activeHens > 0 and storage.activeHens or 0
+  local prodMooshis = storage.activeMooshis > 0 and storage.activeMooshis or 0
   local prodTime = (storage.productionTimer > 0) and formatTime(storage.productionTimer) or (storage.isResting and "^yellow;Descanso^reset;" or "--")
   local waterStr = (storage.waterBuffer > 0) and string.format("%.1f", storage.waterBuffer) or "--"
   local foodStr = (storage.foodBuffer > 0) and string.format("%.1f", storage.foodBuffer) or "--"
   
-  report = report .. string.format("\nGallinas: %d/8\n^green;Tiempo:^reset; %s\n^blue;Agua:^reset; %s | ^yellow;Comida:^reset; %s", prodHens, prodTime, waterStr, foodStr)
+  report = report .. string.format("\nGallinas: %d/8\n^green;Tiempo:^reset; %s\n^blue;Agua:^reset; %s | ^yellow;Comida:^reset; %s", prodMooshis, prodTime, waterStr, foodStr)
   
   -- Datos Crianza
   report = report .. "\n\n^orange;CRIANZA^reset;"
-  local slots = {"A^reset;", "B^reset;", "C^reset;", "D^reset;"}
+  local slots = {"A^reset;", "B^reset;", "C^reset;", "D^reset;", "E^reset;", "F^reset;", "G^reset;", "H^reset;", "I^reset;", "J^reset;", "K^reset;", "L^reset;"}
   for i, name in ipairs(slots) do
     local state = storage.incubation[i]
     local line = "^green;Disponible^reset;"
     if state.item then
-      local tipo = (state.item == "henegg") and "Huevo" or "Pollito"
+      local tipo = (state.item == "mooshiegg") and "Huevo" or "Mooshi Calf"
       line = string.format("%s (%s)", tipo, formatTime(state.timer))
     end
-    report = report .. "\n^yellow;Slot " .. name .. ": " .. line
+    if i % 2 == 0 then
+      report = report .. "\n^yellow;Slot " .. name .. ": " .. line
+    else
+      report = report .. "  |  ^yellow;Slot " .. name .. ": " .. line
+    end
+
+    
   end
   
   object.setConfigParameter("description", report)
@@ -194,34 +206,34 @@ function checkResources()
 end
 
 function getModifiers()
-  local m = { produceRate = 1.0, waterUse = 0, doubleeggBonus = 0, heneggProduceProbability = 0 }
+  local m = { produceRate = 1.0, waterUse = 0, doubleMilkBonus = 0, mooshieggProduceProbability = 0 }
   local f = world.containerItemAt(entity.id(), self.slots.food)
   if f and self.foodInputs[f.name] then
     local d = self.foodInputs[f.name]
     m.produceRate = d.produceRate or 1.0
     m.waterUse = d.waterUse or 0
-    m.doubleeggBonus = d.doubleeggBonus or 0
-    m.heneggProduceProbability = d.heneggProduceProbability or 0
+    m.doubleMilkBonus = d.doubleMilkBonus or 0
+    m.mooshieggProduceProbability = d.mooshieggProduceProbability or 0
   end
   -- Nota: La vitamina ya no se lee aquí para el rate base, se consume al inicio
   return m
 end
 
 function finishProductionCycle()
-  local hens = {name = "henspawner", count = storage.activeHens}
+  local mooshis = {name = "mooshispawner", count = storage.activeHens}
   local left = world.containerPutItemsAt(entity.id(), hens, self.slots.hens)
   if left then world.spawnItem(left, entity.position()) end
 
-  for i = 1, storage.activeHens do
+  for i = 1, storage.activeMooshis do
     local roll = math.random()
-    local cHen = 0.02 + storage.currentHenEggBonus
-    local cDb = 0.08 + storage.currentDoubleEgg
-    if roll < cHen then addToOutput("henegg", 1)
-    elseif roll < (cHen + cDb) then addToOutput("egg", 2)
-    else addToOutput("egg", 1) end
+    local cHen = 0.02 + storage.currentMooshiEggBonus
+    local cDb = 0.08 + storage.currentDoubleMilk
+    if roll < cHen then addToOutput("mooshiegg", 1)
+    elseif roll < (cHen + cDb) then addToOutput("milk", 2)
+    else addToOutput("milk", 1) end
   end
 
-  storage.activeHens = 0
+  storage.activeMooshis = 0
   storage.isResting = true
   storage.restTimer = self.restTime
 end
@@ -239,8 +251,8 @@ function addToOutput(name, count)
 end
 
 function die()  
-  if storage.activeHens > 0 then
-    world.spawnItem({name = "henspawner", count = storage.activeHens}, entity.position())
+  if storage.activeMooshis > 0 then
+    world.spawnItem({name = "mooshispawner", count = storage.activeHens}, entity.position())
   end
   for _, state in ipairs(storage.incubation) do
     if state.item then
